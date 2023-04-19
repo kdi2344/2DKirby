@@ -1,0 +1,4305 @@
+fileFormatVersion: 2
+guid: 7f4605666ed5a7c45acb870933181882
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KirbyBeam_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 735
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.6, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a86af4c37455c74f88e0208ffc9e7ad
+      internalID: -403067566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 735
+        width: 24
+        height: 23
+      alignment: 9
+      pivot: {x: 0.6, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df05b42ed16fb9042b2baa9c6d11eec7
+      internalID: -1698329128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_2
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 731
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7881bb6720c6de349b2fafd939486a28
+      internalID: -2120078305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_3
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 731
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcb63855694fe24db48078ed74e4993
+      internalID: 1477581886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_4
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 731
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c75cb8406bff37d4dbf41a146d2c38d3
+      internalID: -1776908395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_5
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 731
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2088b174b0dd0834c991670a0a754947
+      internalID: 1519267821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_6
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 735
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049f920d530d4e04d8e69e0a9f97a12b
+      internalID: -524020683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 735
+        width: 21
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc85da5f282f0b84cb8800c8d246df94
+      internalID: 1483118972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_8
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 735
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4181424bcbe341a43a7f62be14fc55b0
+      internalID: -153187970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_9
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 735
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5299801edd0973b4a99d27df8290027d
+      internalID: 1237420854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_10
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 735
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f99f6c3d497e841be4eaf5a2e9e99b
+      internalID: 1976325773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_11
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 610
+        width: 240
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb6b0b44f3fdd9f47ad76dbee881daac
+      internalID: -594197007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_12
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 705
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1beb912df35dea4c8123344d71c4a4c
+      internalID: -440589974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 705
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f55a9e03ae04414cafa01fd322b7fa1
+      internalID: 248402945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_14
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 702
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b459068e2b761a444995a963528bf1db
+      internalID: -192027444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_15
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 702
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837c06b91a73a6641b4d73c4698ff7b5
+      internalID: -495132526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_16
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 702
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4c66a00ec53964fb992c90bf56fafb
+      internalID: 1097184071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 702
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f472a4e4f4422b043b3fb84d4e784ebf
+      internalID: -867200185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_18
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 705
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4145ee0052f82ac4fa564b998362b377
+      internalID: 621587874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_19
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 705
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313f69d5d128c7d4eb539a6e04ca98ac
+      internalID: 5385324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_20
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 705
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5839e3f0f28714244ae7d0a66b14adce
+      internalID: 487597884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_21
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 672
+        width: 23
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 743244cb5a96feb4bb4505ff42ab1b7d
+      internalID: 1146470621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_22
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 672
+        width: 24
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa5ea8ba1ca5fa47af289cfe5b14daa
+      internalID: -357865545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_23
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 672
+        width: 24
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20f06e55a72e0f468764f0444389861
+      internalID: 2067506137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_24
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 672
+        width: 24
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02de1908e8a3e884a82c2fb7752ce01e
+      internalID: -1036135301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_25
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 672
+        width: 22
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c39b5d4d9406cd24e8b1e927422f9d41
+      internalID: 761131495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_26
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 672
+        width: 24
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d7b37bb53d7dd428e9a4f5c356b3f7
+      internalID: 1955191359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_27
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 672
+        width: 26
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1334c5ae118b8f340b5713ee5bd58dc9
+      internalID: -528835991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_28
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 672
+        width: 28
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 921d1ee8d110c7046ac27151c52eaa97
+      internalID: -1133571670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_29
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 672
+        width: 28
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64dc1be5dec81ee418be8f546e8ff24b
+      internalID: -1049296216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_30
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 672
+        width: 26
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d132c0f92d16dd841a99eeca99b44c94
+      internalID: -430863057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_31
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 672
+        width: 24
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96870373912000d48a43f1d33dfd8053
+      internalID: -180075081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_32
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 672
+        width: 23
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6, y: 0.4}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567acde472c6c074382f2fdb59cfb2ac
+      internalID: 1745993724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_33
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 642
+        width: 25
+        height: 25
+      alignment: 9
+      pivot: {x: 0.620924, y: 0.4403711}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5886b0a3bd464a84384d3d8369291856
+      internalID: -335189237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_34
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 642
+        width: 26
+        height: 25
+      alignment: 9
+      pivot: {x: 0.62124825, y: 0.44979492}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0d4bdce12ab864cac15db35c309eae
+      internalID: 2019397424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_35
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 642
+        width: 24
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6267163, y: 0.47532713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e2ae62066cefc41a536782c97706bb
+      internalID: 881305461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_36
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 642
+        width: 24
+        height: 25
+      alignment: 9
+      pivot: {x: 0.65316516, y: 0.47532713}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273859a08fd94e74eadea8ea39c9549a
+      internalID: 2062429511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_37
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 642
+        width: 24
+        height: 25
+      alignment: 9
+      pivot: {x: 0.60520107, y: 0.4301367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7ec8d8d48c4fa428a9cd316a51c979
+      internalID: 338121811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_38
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 642
+        width: 25
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6616742, y: 0.44477296}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680c33a85c2b02b488e74350db6c8698
+      internalID: -606841882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_39
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 642
+        width: 31
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6509739, y: 0.44505858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d66691ea001dc43a4a71e941e9ec66
+      internalID: -1964642065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_40
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 642
+        width: 27
+        height: 25
+      alignment: 9
+      pivot: {x: 0.6682954, y: 0.44003662}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8073c5ecf4f85d243b47cd7d92a8bc8a
+      internalID: -475202559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_41
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 642
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee344870ec09a3441ada8d07340ff370
+      internalID: -578168506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_42
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 605
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6426fe89fe7461144a7e1a635998a6a7
+      internalID: 387482144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_43
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 605
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944f807445b502241bdd626de1b4d919
+      internalID: 1979119922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_44
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 605
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff0ab22a29218e428e60f17aa8a3e93
+      internalID: 160304379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_45
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 604
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1e4833a39765643a6aaaef390fce4c
+      internalID: -340867169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_46
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 604
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e939bf4ee64cbb044a6bd61f6048cc7b
+      internalID: -1151597318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_47
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 598
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9ae77a378fb5845b1bc35a2b8f463c
+      internalID: -640776087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_48
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 598
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ba17b2ac51264478fff8822316dd4b
+      internalID: -46275113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_49
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 603
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a0b6fe8c9159124d8642eb2588a3fed
+      internalID: 1279654174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_50
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 603
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f577f8c164a88489f3ecf4990f15b0
+      internalID: -1987875847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_51
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 603
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579a40dee76903f4899f1c3145519484
+      internalID: 1009864907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_52
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 603
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9dceebb84512343a1e5a832c7e512d
+      internalID: 1103860134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_53
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 594
+        width: 40
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ad5768035ec9e44bad7c6bbc93da1c1
+      internalID: -1776570627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_54
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 559
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86af4517094e3c44fa0393dbfe9ca3a8
+      internalID: 1441518084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_55
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 559
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df931f338c2f444cb5fb043c5a6b9d0
+      internalID: -540785413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_56
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 559
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc53c2256e9bf540be909ba2178a70e
+      internalID: -490341465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_57
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 559
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d665690d250864d83fdc5be6c1da18
+      internalID: -1926481282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_58
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 559
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fef948925ae804583cbaee5f2cee0f
+      internalID: -175946329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_59
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 559
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e321737e7187d6142a37c70d34c1ab03
+      internalID: -769450736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_60
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 559
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d58de38945621438708cadfe362fb1
+      internalID: 717338219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_61
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 557
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebc8af23d11f1e64bb76a331d49b2b17
+      internalID: 1980335417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_62
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 554
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a152489a33cdc49ae763c8cd636f33
+      internalID: 471880801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_63
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 549
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d257674ed0c1c6f458a11a2c84b4b594
+      internalID: -751422091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_64
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 548
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 209a0e429565b6e4989ecb7c2caa7e2e
+      internalID: -1434819500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_65
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 552
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393474f99c76dfc4fa0cbc7ba9a0f88a
+      internalID: 1493672943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_66
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 558
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0c5871f2dad4c04799fd5f542a0f278
+      internalID: 1197016434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_67
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 559
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac46e544ad50bd40ba61c1fc65d30fe
+      internalID: 345054225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_68
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 559
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03174858ae89c9b418fcfdc04850b6c6
+      internalID: 1402336051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_69
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 559
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e76ff2ae61bb046969b0d54016fa90
+      internalID: 1300301625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_70
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 559
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ddd6a5cf9563244896571b271a2812
+      internalID: -1458199350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_71
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 560
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d65c9363e05d5429f5b891bafebe2b
+      internalID: 1867730479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_72
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 512
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1168d9ad7d439f4c8e7cf77419135a4
+      internalID: -2038790842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_73
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 512
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80beb5328af27a841a353486e3f5e4c5
+      internalID: -2073894061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_74
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 512
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5ef793f63f732439397b35fdbc9136
+      internalID: 1200516206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_75
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 512
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdae9fa6c56474843a799c13bdb62035
+      internalID: -1542804933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_76
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 512
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459aa94211a82194f92ae4b13a7b92e7
+      internalID: -1431565995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_77
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 512
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5747b24fae153bd4e851a64f0d71c2c3
+      internalID: 359824077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_78
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 512
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 736490971548df6409aabd3c1c5465c1
+      internalID: 13902875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_79
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 512
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163a0ec326d3b7447bcfca6f65ec45cf
+      internalID: -1472444622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_80
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 512
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9496322fd25c69d4ba9a25fba1e7b439
+      internalID: 1848539885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_81
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 512
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f24a51f71cb8b243bcf691966233dd7
+      internalID: 607012196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_82
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 512
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b4f646c1c7b894896a2824aa2389c0
+      internalID: 1809458549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_83
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 477
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881fc1bbe28563a49b57dc061beafcd5
+      internalID: -1685117830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_84
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 477
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb36fd1f1e94884587b7ccc82c3695b
+      internalID: -1749462728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_85
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 477
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46372173ed4ff3947a4b32b82ed659a4
+      internalID: -1240524861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_86
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 477
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f4d34caaaa8754484b7e600e7fe82d
+      internalID: -982540240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_87
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 477
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9647f24f8d27514691a85b1a8f9f6eb
+      internalID: -791183294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_88
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 447
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1a9d5823c8cbc49af91b2e169c9ce5
+      internalID: 1668265150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_89
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 444
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26e37e46ea074944cad0e4697672ba1f
+      internalID: 940159663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_90
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 446
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f7e7093139e5e4cba0459de74c66e7
+      internalID: -1305798661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_91
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 449
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28b978a0fb73a2946863206a5ec9d36c
+      internalID: 1247216862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_92
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 452
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3261d2c7fc09f4aa9db0515feaa217
+      internalID: -1463731928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_93
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 449
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369f4f28ace4fc24faed93e347cfd821
+      internalID: 664872058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_94
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 446
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9562c7b5cc0e5f49882c0b5907c6bfa
+      internalID: 1258470943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_95
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 444
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47cc05008406bec409a2486a646b114a
+      internalID: 1603250554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_96
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 447
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b08707a3902b244f94f963bc23bacf6
+      internalID: 424873495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_97
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 444
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c592b5f7241714fa794090c8adb2f0
+      internalID: -1998922371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_98
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 446
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ac9f895d66f0dc459a4587a67788ba3
+      internalID: -679277821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_99
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 449
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535d7f268496e1a44a0a25b149d6f144
+      internalID: 2092783385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_100
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 452
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbad6835a66e024b90e301d93ddb518
+      internalID: -294633306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_101
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 449
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8046a010ad8db904eb83886e2349be3e
+      internalID: 1382682390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_102
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 446
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5356e80ed24cf64da11e157f6f3a2a1
+      internalID: 1228440155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_103
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 444
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0aafcfcce7c08e4192cbd619af34075
+      internalID: 695539214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_104
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 405
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291d3d1f95642924bb19d5f597d9b681
+      internalID: 1258190533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_105
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 429
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b930581e3688b42b8682e726c92f60
+      internalID: -393642663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_106
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 429
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47171a05843d67241aab5806bfd99d4d
+      internalID: 524355074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_107
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 429
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155ad70613591d14bb7bab7f9e7ffec5
+      internalID: 1921013554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_108
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 431
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7366e7239912346be2616080672e8a
+      internalID: 102812156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_109
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 429
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e9e7c9d1c4f434c9a1d857bb84a348
+      internalID: -1052260043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_110
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 431
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0ebd2290b9a3745abbf88d04f6d79e
+      internalID: -2100983413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_111
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 429
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241b2efe1cc28af44a04973003346a76
+      internalID: 842358543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_112
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 431
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498668be9f517d14bb198f580c887dfb
+      internalID: -1132890310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_113
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 430
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887c00c24315cce41810be05928eeb21
+      internalID: 73598048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_114
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 433
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0f2f728247d36f469c04920ebc282ff
+      internalID: 848723936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_115
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 431
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c080a3d90eedd74abe31fec9145552f
+      internalID: 1894325022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_116
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 433
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d03e83257b80b548a0ff766be6c5cce
+      internalID: 1256839073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_117
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 431
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d627c3ebd2bdc514aaffae9ad018dcb4
+      internalID: -74546581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_118
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 433
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11540ee50b339d54aa811de0b368aeef
+      internalID: 1504632700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_119
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 431
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f9a86482684c342a3fb0ae375f2993
+      internalID: 669229863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_120
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 405
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce19d2b46733c84385b455fe9f6dcd6
+      internalID: 1892466620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_121
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 428
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90af363e1d4d24b40865e47468ff14f6
+      internalID: -168833598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_122
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 405
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69a869ef0c3199c439568b3001ab0fb5
+      internalID: 774766785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_123
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 428
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18247276c060684d90f005b91992293
+      internalID: 298286812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_124
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 405
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2171adf2fd91d46bbde1d7a6a2767d
+      internalID: 580337066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_125
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 428
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dde715df46cc714194adbb76201b09c
+      internalID: -1136784224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_126
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 405
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ebd04140dfc6049810e33eada5a2fe
+      internalID: -759289052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_127
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 405
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d87751b55940eb408347141e01d0f1e
+      internalID: -1568019908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_128
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 405
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae881906a82c5648b8e4b95764d8cf4
+      internalID: -3968103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_129
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 405
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e69c81c1afd3648bd402724e6c3989
+      internalID: -911949420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_130
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 405
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8ae95c4f40cb4844a7246ab1df1df2d
+      internalID: -1351004068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_131
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 405
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a4723494d3376e4fa00870d7ce61487
+      internalID: 807149860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_132
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 405
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae755fe9a5e0c4e44b8c83d7841270e8
+      internalID: -2016284492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_133
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 405
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c4111c89177ad47bff23169ca03902
+      internalID: 1162980874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_134
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 405
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b854ba5303d718e48a8012aaa66f9785
+      internalID: 657886005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_135
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 405
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30eb26ddcb763e446b8c03413bb5e8d7
+      internalID: -1863454874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_136
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 405
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e0a69585005764cb5ebdee8db14c73
+      internalID: -1402683666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_137
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 358
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2d31dd86828a941b798e3a00c56bde
+      internalID: 1155732640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_138
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 358
+        width: 39
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 948819ebef22da94eb8e7cc4b52afd51
+      internalID: 2110893670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_139
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 330
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d522f541463aa4c8cdfd8c49688d2e
+      internalID: 58610410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_140
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 330
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60aa557c5856bc4c90f5908b16d4096
+      internalID: 649124189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_141
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 330
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c371800f7ed8d8f45b3b4f0944478d25
+      internalID: -345002922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_142
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 330
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac0699a0025e2640bddc2a4101ad1aa
+      internalID: -605848246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_143
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 330
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 613e4e62683d704489616f4d591e6523
+      internalID: -1653202635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_144
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 330
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4cadfd23954174588e6a23c47ca3cd
+      internalID: 1608766268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_145
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 330
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50c94e04dcb24242b594fa4b36abcce
+      internalID: 11628855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_146
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 330
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77b2dbba5f098e4fadf4b8540021515
+      internalID: 1729038275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_147
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 330
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 844c480045f0fe4478e1b8917d5eab15
+      internalID: -1275591272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_148
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 330
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c0bdd55ecb7154d8035a38d3b62e06
+      internalID: -888226691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_149
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 306
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48773add7f7b8e4ebd09d7f16304f91
+      internalID: -1550002788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_150
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 307
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e569e8f6f085a9544a3a815ed6e5f6a8
+      internalID: 192928048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_151
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 308
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686d5bcdfa60dc04498f23fe274b1caa
+      internalID: -781275305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_152
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 307
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6b0e0b41cee6954e96ab2ce8756ba33
+      internalID: 3818761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_153
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 251
+        width: 52
+        height: 40
+      alignment: 9
+      pivot: {x: 0.35562018, y: 0.23453292}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68123a4b25677a142afb3a7b6cfcee01
+      internalID: 1356634928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_154
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 251
+        width: 52
+        height: 46
+      alignment: 9
+      pivot: {x: 0.35562018, y: 0.20333332}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a169a73e1a445df4a9d26f6042a48cd7
+      internalID: 636641357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_158
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 251
+        width: 56
+        height: 32
+      alignment: 9
+      pivot: {x: 0.33112007, y: 0.2900114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ba5852fed17a0a4c8375c5eddcb287b
+      internalID: -1367632328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_159
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 251
+        width: 30
+        height: 26
+      alignment: 9
+      pivot: {x: 0.68, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403d561951c3bbd4e8028ef235dcf2f9
+      internalID: -1908174444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_160
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 251
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.68, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46240812bc1fdfb499417d5208e49c2e
+      internalID: 1109653826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_161
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 251
+        width: 37
+        height: 23
+      alignment: 9
+      pivot: {x: 0.4192837, y: 0.4098272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a32eeb51bfd6ab4cb8c88315daaa6f6
+      internalID: 910828278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_162
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 251
+        width: 41
+        height: 29
+      alignment: 9
+      pivot: {x: 0.3765739, y: 0.32264024}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0da31dd1b583f4d8a20076f4872db7
+      internalID: -560150600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_163
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 251
+        width: 57
+        height: 50
+      alignment: 9
+      pivot: {x: 0.32462245, y: 0.18641663}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d47bffb7ac72b469630e142b5ca8e7
+      internalID: 1071160029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_164
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 251
+        width: 57
+        height: 51
+      alignment: 9
+      pivot: {x: 0.27150044, y: 0.18280567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 403abe4c1639da342aa50d5786f43d1b
+      internalID: -736270785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_165
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 251
+        width: 57
+        height: 51
+      alignment: 9
+      pivot: {x: 0.2707723, y: 0.18280567}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9947ce0a451482549b6753d35127d339
+      internalID: 1515962241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_166
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 200
+        width: 59
+        height: 44
+      alignment: 9
+      pivot: {x: 0.31374556, y: 0.21017976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb88f32cf1e45849b911fad30148776
+      internalID: 2090399221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_168
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 200
+        width: 69
+        height: 46
+      alignment: 9
+      pivot: {x: 0.267584, y: 0.20072904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e71ad71d558d104eb053215cf69b401
+      internalID: 1341988022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_170
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 200
+        width: 71
+        height: 39
+      alignment: 9
+      pivot: {x: 0.2169832, y: 0.18602811}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2aefd4a0fabe694dba6c32e46658089
+      internalID: -1764286862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_173
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 200
+        width: 71
+        height: 41
+      alignment: 9
+      pivot: {x: 0.21800382, y: 0.1783704}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d3627542557b64d9a6757711a09fc8
+      internalID: -3070004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_175
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 200
+        width: 54
+        height: 27
+      alignment: 9
+      pivot: {x: 0.24998587, y: 0.2727955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c55e2ed3e16b64e9bc91974e135f0a
+      internalID: -2092103859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_176
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 200
+        width: 64
+        height: 35
+      alignment: 9
+      pivot: {x: 0.21093464, y: 0.20948966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a6e65436432ee442ad3b699335b7cf1
+      internalID: 1603191707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_178
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 200
+        width: 74
+        height: 38
+      alignment: 9
+      pivot: {x: 0.18243821, y: 0.19238402}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0f7300ae3791b4a804a2a179efb375
+      internalID: -256415303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_180
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 168
+        width: 75
+        height: 29
+      alignment: 9
+      pivot: {x: 0.20599373, y: 0.25431877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23a7ce563915ab408362d53d02655cd
+      internalID: -1983332935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_183
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 166
+        width: 78
+        height: 31
+      alignment: 9
+      pivot: {x: 0.19810407, y: 0.30211172}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffdd803eb84059a448f3d7948d15f8fd
+      internalID: -943927372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_185
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 166
+        width: 58
+        height: 29
+      alignment: 9
+      pivot: {x: 0.2318331, y: 0.32260922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30cf699c3356584f9d8be523c195036
+      internalID: -955965073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_186
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 164
+        width: 69
+        height: 31
+      alignment: 9
+      pivot: {x: 0.19547902, y: 0.3659973}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4443969aeda73fe40b074ef99e2ee1b2
+      internalID: -76908797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_187
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 160
+        width: 76
+        height: 35
+      alignment: 9
+      pivot: {x: 0.17681243, y: 0.43720528}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5047cc7b7eb67143abd9cce8005c6bb
+      internalID: 1501715062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_189
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 160
+        width: 69
+        height: 37
+      alignment: 9
+      pivot: {x: 0.18042788, y: 0.38707423}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fa480d9a9232f4a967318f774c6ffc
+      internalID: -1115778020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_191
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 153
+        width: 72
+        height: 41
+      alignment: 9
+      pivot: {x: 0.17395274, y: 0.52179515}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6482f00d37d6f6c41bceadaaa40c79c6
+      internalID: 1209586818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_193
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 113
+        width: 58
+        height: 37
+      alignment: 9
+      pivot: {x: 0.21559337, y: 0.41383693}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6dd64ce82db72349ac7c1ce2d11a96b
+      internalID: 2050583101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_194
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 106
+        width: 64
+        height: 44
+      alignment: 9
+      pivot: {x: 0.19508505, y: 0.5071352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19477c20a3b058e4b898dae43faa2b48
+      internalID: 826530307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_196
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 106
+        width: 67
+        height: 44
+      alignment: 9
+      pivot: {x: 0.18602832, y: 0.5076842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2b896a149423942b8f270e60d9d3cb
+      internalID: -1925875317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_198
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 98
+        width: 68
+        height: 50
+      alignment: 9
+      pivot: {x: 0.18354213, y: 0.6072333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad11ab1393efec4cb6f25e9ec60d503
+      internalID: -394514079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_199
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 96
+        width: 63
+        height: 52
+      alignment: 9
+      pivot: {x: 0.19867912, y: 0.6235448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6177a58b475492946b7fd3fca71bf218
+      internalID: 62133950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_200
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 103
+        width: 50
+        height: 47
+      alignment: 9
+      pivot: {x: 0.24978882, y: 0.53956735}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de43af20a5e58d741b501acd4162973b
+      internalID: -442259750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_201
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 99
+        width: 53
+        height: 51
+      alignment: 9
+      pivot: {x: 0.23478727, y: 0.5762434}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa3b947b73c701b439bcd50a5ba6cd82
+      internalID: 1536360751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_202
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 89
+        width: 63
+        height: 61
+      alignment: 9
+      pivot: {x: 0.1979128, y: 0.64490974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9d34097be8fdf458059b3d5e1ef87b
+      internalID: 1293271718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_207
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 31
+        width: 62
+        height: 54
+      alignment: 9
+      pivot: {x: 0.24913421, y: 0.7647732}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00f1f13c8e91fc748a452c444c22b630
+      internalID: 944803620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_208
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 25
+        width: 57
+        height: 60
+      alignment: 9
+      pivot: {x: 0.27161837, y: 0.7902224}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea25405d3174c4498ef7e8589fe16fa
+      internalID: -1081828395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_209
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 63
+        width: 26
+        height: 22
+      alignment: 9
+      pivot: {x: 0.59474885, y: 0.43083745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a434b221e0937d4bb6d3b869e7d3b18
+      internalID: 1126507627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyBeam_210
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 1
+        width: 304
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37614e5a3edf15445b5c68d841581b60
+      internalID: 1990509769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      KirbyBeam_194: 826530307
+      KirbyBeam_106: 524355074
+      KirbyBeam_47: -640776087
+      KirbyBeam_79: -1472444622
+      KirbyBeam_48: -46275113
+      KirbyBeam_26: 1955191359
+      KirbyBeam_153: 1356634928
+      KirbyBeam_166: 2090399221
+      KirbyBeam_120: 1892466620
+      KirbyBeam_41: -578168506
+      KirbyBeam_62: 471880801
+      KirbyBeam_75: -1542804933
+      KirbyBeam_182: 331008172
+      KirbyBeam_107: 1921013554
+      KirbyBeam_12: -440589974
+      KirbyBeam_46: -1151597318
+      KirbyBeam_209: 1126507627
+      KirbyBeam_189: -1115778020
+      KirbyBeam_193: 2050583101
+      KirbyBeam_171: 485876765
+      KirbyBeam_154: 636641357
+      KirbyBeam_91: 1247216862
+      KirbyBeam_123: 298286812
+      KirbyBeam_105: -393642663
+      KirbyBeam_160: 1109653826
+      KirbyBeam_3: 1477581886
+      KirbyBeam_51: 1009864907
+      KirbyBeam_71: 1867730479
+      KirbyBeam_99: 2092783385
+      KirbyBeam_126: -759289052
+      KirbyBeam_101: 1382682390
+      KirbyBeam_168: 1341988022
+      KirbyBeam_188: 1738466532
+      KirbyBeam_175: -2092103859
+      KirbyBeam_35: 881305461
+      KirbyBeam_104: 1258190533
+      KirbyBeam_167: -896810963
+      KirbyBeam_164: -736270785
+      KirbyBeam_22: -357865545
+      KirbyBeam_122: 774766785
+      KirbyBeam_192: -1790554892
+      KirbyBeam_201: 1536360751
+      KirbyBeam_190: 83162232
+      KirbyBeam_9: 1237420854
+      KirbyBeam_0: -403067566
+      KirbyBeam_147: -1275591272
+      KirbyBeam_181: 437159774
+      KirbyBeam_133: 1162980874
+      KirbyBeam_207: 944803620
+      KirbyBeam_161: 910828278
+      KirbyBeam_130: -1351004068
+      KirbyBeam_195: -916962349
+      KirbyBeam_67: 345054225
+      KirbyBeam_110: -2100983413
+      KirbyBeam_66: 1197016434
+      KirbyBeam_33: -335189237
+      KirbyBeam_57: -1926481282
+      KirbyBeam_172: 1429729554
+      KirbyBeam_129: -911949420
+      KirbyBeam_50: -1987875847
+      KirbyBeam_137: 1155732640
+      KirbyBeam_53: -1776570627
+      KirbyBeam_134: 657886005
+      KirbyBeam_202: 1293271718
+      KirbyBeam_156: 1271392012
+      KirbyBeam_94: 1258470943
+      KirbyBeam_39: -1964642065
+      KirbyBeam_100: -294633306
+      KirbyBeam_19: 5385324
+      KirbyBeam_127: -1568019908
+      KirbyBeam_173: -3070004
+      KirbyBeam_73: -2073894061
+      KirbyBeam_14: -192027444
+      KirbyBeam_145: 11628855
+      KirbyBeam_36: 2062429511
+      KirbyBeam_77: 359824077
+      KirbyBeam_103: 695539214
+      KirbyBeam_191: 1209586818
+      KirbyBeam_81: 607012196
+      KirbyBeam_196: -1925875317
+      KirbyBeam_85: -1240524861
+      KirbyBeam_114: 848723936
+      KirbyBeam_204: -330681195
+      KirbyBeam_211: 1327116107
+      KirbyBeam_43: 1979119922
+      KirbyBeam_200: -442259750
+      KirbyBeam_143: -1653202635
+      KirbyBeam_109: -1052260043
+      KirbyBeam_8: -153187970
+      KirbyBeam_132: -2016284492
+      KirbyBeam_111: 842358543
+      KirbyBeam_59: -769450736
+      KirbyBeam_55: -540785413
+      KirbyBeam_63: -751422091
+      KirbyBeam_21: 1146470621
+      KirbyBeam_97: -1998922371
+      KirbyBeam_29: -1049296216
+      KirbyBeam_83: -1685117830
+      KirbyBeam_32: 1745993724
+      KirbyBeam_165: 1515962241
+      KirbyBeam_68: 1402336051
+      KirbyBeam_74: 1200516206
+      KirbyBeam_206: 1467704913
+      KirbyBeam_131: 807149860
+      KirbyBeam_146: 1729038275
+      KirbyBeam_119: 669229863
+      KirbyBeam_78: 13902875
+      KirbyBeam_2: -2120078305
+      KirbyBeam_185: -955965073
+      KirbyBeam_4: -1776908395
+      KirbyBeam_58: -175946329
+      KirbyBeam_108: 102812156
+      KirbyBeam_174: 1718936124
+      KirbyBeam_20: 487597884
+      KirbyBeam_125: -1136784224
+      KirbyBeam_89: 940159663
+      KirbyBeam_6: -524020683
+      KirbyBeam_69: 1300301625
+      KirbyBeam_176: 1603191707
+      KirbyBeam_212: -1262668367
+      KirbyBeam_141: -345002922
+      KirbyBeam_92: -1463731928
+      KirbyBeam_151: -781275305
+      KirbyBeam_136: -1402683666
+      KirbyBeam_169: 816290026
+      KirbyBeam_138: 2110893670
+      KirbyBeam_28: -1133571670
+      KirbyBeam_96: 424873495
+      KirbyBeam_142: -605848246
+      KirbyBeam_23: 2067506137
+      KirbyBeam_37: 338121811
+      KirbyBeam_210: 1990509769
+      KirbyBeam_135: -1863454874
+      KirbyBeam_180: -1983332935
+      KirbyBeam_152: 3818761
+      KirbyBeam_64: -1434819500
+      KirbyBeam_42: 387482144
+      KirbyBeam_61: 1980335417
+      KirbyBeam_84: -1749462728
+      KirbyBeam_121: -168833598
+      KirbyBeam_170: -1764286862
+      KirbyBeam_157: -642973770
+      KirbyBeam_208: -1081828395
+      KirbyBeam_40: -475202559
+      KirbyBeam_13: 248402945
+      KirbyBeam_112: -1132890310
+      KirbyBeam_98: -679277821
+      KirbyBeam_102: 1228440155
+      KirbyBeam_38: -606841882
+      KirbyBeam_5: 1519267821
+      KirbyBeam_162: -560150600
+      KirbyBeam_7: 1483118972
+      KirbyBeam_70: -1458199350
+      KirbyBeam_15: -495132526
+      KirbyBeam_187: 1501715062
+      KirbyBeam_95: 1603250554
+      KirbyBeam_1: -1698329128
+      KirbyBeam_34: 2019397424
+      KirbyBeam_76: -1431565995
+      KirbyBeam_113: 73598048
+      KirbyBeam_11: -594197007
+      KirbyBeam_44: 160304379
+      KirbyBeam_72: -2038790842
+      KirbyBeam_82: 1809458549
+      KirbyBeam_155: -416925201
+      KirbyBeam_159: -1908174444
+      KirbyBeam_90: -1305798661
+      KirbyBeam_199: 62133950
+      KirbyBeam_30: -430863057
+      KirbyBeam_177: -1478666796
+      KirbyBeam_86: -982540240
+      KirbyBeam_24: -1036135301
+      KirbyBeam_65: 1493672943
+      KirbyBeam_128: -3968103
+      KirbyBeam_45: -340867169
+      KirbyBeam_149: -1550002788
+      KirbyBeam_140: 649124189
+      KirbyBeam_31: -180075081
+      KirbyBeam_18: 621587874
+      KirbyBeam_203: -632473024
+      KirbyBeam_10: 1976325773
+      KirbyBeam_54: 1441518084
+      KirbyBeam_56: -490341465
+      KirbyBeam_60: 717338219
+      KirbyBeam_80: 1848539885
+      KirbyBeam_150: 192928048
+      KirbyBeam_27: -528835991
+      KirbyBeam_183: -943927372
+      KirbyBeam_87: -791183294
+      KirbyBeam_198: -394514079
+      KirbyBeam_25: 761131495
+      KirbyBeam_49: 1279654174
+      KirbyBeam_148: -888226691
+      KirbyBeam_16: 1097184071
+      KirbyBeam_115: 1894325022
+      KirbyBeam_178: -256415303
+      KirbyBeam_139: 58610410
+      KirbyBeam_197: -1373362430
+      KirbyBeam_93: 664872058
+      KirbyBeam_186: -76908797
+      KirbyBeam_163: 1071160029
+      KirbyBeam_88: 1668265150
+      KirbyBeam_158: -1367632328
+      KirbyBeam_117: -74546581
+      KirbyBeam_124: 580337066
+      KirbyBeam_144: 1608766268
+      KirbyBeam_116: 1256839073
+      KirbyBeam_205: 146701491
+      KirbyBeam_118: 1504632700
+      KirbyBeam_184: -482723459
+      KirbyBeam_17: -867200185
+      KirbyBeam_179: 1276926794
+      KirbyBeam_52: 1103860134
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

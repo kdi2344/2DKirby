@@ -1,0 +1,2254 @@
+fileFormatVersion: 2
+guid: 5d64f286326f87f408ff59d7bccb5932
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_0
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 601
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42560edf23c38754a9298aa5193afc19
+      internalID: -712699595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 601
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c60d71e8084e8f47b95ff1e15a044f2
+      internalID: -1501765906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_2
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 603
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a567a62728d22c0458da05ad23268bf4
+      internalID: -2018725149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_3
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 602
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5399fbcb321be141a9878d404395d44
+      internalID: -2040139215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 601
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f789c89c0d508d45bd0f74b9bc5e71c
+      internalID: -1083556772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_5
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 602
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426a171571ce7644184626795268ed9f
+      internalID: 289651083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_6
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 603
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f391c4cd4b83d5468c97243b29ea43e
+      internalID: -722853027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 567
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05de9465b1ccd90458d237c44fcc858a
+      internalID: -35550730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_8
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 567
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b391669c91616149b5e2d2a35647354
+      internalID: -846014168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_9
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 567
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bcae05ac53ca9468678ff168f2d82b
+      internalID: 433447120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_10
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 567
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25f30d5531587141811a623161f062c
+      internalID: -1876161233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_11
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 567
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f14a8cdd88f48409ccb51d8ac0da8e
+      internalID: 1594841392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_12
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 531
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf97a9ac0a81a5f458650186afbd0b01
+      internalID: -943727644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_13
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 531
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24ee6b8f992a3c4aa89674d18748f01
+      internalID: -2077191800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_14
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 531
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4185f19c820c3c4f89fab7f2e9bf96a
+      internalID: -499887938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_15
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 532
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668b8dc159af78e42ba01781d3572cc1
+      internalID: -1418053804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_16
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 532
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1d4567e6394c0468f77dd1879bd4ce
+      internalID: -40425552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_17
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 531
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08a8114aa6452f4596bf2a4d39f976b
+      internalID: -2003347203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_18
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 531
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fbc10543c3b214494fdaadeb99fd16
+      internalID: 178674904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_19
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 531
+        width: 32
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15da99a6fb31fb74d9a1ec14c6810481
+      internalID: -1567828201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_20
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 531
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0e2165af2fd48428febce42532dbb4
+      internalID: 1542167810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_21
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 531
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170fa14a3dab3a547a27d528484d6c50
+      internalID: -1505155335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_22
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 510
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9987d89efdf294549bbb81760c5300ab
+      internalID: 343990575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_23
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 510
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3d141d1c9400e41a6e395b99c9e0e8
+      internalID: 2144637183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_24
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 510
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d11461f110586a4cb3df07cc06fe729
+      internalID: -2031559079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_25
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 510
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5af14ac79d227349a8a277dfcc239a2
+      internalID: -1154391189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_26
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 487
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f95044d611e844d8fdb888d462cda9
+      internalID: 1054939894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_27
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 488
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267bd39b0d6b3614aaeb943c6835d88b
+      internalID: 741704302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_28
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 489
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d2dfc0a2301cf4b87804024c176ba7
+      internalID: -1481465941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_29
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 489
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7ccba86df63f04796f3d054c02b614
+      internalID: 1485081990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_30
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 487
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e971f4dd08309a41a936e27d4c184d4
+      internalID: 1618234368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_31
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 488
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b451629b9f67de945b9fb88c01efc08a
+      internalID: 1716339103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_32
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 489
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6067446fc7830d044a126a06c911e7db
+      internalID: -1452251702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_33
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 489
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8661ffeca4da72e4ab975199f30a746d
+      internalID: -686695393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_34
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 453
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d331008ec73652408ed411a47b0df3c
+      internalID: -878832637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_35
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 453
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ab8eb1c6258084c987be568e52df91
+      internalID: 225570251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_36
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 453
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3b6ee879ec8fe448b9d2e4f0bd0dab
+      internalID: -877984232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_37
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 453
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c94e3a251d1d8b4bbac4a836782a268
+      internalID: 70745128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_38
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 453
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87daf7f000dc81a4ba74f4988d89e838
+      internalID: -1885300945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_39
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 453
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dadd37ae5b56a0845b9b68a4ddd21889
+      internalID: 478077816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_40
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 453
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dac8649f6bcdf748935a20a97a55a47
+      internalID: -1183533380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_41
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 427
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5939d5a2e1f4c7a43b1e145e55d785f7
+      internalID: 1759934565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_42
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 429
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6c58fa216776d54aa9767037e776575
+      internalID: -424832041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_43
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 431
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81335fb35414bd4eaec0e8cc76d1403
+      internalID: -1419329099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_44
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 427
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c19addcf0a970a4abe77bb4e26302ce
+      internalID: -2082142386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_45
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 429
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7add0a6fdd52ad4db3732391b6fa050
+      internalID: 6030357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_46
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 431
+        width: 22
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c16e77530fe944eb14e53c75dca00b
+      internalID: 330547778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_47
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 430
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f3fa544670a444a9b57a1cb5a4a9ed
+      internalID: -725069209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_48
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 428
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4163f42a43e3e624e912f2873cf219b7
+      internalID: 88805077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_49
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 427
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d9b9dd0254cf14c95650638ea97d4b
+      internalID: -185180462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_50
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 426
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbd040bb34dda84fb6d74e3c5ee58ad
+      internalID: -41374548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_51
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 430
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331ab8909dea26e448b548ea036cd713
+      internalID: 1098958714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_52
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 428
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7821cff2776ac4eb42be78bb4dea37
+      internalID: 2026733943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_53
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 427
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb021128f763f3244968fb175173bb63
+      internalID: 111951121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_54
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 426
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7f6205094913a4781bcfe28e7f04d5
+      internalID: -403269417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_55
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 390
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392579561e86d274993bf8a88b879072
+      internalID: -154732061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_56
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 389
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4111a5f181dbbc1448f9a1d24b72c3f5
+      internalID: 286229884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_57
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 389
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f6cc7d6cd11ab4c8440d3bb407de3c
+      internalID: 647380865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_58
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 390
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecff1a15ff4b05b489f1a3bf82239e2a
+      internalID: -1083688287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_59
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 391
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed5b11fa6205314b8571edc9e6d7005
+      internalID: 1267964896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_60
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 356
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce38a95baf3c9234182ac61af8887aeb
+      internalID: 1203246988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_61
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 356
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de3a6cb644ef74f49a750c2b719720e9
+      internalID: -841378729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_62
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 356
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a43d32a2f49f504cbc5fd62a7da2d46
+      internalID: -1063464493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_63
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 356
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa2102d57d0cc41499336a7a459d5ddc
+      internalID: -888230500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_64
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 356
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235d3cd8bef491e4d8627206eea7c804
+      internalID: -1797581170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_65
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 356
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2c76fd297a1c84c8a56d81ae70a909
+      internalID: -542028012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_83
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 298
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4752d7044f2b6be4494935d6d072cac5
+      internalID: -751471495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_108
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 88
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5467b04a70fb9fb4995e52560e70df83
+      internalID: 878600331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_109
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 87
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77d0f22e79c2e447809c5ae284acd15
+      internalID: 788004017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_110
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 88
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cda40d6ddcdd94c8d90eb06045d706
+      internalID: 1814519299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_111
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 87
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3afdf54bf857e7d48a48693f3ccd7ef7
+      internalID: 302939587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_112
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 87
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0c52f80daa6e74e8a5477fb48ec2ce
+      internalID: -1649978572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_113
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 87
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7b179a3b4ec2af4d8d934cce38354c6
+      internalID: -1662750353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_114
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 55
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc45f95c775d97f40923e480a7bd9e1c
+      internalID: 2038082462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_115
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 48
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cde217fedad02814f9f54099cf0f9d65
+      internalID: 1727088534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_116
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 49
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0f1e93f330ea94095403ebec8e6c4b
+      internalID: 546991466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_117
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 53
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e125d036d667b2540ab3531200124ff9
+      internalID: 1658930947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_118
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 49
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785d7ec5169189a4b8ab299a9f1af2d7
+      internalID: -104852388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_119
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 48
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b61679d7bbc61344ac5dc43202a5e38
+      internalID: 1826187210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_120
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 48
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd5a125a213650b498b9887618d81aae
+      internalID: 1102435189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_121
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 49
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e543c18a11164e4894ce50ea10b2ad9
+      internalID: -1583606896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_122
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 53
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586357b9c9cd7224ab9662a8fa789cf2
+      internalID: 771604488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_123
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 49
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f51ee8aaef61af641998f91c62985a74
+      internalID: -1346298658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_124
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 48
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e674303487dd447b30e6904d8c52b6
+      internalID: -1650042942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_125
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 16
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0f5c0bd016e9849823621c5afa6850
+      internalID: -1563271920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_126
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 4
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2553787349b831e4aa9299a4a3e8ab21
+      internalID: -1031626586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_127
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 6
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b1e7885bcc24b488ce15559fb71cd3
+      internalID: -1891485683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_128
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 10
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3c59702d3b45fc4f9e73af559245f43
+      internalID: -573866220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_129
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 6
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff399c9ce6df9a4e9e2c1587d54b8e1
+      internalID: 1464278703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_130
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 4
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a73b349fba6c54aa3c6ba8cd35f80f
+      internalID: 1968466565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_131
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 4
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba93c34f404a2b144bcc7d2353494d88
+      internalID: -166574614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_132
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 6
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0355004a67d384b9dff6ce3252a161
+      internalID: -1627018500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_133
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 10
+        width: 31
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c968b3d14690e241b0afc1216cb3ce2
+      internalID: 1640738797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_134
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 6
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75468960b6834a34bb97f4ca2cd1d984
+      internalID: -1376182851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kirby-SuperStar-2_135
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 4
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c10798d3c4c4442ab06e09fd2ad16a
+      internalID: 1391468270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Kirby-SuperStar-2_27: 741704302
+      Kirby-SuperStar-2_96: -414009254
+      Kirby-SuperStar-2_67: -409826604
+      Kirby-SuperStar-2_79: 1387115353
+      Kirby-SuperStar-2_48: 88805077
+      Kirby-SuperStar-2_7: -35550730
+      Kirby-SuperStar-2_60: 1203246988
+      Kirby-SuperStar-2_49: -185180462
+      Kirby-SuperStar-2_101: -1439363126
+      Kirby-SuperStar-2_24: -2031559079
+      Kirby-SuperStar-2_25: -1154391189
+      Kirby-SuperStar-2_66: 626279946
+      Kirby-SuperStar-2_21: -1505155335
+      Kirby-SuperStar-2_73: -1645838505
+      Kirby-SuperStar-2_115: 1727088534
+      Kirby-SuperStar-2_124: -1650042942
+      Kirby-SuperStar-2_64: -1797581170
+      Kirby-SuperStar-2_116: 546991466
+      Kirby-SuperStar-2_131: -166574614
+      Kirby-SuperStar-2_78: -828672696
+      Kirby-SuperStar-2_10: -1876161233
+      Kirby-SuperStar-2_80: -330097023
+      Kirby-SuperStar-2_1: -1501765906
+      Kirby-SuperStar-2_129: 1464278703
+      Kirby-SuperStar-2_114: 2038082462
+      Kirby-SuperStar-2_76: 288386243
+      Kirby-SuperStar-2_35: 225570251
+      Kirby-SuperStar-2_43: -1419329099
+      Kirby-SuperStar-2_121: -1583606896
+      Kirby-SuperStar-2_57: 647380865
+      Kirby-SuperStar-2_34: -878832637
+      Kirby-SuperStar-2_28: -1481465941
+      Kirby-SuperStar-2_89: -52740758
+      Kirby-SuperStar-2_112: -1649978572
+      Kirby-SuperStar-2_133: 1640738797
+      Kirby-SuperStar-2_132: -1627018500
+      Kirby-SuperStar-2_53: 111951121
+      Kirby-SuperStar-2_46: 330547778
+      Kirby-SuperStar-2_75: 664411010
+      Kirby-SuperStar-2_63: -888230500
+      Kirby-SuperStar-2_5: 289651083
+      Kirby-SuperStar-2_41: 1759934565
+      Kirby-SuperStar-2_59: 1267964896
+      Kirby-SuperStar-2_50: -41374548
+      Kirby-SuperStar-2_3: -2040139215
+      Kirby-SuperStar-2_20: 1542167810
+      Kirby-SuperStar-2_108: 878600331
+      Kirby-SuperStar-2_111: 302939587
+      Kirby-SuperStar-2_98: 549986820
+      Kirby-SuperStar-2_33: -686695393
+      Kirby-SuperStar-2_91: -52415215
+      Kirby-SuperStar-2_12: -943727644
+      Kirby-SuperStar-2_61: -841378729
+      Kirby-SuperStar-2_123: -1346298658
+      Kirby-SuperStar-2_119: 1826187210
+      Kirby-SuperStar-2_85: -49330379
+      Kirby-SuperStar-2_110: 1814519299
+      Kirby-SuperStar-2_125: -1563271920
+      Kirby-SuperStar-2_52: 2026733943
+      Kirby-SuperStar-2_97: 1510452290
+      Kirby-SuperStar-2_56: 286229884
+      Kirby-SuperStar-2_81: 161356683
+      Kirby-SuperStar-2_100: -1002000065
+      Kirby-SuperStar-2_65: -542028012
+      Kirby-SuperStar-2_92: -1322457700
+      Kirby-SuperStar-2_47: -725069209
+      Kirby-SuperStar-2_58: -1083688287
+      Kirby-SuperStar-2_38: -1885300945
+      Kirby-SuperStar-2_120: 1102435189
+      Kirby-SuperStar-2_36: -877984232
+      Kirby-SuperStar-2_8: -846014168
+      Kirby-SuperStar-2_26: 1054939894
+      Kirby-SuperStar-2_107: 2045252403
+      Kirby-SuperStar-2_113: -1662750353
+      Kirby-SuperStar-2_126: -1031626586
+      Kirby-SuperStar-2_134: -1376182851
+      Kirby-SuperStar-2_13: -2077191800
+      Kirby-SuperStar-2_86: -886329561
+      Kirby-SuperStar-2_32: -1452251702
+      Kirby-SuperStar-2_103: 1974317054
+      Kirby-SuperStar-2_130: 1968466565
+      Kirby-SuperStar-2_37: 70745128
+      Kirby-SuperStar-2_16: -40425552
+      Kirby-SuperStar-2_51: 1098958714
+      Kirby-SuperStar-2_42: -424832041
+      Kirby-SuperStar-2_45: 6030357
+      Kirby-SuperStar-2_14: -499887938
+      Kirby-SuperStar-2_77: -381571195
+      Kirby-SuperStar-2_40: -1183533380
+      Kirby-SuperStar-2_23: 2144637183
+      Kirby-SuperStar-2_19: -1567828201
+      Kirby-SuperStar-2_122: 771604488
+      Kirby-SuperStar-2_109: 788004017
+      Kirby-SuperStar-2_9: 433447120
+      Kirby-SuperStar-2_39: 478077816
+      Kirby-SuperStar-2_72: -728731263
+      Kirby-SuperStar-2_106: 749184713
+      Kirby-SuperStar-2_90: 1232496639
+      Kirby-SuperStar-2_17: -2003347203
+      Kirby-SuperStar-2_135: 1391468270
+      Kirby-SuperStar-2_11: 1594841392
+      Kirby-SuperStar-2_128: -573866220
+      Kirby-SuperStar-2_2: -2018725149
+      Kirby-SuperStar-2_118: -104852388
+      Kirby-SuperStar-2_84: -1881241301
+      Kirby-SuperStar-2_70: 2074212912
+      Kirby-SuperStar-2_29: 1485081990
+      Kirby-SuperStar-2_71: 1637202187
+      Kirby-SuperStar-2_44: -2082142386
+      Kirby-SuperStar-2_4: -1083556772
+      Kirby-SuperStar-2_22: 343990575
+      Kirby-SuperStar-2_127: -1891485683
+      Kirby-SuperStar-2_117: 1658930947
+      Kirby-SuperStar-2_99: -436275760
+      Kirby-SuperStar-2_94: 1754409125
+      Kirby-SuperStar-2_55: -154732061
+      Kirby-SuperStar-2_30: 1618234368
+      Kirby-SuperStar-2_74: 170147999
+      Kirby-SuperStar-2_82: -692686416
+      Kirby-SuperStar-2_87: 1026514147
+      Kirby-SuperStar-2_6: -722853027
+      Kirby-SuperStar-2_93: 1693783586
+      Kirby-SuperStar-2_105: 594958559
+      Kirby-SuperStar-2_104: 935083159
+      Kirby-SuperStar-2_102: -781876176
+      Kirby-SuperStar-2_62: -1063464493
+      Kirby-SuperStar-2_88: -344308158
+      Kirby-SuperStar-2_0: -712699595
+      Kirby-SuperStar-2_69: -28453801
+      Kirby-SuperStar-2_15: -1418053804
+      Kirby-SuperStar-2_18: 178674904
+      Kirby-SuperStar-2_54: -403269417
+      Kirby-SuperStar-2_68: -588407143
+      Kirby-SuperStar-2_83: -751471495
+      Kirby-SuperStar-2_31: 1716339103
+      Kirby-SuperStar-2_95: -709410890
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

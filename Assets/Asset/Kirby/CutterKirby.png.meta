@@ -1,0 +1,4171 @@
+fileFormatVersion: 2
+guid: f0c62e4ad16a21b478cfb629ba8a9b41
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CutterKirby_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 653
+        width: 23
+        height: 25
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ed9debd886c6a4380c561bef283456
+      internalID: -479624276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 653
+        width: 25
+        height: 25
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eec58aa06729584099086dc1590f518
+      internalID: -1284634116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 648
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ffd8023ebeeb94db1135cc6443fb0e
+      internalID: -258821574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_3
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 649
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb6763ff2d001c408b813b8eb853a43
+      internalID: -1513381242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 647
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97ed7a167ef1cf4ba1a449ed509fea3
+      internalID: 648798559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_5
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 647
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a48c3e8365de2142b3758b3c482ae6a
+      internalID: -134914403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 650
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e786eb72b4c29d94883ea0e7ac2b2c9f
+      internalID: -1972430585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_7
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 651
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ef5d74df89a9346837af823bbc3340
+      internalID: 1595036570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_8
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 649
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bbc047a87853e42894ffb8a61fd30e
+      internalID: -1634993520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_9
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 650
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb68108e87099fb4ea1bb3748b69708e
+      internalID: -266291600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 650
+        width: 21
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e68c10126b95e46ba5e29ba992ad7a
+      internalID: -870737945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_11
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 650
+        width: 21
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a93175e8cc016e4f847d5fa0b74ab82
+      internalID: 1487100331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_12
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 650
+        width: 21
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de38f5ece998fd4c85409a1e4927746
+      internalID: 1433022464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_13
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 650
+        width: 23
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1408714d6db5694cbfb6b0ed51e21f4
+      internalID: -1476053730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_14
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 650
+        width: 21
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c642b15166b4e4489a59a472096d20
+      internalID: -310792768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_15
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 650
+        width: 23
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcb520a979019f458ed1901a8fca0c0
+      internalID: -1650604769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_16
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 650
+        width: 25
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eb30fbcfe7a6a84294e0f09f0a9244d
+      internalID: 146185191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_17
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 650
+        width: 23
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af96cacbee5da4a4cb657d7802ec52f8
+      internalID: -1784853520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_18
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 650
+        width: 23
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb10cc7b6e569441a3f0987b11afd7a
+      internalID: -668779674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_19
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 650
+        width: 23
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c788a6bb52bd8e40b483e2704a6aae4
+      internalID: -227209834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_20
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 611
+        width: 26
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b74dc806a789a46830587df9a0cc57
+      internalID: -2092671992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 611
+        width: 25
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb6e6b60a213d5b4080747dc38138552
+      internalID: 1647821423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 611
+        width: 25
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 106b63f8942be7a45942d7d1c2dca9f0
+      internalID: 1337044801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_23
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 611
+        width: 23
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c4f920c585afe43b59eac5e39ac6b6
+      internalID: -1434373776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_24
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 611
+        width: 21
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca28c79d0c6de04ebe481144a9c3aa0
+      internalID: 1201450250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_25
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 611
+        width: 23
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53649a6d2fecd36459db1bd4e8f9f3a9
+      internalID: -154844220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_26
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 611
+        width: 25
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341d6d464584ea744af2006ddc94b205
+      internalID: 1086086362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 611
+        width: 25
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd23e639493ee7640868c823656c5851
+      internalID: 1245486229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_28
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 612
+        width: 23
+        height: 28
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cff21f124b60d49a4495b66469082e
+      internalID: -806901939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_29
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 614
+        width: 21
+        height: 24
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 436c441aad7e9dc4d8113c44ea704ba8
+      internalID: -501590335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_30
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 611
+        width: 21
+        height: 24
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779272d46ffa71543ba3fdd25cb41aee
+      internalID: 307722919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_31
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 607
+        width: 21
+        height: 27
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d10690bc49220409c507a8e2a3ec4a
+      internalID: -1810293814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_32
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 609
+        width: 23
+        height: 24
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e04c446faa51a048b4ca18db2c81b96
+      internalID: -735719139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_33
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 608
+        width: 22
+        height: 25
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: febfc16dd2a28c74fafcbb2b841d7822
+      internalID: -462127091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_34
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 614
+        width: 25
+        height: 25
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4640c41cd88575a41bf62274939432ba
+      internalID: 507726941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_35
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 612
+        width: 22
+        height: 26
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2602ac8e4e8cc48936f4867ec6628d
+      internalID: -717015491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_36
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 612
+        width: 22
+        height: 26
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f8f06a077caf74e99cbb58feeabc20
+      internalID: 480473172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_37
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 573
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d3acf5019e5ca844ac9a962de7538f0
+      internalID: -1610420272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_38
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 571
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c1b75be213b854ba45f9bb21d5f91e
+      internalID: 1322395441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_39
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 569
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1b79cf36a3e0d4e99e0ef4d6450837
+      internalID: -1370779008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_40
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 571
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0be8b5d2ebd6dc4b978ea7d37e7ee80
+      internalID: 1666842016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_41
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 569
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51dfac2755518a8449b9524fef89489c
+      internalID: -1742562274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_42
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 569
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3847536dae156224299c079b9b64254d
+      internalID: -547887610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_43
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 568
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfcf7c75c9823494fbc5f85fa7e7494c
+      internalID: -1960971428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_44
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 568
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cc64a9cc882a224d89d2037a030f65e
+      internalID: -555107301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_45
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 570
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd6a6d9435b5c2e4c8be125400d8a12e
+      internalID: -2035981581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_46
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 569
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd9411d652ec3c94c94c469115493e05
+      internalID: 1111177092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_47
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 569
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c83bf686d8deb9469ec43426cfcf159
+      internalID: 431723419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_48
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 569
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c919a8f536068f74594acee7569f3b67
+      internalID: -788346565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_49
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 569
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f28371a56b2bd654187a8074124bcd12
+      internalID: 1514179121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_50
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 569
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d34700575d8564fbd37e569ce7da2a
+      internalID: 979409742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_51
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 569
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbe69919427c3d4fa111d06051186cf
+      internalID: 181269337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_52
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 569
+        width: 32
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60ae4ef423bd664fb18d419d23390f2
+      internalID: -1272659044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_53
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 569
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414f4a97dfb01984883de2d5b4c8fedb
+      internalID: 1174109442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_54
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 526
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7176892f6693a41bb1e2ca7b31f691
+      internalID: -870946342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_55
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 526
+        width: 24
+        height: 28
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1faf80a738a12c842b082c8d8c635c41
+      internalID: 1931918412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_56
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 526
+        width: 22
+        height: 25
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9dc944036a2d747849d48a0322ecf6
+      internalID: 289033516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_57
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 526
+        width: 23
+        height: 25
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bebc99a04761e7946a74f3baeba20063
+      internalID: -948681189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_58
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 525
+        width: 24
+        height: 30
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77f5e596b81fffa4c800d5662c3e773a
+      internalID: -1240596258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_59
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 525
+        width: 23
+        height: 28
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6de973fd238be3f4e8ffca764506a828
+      internalID: -275371618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_60
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 525
+        width: 22
+        height: 26
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc5e2e6c6ed74b40917958d9352fc22
+      internalID: 2113566889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_61
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 525
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dee57712c71edf49b24bcdd2e38689d
+      internalID: -334547180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_62
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 525
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f9d39610a821e4a9dc1da3ffcf52f8
+      internalID: -2131781706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_63
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 525
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac08ad8f3d56cb41822ee18f86afaad
+      internalID: -1212743143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_64
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 525
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380b7fd797da18248a36969b332b6bf4
+      internalID: 674346149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_65
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 525
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b13ee60c22fba4cbb464b397e2f5cc
+      internalID: -1172753981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_66
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 525
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebdf4a131175ad54f8166a5493772a0e
+      internalID: 877704269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_67
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 525
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d9278c8835c3545b97d5b6e1bb2712
+      internalID: -341192931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_68
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 525
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7f8caba90b3f14f8c63fbe5e03d4f1
+      internalID: 1916968775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_69
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 525
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147a47487243c8848a8f075db2b06657
+      internalID: 701371625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_70
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 524
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0e32394f738bb4282d2033863fe583
+      internalID: 786019175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_71
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 524
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 466ba04feac1e404d9c66ec4154c4c33
+      internalID: -84566030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_72
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 524
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f21760432af9a4492078a17cd6c280
+      internalID: -252055983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_73
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 524
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196d86d67c20cfa45b263c35abefd9d3
+      internalID: 206092929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_74
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 486
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72a56178c1ab164b93b1e75916ac918
+      internalID: 1775593673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_75
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 486
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4cd5220945eeb4dbb04124a78e6e38
+      internalID: 1011843046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_76
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 485
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faff7636e3091141a14ad3448ea8f7c
+      internalID: 430501663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_77
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 486
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44829ebb3ca020489eb0da7304d98ab
+      internalID: 1950356932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_78
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 486
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af0f4d93a7b3d84da9196ced8e2f6c2
+      internalID: 1267383267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_79
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 486
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9ee4a1d764d1d419a1e1c625b096de
+      internalID: -453303319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_80
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 486
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11587b9d5d56c314cb2a4649878dce07
+      internalID: -318649284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_81
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 486
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7fa9c843b390842af980ef7e0374bd
+      internalID: 1450684475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_82
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 486
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5dad7607b5e2d41ba4280b0e0409f4
+      internalID: 2044751182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_83
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 486
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23deeabec4bbf374f87b32e42c6a239c
+      internalID: -1048972849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_84
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 486
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1d8132b058b594cadf2f320566eddb
+      internalID: -1494429475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_85
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 486
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a562def4330475c4c92987555c7ee7d3
+      internalID: 792346680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_86
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 486
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef57f9a70170cf94eadae66a64ea724e
+      internalID: -886853674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_87
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 486
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6739f8b3e7f66b640bcbb6f15c547ff1
+      internalID: 1643115445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_88
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 486
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488a48060ea91c249831002148e0d44b
+      internalID: -803888531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_89
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 486
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c33ce2fe595a64694d0a4f2940ae83
+      internalID: -1106532888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_90
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 486
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f95820b079a2048b7cda8fc4da4f8e
+      internalID: 1995930295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_91
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 486
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6931eb10b5eeab246b064f12b3c62691
+      internalID: -494229648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_92
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 486
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f6f79d25f6feb4f92fa4207b8400f2
+      internalID: -550751879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_93
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 449
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ff945c1b5951242b07c05a1468160a
+      internalID: 1278538802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_94
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 449
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be45c7562d15994c89f7989ed2a4a36
+      internalID: 1503902761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_95
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 449
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f95b007917e50041ad24be5b5563664
+      internalID: 955601428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_96
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 449
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e760f0631fbaa914b92bb07f8a2aa0a1
+      internalID: 700941400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_97
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 449
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6390a94568fabfd4abb2e104abd20f27
+      internalID: 649077824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_98
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 449
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ebe7691e3a67c47b1343991b1495e1
+      internalID: 1669141981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_99
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 449
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed9bb5f786a415438bf9a3fc5488983
+      internalID: 1490723091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_100
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 459
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e00d37af6655e5429b0eed22a6263ce
+      internalID: -132248315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_101
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 449
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585218c94defb36449679e4a0811e4c1
+      internalID: 25659841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_102
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 446
+        width: 25
+        height: 30
+      alignment: 9
+      pivot: {x: 0.55, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4512d13140d747849a2446e91eb2eed3
+      internalID: 207865780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_103
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 446
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89771fecdbb093746afcb8ac7c53ebb2
+      internalID: 183678844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_104
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 442
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e8dc6e168aeb0459d3b459b4f2308d
+      internalID: 1002439926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_105
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 440
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93f14b8f77265d14d9651eb51a0c1de7
+      internalID: -1144093142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_106
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 442
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b6a5ce11a76ed48a1f5566d5e6d0f3
+      internalID: 1146381992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_107
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 440
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0d739091ed11e4d839e96156562d89
+      internalID: 1659011705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_108
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 443
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a0ba46cdfa20bb4aa3efe5ee96e9495
+      internalID: -410174198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_109
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 443
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ad963bde8e9324382e3a1e02af0e98
+      internalID: -685382400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_110
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 401
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3a2714a0c82e99459a580e96a7518c4
+      internalID: 646631670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_111
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 401
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f738784b9a5d8984dab1ad9b9e2eb322
+      internalID: 403693914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_112
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 401
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8043f3af32b036f4fa00b7a652f13c51
+      internalID: -1701073595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_113
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 401
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660a65492be669d439aaa09b2a568f29
+      internalID: 331355729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_114
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 401
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0db7c9d4030e3ef42845fb0f8f4743bd
+      internalID: -1940779838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_115
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 401
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79208649626372b439588817d057791d
+      internalID: 1373211263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_116
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 401
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a74aa2207c3a951428705414e2f773f4
+      internalID: -601541767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_117
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 401
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1170db2dcb91b3a40ba0c327dd9e056a
+      internalID: 663639012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_118
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 401
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0d5158813deaec4196a83fcd721752c
+      internalID: 1997802291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_119
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 401
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4694df3a16b3a40a552411e77261a2
+      internalID: 1819667243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_120
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 402
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55eb2c3b0a8d17042a4a4add83b597bc
+      internalID: 1487422891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_121
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 402
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05ae28be4882fa45adf59f61c7003d6
+      internalID: 779893336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_122
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 402
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82467da2b35e2104495647410527714b
+      internalID: -2095133577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_123
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 403
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d101c0b624e8fc84ea926c6b1f8a03e9
+      internalID: -346292372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_124
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 403
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ce18d0ef3db414898c4bac7c43bc03
+      internalID: 560829288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_125
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 403
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ad68e5fe4d6dde48bca487de1f585d7
+      internalID: 828979750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_126
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 410
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f24c31e54f8cfe42b23b11b5eed73b8
+      internalID: -816188404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_127
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 410
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb5c9e5e73d8534aa4eeb0895644739
+      internalID: -1445559045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_128
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 354
+        width: 22
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56c099788725d594390a814b871a2a87
+      internalID: -2011124378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_129
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 354
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e140d897c76b14ab9452148ad6dce6
+      internalID: -621887308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_130
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 354
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8754a56cd69a6fd4fa24ca9e9d98c98c
+      internalID: 372218015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_131
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 354
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de8df91ae352da4ca88c6750ae26adf
+      internalID: -6202788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_132
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 354
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab92e460d87446840aeefee927594d63
+      internalID: 101798725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_133
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 354
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 879442df2c3fa2744a331fdcf75a26b9
+      internalID: -639408575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_134
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 354
+        width: 25
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2381fb4ea1c1aa344a8bf162a3b917ed
+      internalID: -132121250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_135
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 354
+        width: 29
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c518ddab3b88f67438e8f92c7415de50
+      internalID: -1374608105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_136
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 353
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 267fcd68153d5d640b1d6a58106c6421
+      internalID: -2103580782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_137
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 353
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb73a84e8b2ded4eadb49a9983733b0
+      internalID: -2086960532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_138
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 353
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59fab441a413134ba317dd9dcff9440
+      internalID: -741670112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_139
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 353
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e20dc9dfd051c740bfd243bacc392ac
+      internalID: -1795588075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_140
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 353
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20ef3f68a08b21e41be9b3e2459cba8a
+      internalID: 1965329465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_141
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 353
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de54ef6278320740bbe5e65fa49013f
+      internalID: -2122379539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_142
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 352
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba5405da770784f4db35e2fd91d6d9ed
+      internalID: 1232137112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_143
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 352
+        width: 27
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd236122d7b5f449a5d0c0bebb885a7
+      internalID: -371963316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_144
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 352
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6540eded89dbf9847a85dd6b1f24e529
+      internalID: -986186780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_145
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 352
+        width: 22
+        height: 30
+      alignment: 9
+      pivot: {x: 0.55, y: 0.38}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d279dc98c6fb9419d40a857733a4af
+      internalID: 13089561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_146
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 312
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cdf84676b4fb04ab61657a4dc75c0c
+      internalID: 52297024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_147
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 312
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ddf871b2b48364d9deb1e0c929de45
+      internalID: -1312730904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_148
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 312
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b298ad605d5a0e4ab81e9b4c563ce2e
+      internalID: -1822431305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_149
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 312
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8159c01bdbb39448dee03e4e6e49cb
+      internalID: 719956977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_150
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 302
+        width: 26
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108c9526892cd5d4db6c2a88cb487f69
+      internalID: 1287585152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_151
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 302
+        width: 29
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33507ab8c65b3bd43a1c5c3610d65ac6
+      internalID: -1050174355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_152
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 302
+        width: 32
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e146fbc6125ee342a3f45b0797b4608
+      internalID: -1645265711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_153
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 302
+        width: 25
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6440c22fe8e79504cb2eb3509c4419ce
+      internalID: -1962265787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_154
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 302
+        width: 29
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3ebc12e59a9b24f93d191a5ecce149
+      internalID: 2111070076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_155
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 302
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5df3eaada03c858409e2211194b24c61
+      internalID: -891650678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_156
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 278
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0201f8c98ab5dc042a9a63c36bbb693b
+      internalID: 1544175604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_157
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 291
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cec56a640af27e74dad7c5d38478c180
+      internalID: 1028684229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_158
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 258
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ca15bba83e66d4da701b2e76551b5d
+      internalID: 649627272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_159
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 267
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721ddd8b4d47d774396cb12b5ede6053
+      internalID: 1475221461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_160
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 263
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a30766dff192940ae0c1ccd7d41847
+      internalID: 147180299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_161
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 262
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690bd76ca452e1b4e83ae22ac94043ea
+      internalID: -396457890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_162
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 283
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b234014ea5ab4b4ea616a2d4a7894e0
+      internalID: -1028305684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_163
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 265
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39583ad26b2a22944b9426e84373d12d
+      internalID: -12563055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_164
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 258
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b102c864baa544b91147f57503e314
+      internalID: 182780885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_165
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 256
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a1e2979d0748f245bc346b5d0dafaeb
+      internalID: 1288846392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_166
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 249
+        width: 36
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d494e87175526254b979c7231a3b4271
+      internalID: 1422183608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_167
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 237
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1927034e0ec813c4f9cf8d3cdcb280f7
+      internalID: 5231235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_168
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 236
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983564b495f1c394ba95f867dd2e815d
+      internalID: -1541397002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_169
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 241
+        width: 49
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583c5d035bd4ada4bb74f11aad67861f
+      internalID: -1189225463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_170
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 213
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8495cd15d2cac7e4c80daffd0d7354e0
+      internalID: 1700228153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_171
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 213
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd9a7b0163a6e94882144e3a11e97af
+      internalID: 768236667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_172
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 232
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c7a861b79fa0bc4b89c959b30050d66
+      internalID: -1499918338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_173
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 232
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d732a589d18d54c9aef2e3e589e6e7
+      internalID: -108883760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_174
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 215
+        width: 40
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bcd3f317c068146ac1fb0222ff8bfd
+      internalID: -344454611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_175
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 195
+        width: 18
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246328fa773a5c04ea37a36aeb380e91
+      internalID: -10922747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_176
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 211
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c82f1f5ed33fcb4e94105051257eab4
+      internalID: -537462626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_177
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 190
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e163d6bcd71f95489d57c3b845982ab
+      internalID: 1927283717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_178
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 196
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c8db0fcaf3b254b82dfd533131a5bc
+      internalID: -990893803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_179
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 216
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0c455632d5d3746b758432510ed6e3
+      internalID: -2036365890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_180
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 216
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b742d61f525cd7c468dabd716a8b4db0
+      internalID: -1282875678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_181
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 191
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09549ef9631d4ed448db070a92d110cb
+      internalID: -1320490869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_182
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 83
+        width: 478
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9ac6e73aac6484886a0d8d53ef74d1
+      internalID: 1462894316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CutterKirby_183
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 656
+        width: 4
+        height: 1
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b10176c9b4e2946bf54278b8d550c4
+      internalID: -1388032927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CutterKirby_165: 1288846392
+      CutterKirby_138: -741670112
+      CutterKirby_170: 1700228153
+      CutterKirby_75: 1011843046
+      CutterKirby_122: -2095133577
+      CutterKirby_1: -1284634116
+      CutterKirby_32: -735719139
+      CutterKirby_44: -555107301
+      CutterKirby_70: 786019175
+      CutterKirby_69: 701371625
+      CutterKirby_10: -870737945
+      CutterKirby_7: 1595036570
+      CutterKirby_39: -1370779008
+      CutterKirby_13: -1476053730
+      CutterKirby_61: -334547180
+      CutterKirby_147: -1312730904
+      CutterKirby_26: 1086086362
+      CutterKirby_176: -537462626
+      CutterKirby_76: 430501663
+      CutterKirby_116: -601541767
+      CutterKirby_59: -275371618
+      CutterKirby_151: -1050174355
+      CutterKirby_41: -1742562274
+      CutterKirby_107: 1659011705
+      CutterKirby_82: 2044751182
+      CutterKirby_56: 289033516
+      CutterKirby_164: 182780885
+      CutterKirby_64: 674346149
+      CutterKirby_115: 1373211263
+      CutterKirby_65: -1172753981
+      CutterKirby_9: -266291600
+      CutterKirby_60: 2113566889
+      CutterKirby_79: -453303319
+      CutterKirby_52: -1272659044
+      CutterKirby_81: 1450684475
+      CutterKirby_88: -803888531
+      CutterKirby_78: 1267383267
+      CutterKirby_112: -1701073595
+      CutterKirby_168: -1541397002
+      CutterKirby_98: 1669141981
+      CutterKirby_179: -2036365890
+      CutterKirby_127: -1445559045
+      CutterKirby_46: 1111177092
+      CutterKirby_173: -108883760
+      CutterKirby_15: -1650604769
+      CutterKirby_63: -1212743143
+      CutterKirby_6: -1972430585
+      CutterKirby_22: 1337044801
+      CutterKirby_30: 307722919
+      CutterKirby_139: -1795588075
+      CutterKirby_104: 1002439926
+      CutterKirby_157: 1028684229
+      CutterKirby_4: 648798559
+      CutterKirby_105: -1144093142
+      CutterKirby_106: 1146381992
+      CutterKirby_102: 207865780
+      CutterKirby_55: 1931918412
+      CutterKirby_24: 1201450250
+      CutterKirby_146: 52297024
+      CutterKirby_174: -344454611
+      CutterKirby_34: 507726941
+      CutterKirby_183: -1388032927
+      CutterKirby_144: -986186780
+      CutterKirby_118: 1997802291
+      CutterKirby_141: -2122379539
+      CutterKirby_50: 979409742
+      CutterKirby_142: 1232137112
+      CutterKirby_150: 1287585152
+      CutterKirby_93: 1278538802
+      CutterKirby_2: -258821574
+      CutterKirby_110: 646631670
+      CutterKirby_181: -1320490869
+      CutterKirby_167: 5231235
+      CutterKirby_149: 719956977
+      CutterKirby_121: 779893336
+      CutterKirby_33: -462127091
+      CutterKirby_134: -132121250
+      CutterKirby_128: -2011124378
+      CutterKirby_111: 403693914
+      CutterKirby_124: 560829288
+      CutterKirby_145: 13089561
+      CutterKirby_171: 768236667
+      CutterKirby_73: 206092929
+      CutterKirby_114: -1940779838
+      CutterKirby_28: -806901939
+      CutterKirby_68: 1916968775
+      CutterKirby_38: 1322395441
+      CutterKirby_133: -639408575
+      CutterKirby_113: 331355729
+      CutterKirby_135: -1374608105
+      CutterKirby_49: 1514179121
+      CutterKirby_0: -479624276
+      CutterKirby_89: -1106532888
+      CutterKirby_132: 101798725
+      CutterKirby_159: 1475221461
+      CutterKirby_153: -1962265787
+      CutterKirby_42: -547887610
+      CutterKirby_175: -10922747
+      CutterKirby_66: 877704269
+      CutterKirby_129: -621887308
+      CutterKirby_109: -685382400
+      CutterKirby_96: 700941400
+      CutterKirby_27: 1245486229
+      CutterKirby_29: -501590335
+      CutterKirby_155: -891650678
+      CutterKirby_94: 1503902761
+      CutterKirby_31: -1810293814
+      CutterKirby_80: -318649284
+      CutterKirby_5: -134914403
+      CutterKirby_77: 1950356932
+      CutterKirby_16: 146185191
+      CutterKirby_43: -1960971428
+      CutterKirby_67: -341192931
+      CutterKirby_62: -2131781706
+      CutterKirby_161: -396457890
+      CutterKirby_40: 1666842016
+      CutterKirby_95: 955601428
+      CutterKirby_21: 1647821423
+      CutterKirby_11: 1487100331
+      CutterKirby_108: -410174198
+      CutterKirby_130: 372218015
+      CutterKirby_180: -1282875678
+      CutterKirby_85: 792346680
+      CutterKirby_120: 1487422891
+      CutterKirby_72: -252055983
+      CutterKirby_182: 1462894316
+      CutterKirby_47: 431723419
+      CutterKirby_99: 1490723091
+      CutterKirby_54: -870946342
+      CutterKirby_136: -2103580782
+      CutterKirby_74: 1775593673
+      CutterKirby_140: 1965329465
+      CutterKirby_12: 1433022464
+      CutterKirby_51: 181269337
+      CutterKirby_97: 649077824
+      CutterKirby_162: -1028305684
+      CutterKirby_8: -1634993520
+      CutterKirby_25: -154844220
+      CutterKirby_163: -12563055
+      CutterKirby_100: -132248315
+      CutterKirby_18: -668779674
+      CutterKirby_158: 649627272
+      CutterKirby_20: -2092671992
+      CutterKirby_92: -550751879
+      CutterKirby_103: 183678844
+      CutterKirby_3: -1513381242
+      CutterKirby_178: -990893803
+      CutterKirby_23: -1434373776
+      CutterKirby_126: -816188404
+      CutterKirby_87: 1643115445
+      CutterKirby_137: -2086960532
+      CutterKirby_90: 1995930295
+      CutterKirby_160: 147180299
+      CutterKirby_71: -84566030
+      CutterKirby_143: -371963316
+      CutterKirby_169: -1189225463
+      CutterKirby_19: -227209834
+      CutterKirby_35: -717015491
+      CutterKirby_119: 1819667243
+      CutterKirby_131: -6202788
+      CutterKirby_177: 1927283717
+      CutterKirby_101: 25659841
+      CutterKirby_37: -1610420272
+      CutterKirby_117: 663639012
+      CutterKirby_53: 1174109442
+      CutterKirby_156: 1544175604
+      CutterKirby_83: -1048972849
+      CutterKirby_48: -788346565
+      CutterKirby_57: -948681189
+      CutterKirby_84: -1494429475
+      CutterKirby_166: 1422183608
+      CutterKirby_152: -1645265711
+      CutterKirby_45: -2035981581
+      CutterKirby_58: -1240596258
+      CutterKirby_86: -886853674
+      CutterKirby_123: -346292372
+      CutterKirby_14: -310792768
+      CutterKirby_17: -1784853520
+      CutterKirby_91: -494229648
+      CutterKirby_154: 2111070076
+      CutterKirby_125: 828979750
+      CutterKirby_148: -1822431305
+      CutterKirby_172: -1499918338
+      CutterKirby_36: 480473172
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

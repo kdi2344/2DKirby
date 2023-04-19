@@ -1,0 +1,1751 @@
+fileFormatVersion: 2
+guid: 6fa1ec435c3f53641b6578fe197d1dcd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 304
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f33b3c4e86dc6f04780a97e47523cf1a
+      internalID: 2056244079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_1
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 301
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a669c42dfc24c0d44bf78ca979a8fe5e
+      internalID: 871781838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_2
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 304
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acdc9a7c91e7c34e9743ff31241b4e1
+      internalID: -1796518336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_3
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 303
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fc0aeebc61e7b644af459214c9b0555
+      internalID: 1980299270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 301
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541f03fee48bb534bb81cee1a4554b7f
+      internalID: 670979474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_5
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 272
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66809788665b8b14da374bde79c5d070
+      internalID: -117693354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_6
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 271
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76edac75f87589d4f93b8a3becb21a4e
+      internalID: -1600742479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 272
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e9d69425efb104f9158df0f5ab5772
+      internalID: -2135248441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_8
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 270
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa6fbb9f8dff8a41ae5ebfbb459f437
+      internalID: 1878872005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_9
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 270
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e946732f9794f5d4f8ff3431364674b3
+      internalID: 1807719215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_10
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 272
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a425a41402b4e9d4f978ef11aa177a4f
+      internalID: -1612044149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_11
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 271
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3e1b3410910154eb6334e905de4edb
+      internalID: 1774207646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_12
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 270
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020227703dfe0ff4e896c4f62c50f2b0
+      internalID: -1837774777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_13
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 270
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd1cacd2e5bfeb0408bc215f2db60034
+      internalID: 1617321031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_14
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 271
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969e9ec726c7b9c418e995335ca6837d
+      internalID: -1089897465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 234
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1534ce1411cc8ab43bf4cd588ebc5a57
+      internalID: 415542923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_16
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 233
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5b70889c08002409cb9fdcdb99ab5a
+      internalID: -1311489785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_17
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 233
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c439a014eb0240c47b2b8e67a4e3056a
+      internalID: 900987427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_18
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 233
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afec88b64f1f938479aadeb01b4a0280
+      internalID: 257370228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 233
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2336e498afc6cea46ada829986d089b3
+      internalID: 1563797366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 233
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc49f83b92d28848b17dda19d7074b0
+      internalID: 311057518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_21
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 232
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a57944ab2e1a64cbef6760701c804c
+      internalID: 1909611859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_22
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 232
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc3c4d06983fc78469e320c27352373c
+      internalID: -494572116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_23
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 239
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a45ca26d413b3d4eb48713ff19f9fda
+      internalID: 287050399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_24
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 239
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4442ab2a418f32c4d8e3e2888d3a0e77
+      internalID: -463930415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_25
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 239
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f42630d05d1c84db11415d74e8bab5
+      internalID: -552581432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_26
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 239
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e603c943350c74ab8b5cd9e689c94a
+      internalID: -1289337862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_27
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 237
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d9cb6bafd13ca41abbdc186e72260f
+      internalID: 16811710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 197
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b20babe61e7524297615aed407328e
+      internalID: 1107347788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_29
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 200
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3126056b3239a0349b9aa6d7b61708c2
+      internalID: 2055301682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_30
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 179
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edf6832e4a1646489ffc29da4dcfd3c
+      internalID: 1144976159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_31
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 180
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc0959901766d642a8dfd24830b9124
+      internalID: -1324118688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_32
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 186
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86fa2efa9692bb4685c51d2dced82ba
+      internalID: 2140985322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_33
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 184
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd8815255083954ead562add6ec5605
+      internalID: -301922081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_34
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 186
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c6cda2188e8404e9c3db75f7e47729
+      internalID: -1623243025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_35
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 172
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b01b2cc0bb657c4f9cd2870be8bdaad
+      internalID: 486917889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 179
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da6740090a137549a7b72a2fc2e5001
+      internalID: -699526018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_37
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 141
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d487a963f22a16241a101d06685201da
+      internalID: 1439091045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_38
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 138
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e68b2413732154408274fe1f7aab092
+      internalID: 176479083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_39
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 141
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4db6a8c706f5ffc4b93f087301463f5a
+      internalID: -747989485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_40
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 140
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c94509aa64c33bd4ebc43d91dee56151
+      internalID: -1581496959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_41
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 138
+        width: 19
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e2c38d42e789a4ab02cabb41a4e154
+      internalID: 1604748526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_42
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 109
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd96e05eec3eeac429da2a5bb0727318
+      internalID: 1160436452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_43
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 108
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c0245173b6b464f8e47f8b20cc6484
+      internalID: -920151046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_44
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 109
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b5e4af917c5c548b79fd0493517f30
+      internalID: 247538185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 107
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1419d15af57742146be5dbb70a6ea289
+      internalID: 1221385612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_46
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 107
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a924bbe6b86d2418cb5a7e78afd8b9
+      internalID: 392803705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_47
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 109
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b1cd2056865d3499b86770f668e112
+      internalID: 1508604680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_48
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 108
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74b881d08445be4e8fc17e990039279
+      internalID: 222519174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_49
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 107
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 517710af4d472c749921bb90d35e5a61
+      internalID: 593412741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_50
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 107
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe639b17fd8d59f498681270ad70ce9e
+      internalID: 51699803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_51
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 108
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0ab4160c25f1e842a1169d93015f0e8
+      internalID: -1772776525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_52
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 71
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104ef54592a56304dbac5c37c30ae742
+      internalID: -1048602519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_53
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 71
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d75f6c666bd9344296c343408b0ff3e
+      internalID: -1594363644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_54
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 70
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0664c8c047be2874296d41e688cd3394
+      internalID: -2111888746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_55
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 71
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b97dde0c84d13da4fb2f6c558daca15b
+      internalID: 311217372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_56
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 70
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2074e8203913a6a44951b46fba9ff800
+      internalID: 351235910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_57
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 70
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d130b5302e47f43aaadb0abe1d0afa
+      internalID: 1278813078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_58
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 70
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b72679b4b9f265419a228a1a75afe92
+      internalID: -1043623506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_59
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 69
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a31b614147304545af61d87c8084969
+      internalID: 20078888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_60
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 76
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52b97f0bbf0230c4e819c6b74d18488a
+      internalID: 1121679480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_61
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 76
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698aa07609232f64e8f4c85fbcef622b
+      internalID: 242616339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_62
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 76
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c423f1345bd7434a91a2fe5fbd9fff4
+      internalID: -578483615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_63
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 76
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f30c564de8d517d4e9fc8e7a7b734975
+      internalID: 1396350060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_64
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 74
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50cfb1cb1ae04b541848704c61f2091a
+      internalID: -1558223749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_65
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 34
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039fa3636ad63a84f8e193f029cec8d6
+      internalID: -896413681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_66
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 37
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f99e1a17301e6c44b098363f5a84e1a
+      internalID: 1996039577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_67
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 16
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa5c4652feddec4ea2469b5b83749cc
+      internalID: 573221371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_68
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 17
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c98f247c9b551464b82cada5c37f533c
+      internalID: 1815569326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_69
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 23
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 397405364e64daf439dd6ef853af67ac
+      internalID: -1904667743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_70
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 21
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e0be4a9af98714489d01371e77e593
+      internalID: 624628790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_71
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 23
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aebbd3ca31c2e1444be8a12b6a89d641
+      internalID: -446612141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_72
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 9
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9afbf96561ea11d48a5fd3ebc2fd0543
+      internalID: 1649997423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: KirbyMarioLuigi (1)_73
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 16
+        width: 25
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8629635b4d321c40b48bfbbeea54f44
+      internalID: -1608260945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      KirbyMarioLuigi (1)_25: -552581432
+      KirbyMarioLuigi (1)_57: 1278813078
+      KirbyMarioLuigi (1)_70: 624628790
+      KirbyMarioLuigi (1)_0: 2056244079
+      KirbyMarioLuigi (1)_12: -1837774777
+      KirbyMarioLuigi (1)_48: 222519174
+      KirbyMarioLuigi (1)_64: -1558223749
+      KirbyMarioLuigi (1)_18: 257370228
+      KirbyMarioLuigi (1)_23: 287050399
+      KirbyMarioLuigi (1)_71: -446612141
+      KirbyMarioLuigi (1)_49: 593412741
+      KirbyMarioLuigi (1)_59: 20078888
+      KirbyMarioLuigi (1)_60: 1121679480
+      KirbyMarioLuigi (1)_2: -1796518336
+      KirbyMarioLuigi (1)_4: 670979474
+      KirbyMarioLuigi (1)_22: -494572116
+      KirbyMarioLuigi (1)_34: -1623243025
+      KirbyMarioLuigi (1)_1: 871781838
+      KirbyMarioLuigi (1)_9: 1807719215
+      KirbyMarioLuigi (1)_50: 51699803
+      KirbyMarioLuigi (1)_33: -301922081
+      KirbyMarioLuigi (1)_45: 1221385612
+      KirbyMarioLuigi (1)_53: -1594363644
+      KirbyMarioLuigi (1)_35: 486917889
+      KirbyMarioLuigi (1)_73: -1608260945
+      KirbyMarioLuigi (1)_58: -1043623506
+      KirbyMarioLuigi (1)_47: 1508604680
+      KirbyMarioLuigi (1)_31: -1324118688
+      KirbyMarioLuigi (1)_6: -1600742479
+      KirbyMarioLuigi (1)_16: -1311489785
+      KirbyMarioLuigi (1)_65: -896413681
+      KirbyMarioLuigi (1)_29: 2055301682
+      KirbyMarioLuigi (1)_43: -920151046
+      KirbyMarioLuigi (1)_10: -1612044149
+      KirbyMarioLuigi (1)_44: 247538185
+      KirbyMarioLuigi (1)_46: 392803705
+      KirbyMarioLuigi (1)_67: 573221371
+      KirbyMarioLuigi (1)_7: -2135248441
+      KirbyMarioLuigi (1)_56: 351235910
+      KirbyMarioLuigi (1)_41: 1604748526
+      KirbyMarioLuigi (1)_40: -1581496959
+      KirbyMarioLuigi (1)_69: -1904667743
+      KirbyMarioLuigi (1)_15: 415542923
+      KirbyMarioLuigi (1)_38: 176479083
+      KirbyMarioLuigi (1)_17: 900987427
+      KirbyMarioLuigi (1)_39: -747989485
+      KirbyMarioLuigi (1)_26: -1289337862
+      KirbyMarioLuigi (1)_32: 2140985322
+      KirbyMarioLuigi (1)_20: 311057518
+      KirbyMarioLuigi (1)_19: 1563797366
+      KirbyMarioLuigi (1)_14: -1089897465
+      KirbyMarioLuigi (1)_30: 1144976159
+      KirbyMarioLuigi (1)_42: 1160436452
+      KirbyMarioLuigi (1)_3: 1980299270
+      KirbyMarioLuigi (1)_68: 1815569326
+      KirbyMarioLuigi (1)_62: -578483615
+      KirbyMarioLuigi (1)_13: 1617321031
+      KirbyMarioLuigi (1)_63: 1396350060
+      KirbyMarioLuigi (1)_52: -1048602519
+      KirbyMarioLuigi (1)_5: -117693354
+      KirbyMarioLuigi (1)_72: 1649997423
+      KirbyMarioLuigi (1)_28: 1107347788
+      KirbyMarioLuigi (1)_21: 1909611859
+      KirbyMarioLuigi (1)_8: 1878872005
+      KirbyMarioLuigi (1)_66: 1996039577
+      KirbyMarioLuigi (1)_55: 311217372
+      KirbyMarioLuigi (1)_61: 242616339
+      KirbyMarioLuigi (1)_11: 1774207646
+      KirbyMarioLuigi (1)_37: 1439091045
+      KirbyMarioLuigi (1)_36: -699526018
+      KirbyMarioLuigi (1)_24: -463930415
+      KirbyMarioLuigi (1)_27: 16811710
+      KirbyMarioLuigi (1)_51: -1772776525
+      KirbyMarioLuigi (1)_54: -2111888746
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

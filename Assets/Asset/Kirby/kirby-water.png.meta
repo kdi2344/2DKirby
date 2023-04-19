@@ -1,0 +1,3834 @@
+fileFormatVersion: 2
+guid: b6cfc72bbb67cb845939046af63c2a3e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kirby-water_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 464
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44638d9da7b6f147b2bd38ac3a52de9
+      internalID: 1247119067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 464
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d094e43da2694794fa3ab3ec77920dfa
+      internalID: -1175267041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 464
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae9312601e264b4a8cf36ec8c35f78a
+      internalID: -1798197440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_3
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 464
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c045c02c7846440911146f4abfd7d3
+      internalID: 168290159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 464
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2fb90019120b3e47bc802b15267710e
+      internalID: 1636541022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 464
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1cc90c7a395464b81375aef229539c
+      internalID: -351538523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_6
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 464
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae4e8c036bd5cd40a6d000e95d2cff5
+      internalID: 2025086928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_7
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 464
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596c61b34b811bb4cac024d27f7e5e93
+      internalID: -153957218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 464
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab752a1f6a5a364ba3d1caf45b6a46b
+      internalID: -324846305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_9
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 464
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1b3490d555900469b9d45137c13428
+      internalID: 821133208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_10
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 464
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 446dc74d7253c8442b2afa9e92d72ff2
+      internalID: 1162588904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_11
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 464
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fcb7ba9960cba47bbe10f2fa57ef24
+      internalID: 149209559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_12
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 464
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a3245dfeb14b54fbf216c4d204397e
+      internalID: -38508421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 464
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492860170efb52f48a59b10272375630
+      internalID: -2007110997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_14
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 464
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf63dc2db6c216418e75dc356805f94
+      internalID: 173999156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_15
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 464
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee64048a0b7aff24ba6b0791db8c0246
+      internalID: -1131807684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_16
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 464
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105721759b821cf4a894eacc8e51fbed
+      internalID: -725392450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_17
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 464
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e14d5bc1723614b9ed41821f307e04
+      internalID: -298389402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 436
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2f70bb1d375c544bd537292632b8e8
+      internalID: 1672297240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_19
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 436
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a24921597c5d0fd46a4a257913585a56
+      internalID: -1327990422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_20
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 436
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adef38a0fbd8a584da24a37d2ad4cdaa
+      internalID: 1761057078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_21
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 436
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4b21d384cc2b14f8706bc01b951fac
+      internalID: -282874466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 436
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8073c365661b844a05362b24cba26c
+      internalID: -843300822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_23
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 436
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b510da23242500445bdc160352199168
+      internalID: 702241593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_24
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 436
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b52d8764c4285448e0de6c18caaf9a
+      internalID: 625254683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_25
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 436
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8a84af905e91444bd918428803a068
+      internalID: -1290802252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_26
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 436
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8ae7ada8b3a974194a63c99f8e6cbf
+      internalID: -598189757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_27
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 436
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcd805dd3e58d8478b046a1f25c3e4e
+      internalID: -1592430416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_28
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 436
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e10d150389c15e439c1e787f1550dc6
+      internalID: -52500685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_29
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 436
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527c54565cf38ed41bab7b8aebd0fece
+      internalID: -1094401121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_30
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 410
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c39f6fa41ce754db94d74289bacdbb
+      internalID: 2064290235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_31
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 409
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1173f671d0f00d40b2d6f4aee52de4e
+      internalID: 2031156721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_32
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 410
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dced15250573b74a9c5ade077d8e3fa
+      internalID: 1783479324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_33
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 410
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37671b161df8e844796254e30935ccf6
+      internalID: 1813482901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_34
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 411
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d61e9aff6287644858acb249d278e8
+      internalID: 65680437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_35
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 412
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b802e5b790099ed4db677c060379c0f4
+      internalID: -1502910105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_36
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 412
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bd725e8daed9da4dbee451d7b11ceff
+      internalID: -985539211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_37
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 412
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb80747d37689d469b8d0d5d6159607
+      internalID: 1676567810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_38
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 411
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86681252a111fb5489062a4734b79970
+      internalID: 1587228233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_39
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 411
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e33038c943b0045a85497bd2b81bc3
+      internalID: 2106894668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_40
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 411
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 843619494e5481c49a4598e5ef899352
+      internalID: -1697401457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_41
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 411
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b1ae9b3d1b355458da43e0f94f2ab6
+      internalID: 164063263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_42
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 412
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285fc84e669d1a34388eb37971be23f7
+      internalID: 1926262932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_43
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 412
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347b551a71a8f7949ba74cd9bbec6db2
+      internalID: -1893606194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_44
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 411
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c07dd9f4980b4f42a9a574e28dde91f
+      internalID: 634978092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_45
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 411
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af30c4943b12ac44aa66a3149697bbb
+      internalID: 997407201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_46
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 385
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b98d50372bf27040b1f18af6a01c496
+      internalID: 615579622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_47
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 385
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d3a8dd87e5faff4b9dad13e010c24a7
+      internalID: -2092013839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_48
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 385
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e5244cc0f022f49861114dbfb43221
+      internalID: -2140027854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_83
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 297
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ad78fc6fdbb174d8118106895af852
+      internalID: -1839825092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_84
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 297
+        width: 22
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8c1e9f4014b5a4aa3a92c87c428bac
+      internalID: -726211404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_85
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 297
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90769a0580a50cf4c9e7a59eafd79024
+      internalID: 1180315771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_86
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 297
+        width: 24
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d387e10566ab1f649905fca18bee8747
+      internalID: -2064196774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_88
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 297
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1db41adb3eb90d429a23e887e361731
+      internalID: 68436732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_90
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 297
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 620e730c74a27014aa4d5e0b242ca859
+      internalID: -874635151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_91
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 297
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e558356e3d0b04c9df8e8dbc8444c9
+      internalID: 1600981764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_92
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 297
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3070111697bcbb34c90427796f3b43af
+      internalID: 1550192100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_93
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 297
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8cb66a6707915849aedd1bc327a88c2
+      internalID: 1441842535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_94
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 297
+        width: 24
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ef64d6da9129b4096e24b8ce71ffc6
+      internalID: -614883177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_98
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 297
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 196608c31cd3bec458e6a4fef7632b5b
+      internalID: 1238930218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_99
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 297
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457d492761693b243b6ab3fcdfd4f1cc
+      internalID: 1603922104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_100
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 297
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60579737d0d9787408f2c12dea08a4a1
+      internalID: -506935275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_101
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 297
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec73f1678a65864dbb90a80e49f45ac
+      internalID: 844051123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_102
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 297
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b159ba6980faac4f9d0d511660c2a8f
+      internalID: 664923710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_103
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 297
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6710589083f3474f9722f408cc7bd5c
+      internalID: 2064281520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_104
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 297
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2912ec63501c0d944989c9f892ca3383
+      internalID: 1124344290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_105
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 297
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f92deae4f45ef43b425d7dcea9fdd3
+      internalID: 654180858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_106
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 268
+        width: 37
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eeedc9760c13354b86075126e23a54a
+      internalID: -507406168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_107
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 267
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc1168108cdf5894c968571739a426f9
+      internalID: -866512658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_108
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 267
+        width: 41
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb57ddb461a87144860bfeb313ce56d
+      internalID: 1842101793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_109
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 269
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea21a8eb8190d0e4e9b61b0037734730
+      internalID: 677735099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_111
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 269
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c177074ea040a084988a24dd126ab0a9
+      internalID: 433497306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_113
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 269
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b60ef2a65e8fd47b1387ca938aaf40
+      internalID: -1299568061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_115
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 269
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6e23e68f3aa5447b8af93c456911a2
+      internalID: -975887233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_117
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 266
+        width: 42
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e649d03d1119242a393117827010b0
+      internalID: -965239272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_118
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 267
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efb9a7e2abe9374b8373d49a1aaa572
+      internalID: -719396954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_119
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 268
+        width: 38
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a11c7d3e2533404c961b2cc43df583b
+      internalID: -835581017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_120
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 267
+        width: 41
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a19354feb147d4b97a588b3775aec9
+      internalID: 1431552393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_121
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 269
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a43c0adfb683814685b4ebd3be74f27
+      internalID: -422042394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_123
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 269
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdb3ce76cb108c4d83c4250ec9c9d3b
+      internalID: -1099307556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_125
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 269
+        width: 19
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8952691525904c4d83a406ba59fc521
+      internalID: -1729870616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_127
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 267
+        width: 42
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75bc0b701bbe7494997ba54fe2d7cd35
+      internalID: -1188519391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_128
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 269
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 439dfd54981b96647abcf6dd528e7205
+      internalID: -699728717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_129
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 269
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b9df8d898e7d94fa7825d35f6932ac
+      internalID: 1695352453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_130
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 269
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265731edaf1630e44a0d50a8dad6f195
+      internalID: -696331527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_131
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 221
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d45e82b02349eb4ab6a826d63d8845a
+      internalID: -876184979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_132
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 242
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b7bd471c801074b9134279d22a673f
+      internalID: 1001697611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_133
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 242
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b8b82c26e227734fad76365981a6559
+      internalID: -786142110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_134
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 241
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a787cc1115c8c114ab71b6c8f8c9c2ab
+      internalID: 1570983702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_135
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 241
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969a88e1ca77d9b46b760311ba9fe83c
+      internalID: -316247844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_136
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 241
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7738da1ff080b4d9a91d090bf14361
+      internalID: -1122201568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_137
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 242
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be188408e73ec846ba941cbb03526dc
+      internalID: -716208553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_138
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 242
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54013c6cc06aa1f4881084e9e35e4378
+      internalID: 1421340819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_139
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 221
+        width: 20
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d31145d3dcfc9942b75b9105a007641
+      internalID: -484647154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_140
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 241
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7bf85649c7eb314683d5db9e46b396c
+      internalID: 931880875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_141
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 241
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bada25ccad21630419aa1b33d621b3ef
+      internalID: 1466033037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_142
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 241
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cbff74246e7fb64c84ffbdd3c88a32f
+      internalID: -1954373407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_143
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 242
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 968e51c101a862f4db932b8460587187
+      internalID: -1251319798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_144
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 242
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f889556d4174844b4534d6be68079e
+      internalID: -2067691542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_145
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 242
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efeedd115b2830e4abb9d495ac5ad2f1
+      internalID: -1873073181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_146
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 244
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5274108283e8a4f95554acf5c92187
+      internalID: -993724311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_147
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 244
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776c06c930e5cc64b923aa60742e3b6b
+      internalID: 2132600848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_148
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 244
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fde0906318e07c94b8073fadad28c3b0
+      internalID: -381171849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_168
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 171
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5323168f964ef72408fd695f8002c7fe
+      internalID: 493065104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_169
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 171
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b16c95bdc5c6b41b8c7edd4165d2bf
+      internalID: 2041107044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_170
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 171
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9feaacfe07f36478123bfac1a2c3f9
+      internalID: -153332913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_171
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 171
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b269df0ffbcc494da3851f633ff0514
+      internalID: -1901429089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_172
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 171
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c0cd6f3f3a0915469982989ca9858b6
+      internalID: -1092235300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_173
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 171
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0219ca30668f544490e89b74e20214a
+      internalID: -338244535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_174
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 171
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a743486e223638f4494fddfad2834971
+      internalID: 677072729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_175
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 171
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fb8b69999f8aa40a14ae199fc465bd
+      internalID: -442323466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_176
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 171
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad644117cee8e7444beb6f7db99c0707
+      internalID: -1345329743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_177
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 138
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bacd978820c444e95ca06b4e6986f4
+      internalID: 2003636728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_178
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 138
+        width: 24
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaa9231e9fb2121458f9f63838b4fb4c
+      internalID: 259522221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_179
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 138
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bace33a2c0369a047994fea96d59d99c
+      internalID: 373333574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_180
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 138
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e528999e2a7264195050236e6d9a90
+      internalID: -2063449562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_186
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 96
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60188ea5a9e04984f9784df38a372221
+      internalID: -1386013769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_187
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 96
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606aa410ccba6c8408ebb2d37ea674cd
+      internalID: -1488314955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_188
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 96
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46304ca79223774c99b0ed892958cfe
+      internalID: 1821788817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_189
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 96
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2456323a21356547bb291f878305ebc
+      internalID: -983414344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_190
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 96
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e54beb01d313624c8de4adec3823c37
+      internalID: -1350195839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_191
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 96
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d00bbc0a4ec67d4d80b2db244ccc0ca
+      internalID: 1330748416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_192
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 96
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2297ed882c9b5be48b2a5c389cc705c7
+      internalID: 972270825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_193
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73f46863985dedd45b4561ea03dc0689
+      internalID: 1954804755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_194
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 96
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db98842fab844b84da2b09ae926aa74b
+      internalID: 1517555275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_195
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab3c934e258b7ab428aef180bf8dd020
+      internalID: 1390228033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_196
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 96
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fcf6c659f7df641925250cd2c39346
+      internalID: 796642265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_197
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 96
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 481f1739042c95b48ad5613b102b56c6
+      internalID: 1171681885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_198
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 96
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87de95c8249eff242a9b13e2ddb85b83
+      internalID: 47269293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_199
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2ac46611d8df745aa23c297ac75847
+      internalID: 1195053505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_200
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 96
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877a3107b6c5fce4ab8372163840091c
+      internalID: 1577002506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_201
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 96
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77744895b21c1a42b724af9caad4143
+      internalID: 2051361005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_202
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 96
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08616dc3232251943b1f56ea6045e1db
+      internalID: 880148963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_203
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 64
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c11762db3b812b46842492b3eadd0c8
+      internalID: 616789544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_204
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 69
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa170e4c82513b4fa8dbc587e83fafe
+      internalID: 1538264325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_205
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 67
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c849583bde4084ea58eca91459ae47
+      internalID: -1056095409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_206
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 64
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804ac059fa2ebe14283e72226b751105
+      internalID: -655050637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_207
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 67
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0ee4eb95d8b004886821f18eb1df78
+      internalID: 339514842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_208
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 66
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead91b651f8acda41afd7be2438ced9f
+      internalID: -466783450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_209
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 64
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd754b2bd59364b4dbdaf4f9f58408c2
+      internalID: -1657468444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_210
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 66
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d082ff795786bb746be91f6869aafafd
+      internalID: 1520864964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_211
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 65
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2571d090da7d02442ade655901c8b727
+      internalID: -1924034251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_212
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 63
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36b09f3841c01e7459b7c9e0b4c37c31
+      internalID: -869052495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_213
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 65
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 975ebc41674baf143953b90f4474d55b
+      internalID: 551761680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_214
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 67
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce32f1bc4fe5a1d4f9449e104c4996ce
+      internalID: 1600763343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_215
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 63
+        width: 48
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f151530796f1f9a41b0d9229f63fbf09
+      internalID: 118354248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_217
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 63
+        width: 46
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a485087f1623e3f4a8c923f985712b1b
+      internalID: 1323739185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_219
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 64
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995f2c6743c342e43b77e023ec04272d
+      internalID: -1853889800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_222
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 64
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a574be16b706841ba0435f3bca4926
+      internalID: -952410357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_225
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 64
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be20a11972765284a90ddc2b3ca070a3
+      internalID: -1468439735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_227
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 64
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371140ada0f619c4885e14d5327f9522
+      internalID: 518247518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_232
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 37
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 900b5ad0002f3f14cac8b63d116a5882
+      internalID: 1792457768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_233
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 35
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64c6fd4e4df2c84baea3f91b2eed0d8
+      internalID: -630833563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_234
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 35
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a0c81c5a3d97b4c90b8e1e3c826b49
+      internalID: -465088248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_235
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 35
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c17883b2e26154298a70d6c3f72d48
+      internalID: -1196738916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_236
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 35
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7942532e514a55347a486970facdc95e
+      internalID: -1827513694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_237
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 35
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e089b95a7544646891abefedc6c97a
+      internalID: 734620419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_238
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 6
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17faee5cf7efd9d41bb8ea629dd63e8a
+      internalID: 2050141366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_239
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 4
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911edeac925f12745bbd67f75f3b9de1
+      internalID: 795640512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_240
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 4
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e230a026187e3441b1c656196fdefd1
+      internalID: -1411431364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_241
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 6
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e2b2a8090b8094ea5fc276b9c95355
+      internalID: 182792716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_242
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 5
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72b05da531e665b4291f0c656f63a6fa
+      internalID: 1449795556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_243
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 6
+        width: 30
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52e8bf98d6aee54d85f363a4e008319
+      internalID: 520232196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_244
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 4
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887e909b28e0c354ebb245c080bc1707
+      internalID: 2086862372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kirby-water_245
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 6
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 981fedcc621d9964b8fdac8149196ec1
+      internalID: 1627447704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      kirby-water_104: 1124344290
+      kirby-water_228: 434006502
+      kirby-water_12: -38508421
+      kirby-water_101: 844051123
+      kirby-water_165: 1172616375
+      kirby-water_166: 1500034327
+      kirby-water_39: 2106894668
+      kirby-water_160: 311310481
+      kirby-water_194: 1517555275
+      kirby-water_8: -324846305
+      kirby-water_233: -630833563
+      kirby-water_126: 160576462
+      kirby-water_43: -1893606194
+      kirby-water_57: 1839851958
+      kirby-water_17: -298389402
+      kirby-water_159: 1551436894
+      kirby-water_150: 573991931
+      kirby-water_131: -876184979
+      kirby-water_35: -1502910105
+      kirby-water_77: -1750091669
+      kirby-water_173: -338244535
+      kirby-water_14: 173999156
+      kirby-water_157: -880713450
+      kirby-water_180: -2063449562
+      kirby-water_241: 182792716
+      kirby-water_212: -869052495
+      kirby-water_181: -200425827
+      kirby-water_168: 493065104
+      kirby-water_19: -1327990422
+      kirby-water_204: 1538264325
+      kirby-water_91: 1600981764
+      kirby-water_137: -716208553
+      kirby-water_31: 2031156721
+      kirby-water_224: 1271535892
+      kirby-water_65: -2041304439
+      kirby-water_36: -985539211
+      kirby-water_33: 1813482901
+      kirby-water_185: -1178288554
+      kirby-water_76: -528721434
+      kirby-water_243: 520232196
+      kirby-water_213: 551761680
+      kirby-water_130: -696331527
+      kirby-water_136: -1122201568
+      kirby-water_201: 2051361005
+      kirby-water_24: 625254683
+      kirby-water_63: -982769227
+      kirby-water_29: -1094401121
+      kirby-water_16: -725392450
+      kirby-water_198: 47269293
+      kirby-water_170: -153332913
+      kirby-water_125: -1729870616
+      kirby-water_3: 168290159
+      kirby-water_51: -1262757553
+      kirby-water_119: -835581017
+      kirby-water_154: 1401961572
+      kirby-water_139: -484647154
+      kirby-water_245: 1627447704
+      kirby-water_223: -1654496165
+      kirby-water_192: 972270825
+      kirby-water_220: -1037559263
+      kirby-water_89: 1157078517
+      kirby-water_96: -840073775
+      kirby-water_108: 1842101793
+      kirby-water_236: -1827513694
+      kirby-water_134: 1570983702
+      kirby-water_23: 702241593
+      kirby-water_195: 1390228033
+      kirby-water_92: 1550192100
+      kirby-water_116: -668879879
+      kirby-water_69: -870554709
+      kirby-water_48: -2140027854
+      kirby-water_67: -1052739378
+      kirby-water_225: -1468439735
+      kirby-water_80: 1482856536
+      kirby-water_132: 1001697611
+      kirby-water_177: 2003636728
+      kirby-water_88: 68436732
+      kirby-water_11: 149209559
+      kirby-water_97: -1797006585
+      kirby-water_61: -37621456
+      kirby-water_171: -1901429089
+      kirby-water_46: 615579622
+      kirby-water_142: -1954373407
+      kirby-water_123: -1099307556
+      kirby-water_127: -1188519391
+      kirby-water_112: -195842187
+      kirby-water_4: 1636541022
+      kirby-water_72: 367545984
+      kirby-water_163: 774567424
+      kirby-water_238: 2050141366
+      kirby-water_211: -1924034251
+      kirby-water_40: -1697401457
+      kirby-water_229: 210239871
+      kirby-water_68: -166817937
+      kirby-water_186: -1386013769
+      kirby-water_20: 1761057078
+      kirby-water_203: 616789544
+      kirby-water_90: -874635151
+      kirby-water_121: -422042394
+      kirby-water_106: -507406168
+      kirby-water_82: 708740612
+      kirby-water_30: 2064290235
+      kirby-water_32: 1783479324
+      kirby-water_178: 259522221
+      kirby-water_81: 2004889809
+      kirby-water_75: -965670603
+      kirby-water_189: -983414344
+      kirby-water_161: -1762929221
+      kirby-water_41: 164063263
+      kirby-water_85: 1180315771
+      kirby-water_156: 852054737
+      kirby-water_226: -105149600
+      kirby-water_235: -1196738916
+      kirby-water_218: -1189899567
+      kirby-water_50: -1686852171
+      kirby-water_83: -1839825092
+      kirby-water_140: 931880875
+      kirby-water_64: -945015589
+      kirby-water_215: 118354248
+      kirby-water_5: -351538523
+      kirby-water_222: -952410357
+      kirby-water_38: 1587228233
+      kirby-water_21: -282874466
+      kirby-water_26: -598189757
+      kirby-water_74: -799222849
+      kirby-water_187: -1488314955
+      kirby-water_179: 373333574
+      kirby-water_193: 1954804755
+      kirby-water_190: -1350195839
+      kirby-water_217: 1323739185
+      kirby-water_6: 2025086928
+      kirby-water_56: 1191553558
+      kirby-water_221: -817858507
+      kirby-water_28: -52500685
+      kirby-water_149: -458154547
+      kirby-water_141: 1466033037
+      kirby-water_164: 1106604976
+      kirby-water_102: 664923710
+      kirby-water_144: -2067691542
+      kirby-water_197: 1171681885
+      kirby-water_174: 677072729
+      kirby-water_10: 1162588904
+      kirby-water_9: 821133208
+      kirby-water_22: -843300822
+      kirby-water_2: -1798197440
+      kirby-water_216: -524388730
+      kirby-water_71: 410481022
+      kirby-water_105: 654180858
+      kirby-water_148: -381171849
+      kirby-water_169: 2041107044
+      kirby-water_100: -506935275
+      kirby-water_239: 795640512
+      kirby-water_70: -741607779
+      kirby-water_111: 433497306
+      kirby-water_99: 1603922104
+      kirby-water_199: 1195053505
+      kirby-water_87: 1141667261
+      kirby-water_54: 1437254954
+      kirby-water_117: -965239272
+      kirby-water_175: -442323466
+      kirby-water_86: -2064196774
+      kirby-water_182: 1540333842
+      kirby-water_15: -1131807684
+      kirby-water_37: 1676567810
+      kirby-water_109: 677735099
+      kirby-water_124: 43592036
+      kirby-water_234: -465088248
+      kirby-water_162: 1631759607
+      kirby-water_232: 1792457768
+      kirby-water_242: 1449795556
+      kirby-water_188: 1821788817
+      kirby-water_135: -316247844
+      kirby-water_94: -614883177
+      kirby-water_47: -2092013839
+      kirby-water_202: 880148963
+      kirby-water_183: 664496804
+      kirby-water_155: 1215873347
+      kirby-water_66: 2071208670
+      kirby-water_209: -1657468444
+      kirby-water_146: -993724311
+      kirby-water_191: 1330748416
+      kirby-water_214: 1600763343
+      kirby-water_59: -442701955
+      kirby-water_103: 2064281520
+      kirby-water_227: 518247518
+      kirby-water_231: -2107262645
+      kirby-water_107: -866512658
+      kirby-water_128: -699728717
+      kirby-water_45: 997407201
+      kirby-water_240: -1411431364
+      kirby-water_84: -726211404
+      kirby-water_129: 1695352453
+      kirby-water_73: -592359148
+      kirby-water_145: -1873073181
+      kirby-water_110: -468174623
+      kirby-water_113: -1299568061
+      kirby-water_176: -1345329743
+      kirby-water_207: 339514842
+      kirby-water_62: 1044966772
+      kirby-water_78: -482267705
+      kirby-water_42: 1926262932
+      kirby-water_93: 1441842535
+      kirby-water_49: -467236963
+      kirby-water_27: -1592430416
+      kirby-water_118: -719396954
+      kirby-water_79: 1189015735
+      kirby-water_53: 2045707450
+      kirby-water_52: -1864993162
+      kirby-water_25: -1290802252
+      kirby-water_60: -1108399185
+      kirby-water_200: 1577002506
+      kirby-water_138: 1421340819
+      kirby-water_151: -1268606967
+      kirby-water_158: 1093672237
+      kirby-water_44: 634978092
+      kirby-water_98: 1238930218
+      kirby-water_172: -1092235300
+      kirby-water_1: -1175267041
+      kirby-water_95: 407357646
+      kirby-water_208: -466783450
+      kirby-water_219: -1853889800
+      kirby-water_184: 873020579
+      kirby-water_237: 734620419
+      kirby-water_114: 422373957
+      kirby-water_122: 936571137
+      kirby-water_244: 2086862372
+      kirby-water_120: 1431552393
+      kirby-water_13: -2007110997
+      kirby-water_133: -786142110
+      kirby-water_0: 1247119067
+      kirby-water_143: -1251319798
+      kirby-water_230: -845749234
+      kirby-water_58: 1147474871
+      kirby-water_196: 796642265
+      kirby-water_153: -1335457789
+      kirby-water_147: 2132600848
+      kirby-water_152: -1138284730
+      kirby-water_55: 507378668
+      kirby-water_115: -975887233
+      kirby-water_205: -1056095409
+      kirby-water_7: -153957218
+      kirby-water_34: 65680437
+      kirby-water_167: 1301454261
+      kirby-water_210: 1520864964
+      kirby-water_18: 1672297240
+      kirby-water_206: -655050637
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
