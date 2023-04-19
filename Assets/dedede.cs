@@ -10,10 +10,11 @@ public class dedede : MonoBehaviour
     //private bool onGround = true;
     //private Rigidbody2D rigid;
     //[SerializeField] float speed = 1f;
-    //[SerializeField] private int nextMove = 0; //행동 패턴
+    [SerializeField] private int nextMove = 0; //행동 패턴
     [SerializeField] private Vector3 AttackRange;
     [SerializeField] private Vector2 size;
     [SerializeField] private LayerMask whatIsLayer;
+    private float time = 0;
 
     public enum State
     {
@@ -122,7 +123,13 @@ public class dedede : MonoBehaviour
     private void Idle()
     {
         Debug.Log("Idle");
+        time += Time.deltaTime;
         Collider2D hitColliders = Physics2D.OverlapBox(transform.position + AttackRange, size, 0, whatIsLayer);
+        if (time > 2f)
+        {
+            think();
+            time = 0;
+        }
         if (hitColliders != null)
         {
             Debug.Log("커비 찾음");
@@ -138,5 +145,21 @@ public class dedede : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(transform.position + AttackRange, size);
+    }
+    private void think()
+    {
+        nextMove = Random.Range(-1, 2); //-1 0 1
+        if (nextMove == -1)
+        {
+            //왼쪽
+        }
+        else if (nextMove == 0)
+        {
+            //공격
+        }
+        else if (nextMove == 1)
+        {
+            //뛰어서 공격
+        }
     }
 }

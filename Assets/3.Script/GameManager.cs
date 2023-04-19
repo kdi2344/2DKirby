@@ -11,15 +11,12 @@ public class GameManager : MonoBehaviour
     public float currentHP = 10;
     public GameObject sl_ob;
     public Slider slHP;
-<<<<<<< HEAD
     public int currentKirby = 0;
     public int life = 3;
 
     public bool stage1Clear = false;
     public bool stage2Clear = false;
     public bool stage3Clear = false;
-=======
->>>>>>> parent of b47d110b (마리오추가)
 
     void Start()
     {
@@ -47,6 +44,19 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         slHP.value = currentHP / MaxHP;
+        if (currentHP > MaxHP)
+        {
+            currentHP = MaxHP;
+        }
+    }
+    public void check(int num)
+    {
+        currentKirby = num;
+    }
+
+    public int getCurrentCopy()
+    {
+        return currentKirby;
     }
     public int getCurrentLife()
     {

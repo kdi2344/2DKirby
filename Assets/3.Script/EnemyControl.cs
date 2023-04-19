@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class EnemyControl : MonoBehaviour
 {
+    [SerializeField] int hp = 1; //기본 몬스터는 피가 1, 아니면 고치기
+
+
     //능력따라 change 숫자 바꾸기
     public int change = 1;
+    public int stage = 1; //없애기 용 변수
+    public int type = 0;
+    [SerializeField] private bool onGround = true;
 
     Rigidbody2D rigid;
     [SerializeField] float speed = 1f;
-    private int nextMove = 0;//행동지표를 결정할 변수
+    [SerializeField] private int nextMove = 0;//행동지표를 결정할 변수
     public Animator anim;
     private SpriteRenderer spriteRenderer;
     [SerializeField] private float thinkTime = 3f;
@@ -49,83 +55,152 @@ public class EnemyControl : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (anim.GetBool("isDead") == true)
+        if (type == 10)
         {
-            gameObject.SetActive(false);
-        }
-        timer += Time.deltaTime;
-
-        MyCollisions();
-        if (findKirby && !isInhaled) //커비가 공격 범위에 있는 동안 공격하기 && 빨려들어가는 중이 아니라면 가만히 있기
-        {
-            anim.SetBool("isWalking", false);
-            if (timer > waitingTime)
+            if (isInhaled) BeingInhaled();
+            else
             {
-                Attack(); //각자의 공격패턴 진행하기 -> 다른 스크립트에 공격패턴 각자 짜기
-                timer = 0;
+                BeOriginalLayer();
+                return;
+            }
+        }
+        else
+        {
+            if (gameObject.layer == 14 && !anim.GetCurrentAnimatorStateInfo(0).IsTag("Die")) //죽은처리가 되었는데 die animation이 아니면 끄기
+            {
+                return;
+            }
+            else if (anim.GetBool("isBeingInhaled"))
+            {
+                anim.SetBool("isWalking", false);
+                rigid.velocity = Vector2.zero;
+                nextMove = 0;
             }
             else
+            {
+                anim.SetBool("isDead", false);
+                timer += Time.deltaTime;
+                StartCoroutine("CheckAnimationState");
+            }
+            if (rigid.velocity.y == 0)
+            {
+                onGround = true;
+            }
+            else
+            {
+                onGround = false;
+            }
+
+            MyCollisions();
+            if (findKirby && !isInhaled) //커비가 공격 범위에 있는 동안 공격하기 && 빨려들어가는 중이 아니라면 가만히 있기
+            {
+                BeOriginalLayer();
+                anim.SetBool("isWalking", false);
+                if (timer > waitingTime)
+                {
+                    Attack(); //각자의 공격패턴 진행하기 -> 다른 스크립트에 공격패턴 각자 짜기
+                    timer = 0;
+                }
+                else
+                {
+                    anim.SetBool("isAttack", false);
+                }
+            }
+            else if (!isAttack) //커비가 공격 범위 안에 없고 공격중이 아니면 돌아댕기기
             {
                 anim.SetBool("isAttack", false);
-            }
-        }
-        else if (!isAttack) //커비가 공격 범위 안에 없고 공격중이 아니면 돌아댕기기
-        {
-            anim.SetBool("isAttack", false);
 
-            if (isInhaled) //빨려들어가는 중이면 
-            {
-                BeingInhaled();
-            }
-            else
-            {
-                destination = gameObject.transform.position;
-                MyCollisions();
-                anim.SetBool("isBeingInhaled", false);
-                gameObject.layer = 7;
-                rigid.gravityScale = 1;
-                circleCollider.isTrigger = false;
-            }
-            //한 방향으로만 알아서 움직이게
-            if (!isInhaled) //흡입되는 중이 아닐때만 걸을 수 잇음
-            {
-                if (nextMove == -1 || nextMove == 1)
+                //한 방향으로만 알아서 움직이게
+                if (!isInhaled && !isAttack) //흡입되는 중이 아닐때만 걸을 수 잇음
                 {
-                    anim.SetBool("isWalking", true);
-                    if (nextMove == 1)
+                    BeOriginalLayer();
+                    destination = gameObject.transform.position;
+                    MyCollisions();
+                    anim.SetBool("isBeingInhaled", false);
+                    rigid.gravityScale = 1;
+                    circleCollider.isTrigger = false;
+                    if (nextMove == -1 || nextMove == 1)
                     {
-                        AttackRange.x = attack.x;
-                        transform.localScale = new Vector3(1, 1, 1);
-}
-                    else if (nextMove == -1)
+                        anim.SetBool("isWalking", true);
+                        if (nextMove == 1) //오른쪽 무빙
+                        {
+                            Debug.DrawRay(rigid.position, new Vector3(0.15f, 0, 0), new Color(1, 1, 0));
+                            RaycastHit2D frontCheck = Physics2D.Raycast(rigid.position, Vector3.right, 0.15f, LayerMask.GetMask("ground")); //땅과의 충돌 
+                            if (frontCheck.collider != null)
+                            {
+                                nextMove = -1;
+                            }
+
+                            AttackRange.x = attack.x;
+                            transform.localScale = new Vector3(1, 1, 1);
+                        }
+                        else if (nextMove == -1)
+                        {
+                            Debug.DrawRay(rigid.position, new Vector3(-0.15f, 0, 0), new Color(1, 1, 0));
+                            RaycastHit2D frontCheck = Physics2D.Raycast(rigid.position, Vector3.left, 0.15f, LayerMask.GetMask("ground")); //땅과의 충돌 
+                            if (frontCheck.collider != null)
+                            {
+                                nextMove = 1;
+                            }
+                            AttackRange.x = -attack.x;
+                            transform.localScale = new Vector3(-1, 1, 1);
+                        }
+                    }
+                    else
                     {
-                        AttackRange.x = -attack.x;
-                        transform.localScale = new Vector3(-1, 1, 1);
+                        anim.SetBool("isWalking", false);
+                    }
+
+                    if (type == 0) //걸어다니는 타입은 걸어다니고 
+                    {
+                        rigid.velocity = new Vector2(nextMove * speed, rigid.velocity.y); //왼쪽으로 가니까 -1, y축은 0을 넣으면 큰일남! 
+                    }
+
+                    else if (type == 1) //점프만 하는 타입은 좌우로 점프
+                    {
+                        if (nextMove == 1 && onGround) //왼쪽으로 점프 
+                        {
+                            rigid.AddForce(Vector2.up * 2, ForceMode2D.Impulse);
+                            rigid.AddForce(Vector2.left, ForceMode2D.Impulse);
+                            CancelInvoke();
+                            nextMove = 0;
+                            Invoke("Think", thinkTime);
+                            anim.SetTrigger("jump");
+                        }
+                        else if (nextMove == -1 && onGround) //오른쪽으로 점프 
+                        {
+                            rigid.AddForce(Vector2.up * 2, ForceMode2D.Impulse);
+                            rigid.AddForce(Vector2.right, ForceMode2D.Impulse);
+                            CancelInvoke();
+                            nextMove = 0;
+                            Invoke("Think", thinkTime);
+                            anim.SetTrigger("jump");
+                        }
                     }
                 }
                 else
                 {
-                    anim.SetBool("isWalking", false);
+                    BeingInhaled();
+                    nextMove = 0;
                 }
-                rigid.velocity = new Vector2(nextMove * speed, rigid.velocity.y);//왼쪽으로 가니까 -1, y축은 0을 넣으면 큰일남!
-            }
-            else
-            {
-                nextMove = 0;
-            }
 
-            Vector2 frontVec = new Vector2(rigid.position.x + nextMove * 0.2f, rigid.position.y);
-            Debug.DrawRay(frontVec, Vector3.down, new Color(0, 1, 0));
-            // 시작,방향 색깔
+                // 아래로 raycast그려서 땅인지 확인
+                Vector2 frontVec = new Vector2(rigid.position.x + nextMove * 0.2f, rigid.position.y);
+                Debug.DrawRay(frontVec, Vector3.down * 0.2f, new Color(0, 1, 0));
 
-            RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down, 0.5f, LayerMask.GetMask("ground"));
+                RaycastHit2D rayHit = Physics2D.Raycast(frontVec, Vector3.down * 0.2f, 0.2f, LayerMask.GetMask("ground")); //땅과의 충돌 
+                RaycastHit2D platHit = Physics2D.Raycast(frontVec, Vector3.down * 0.2f, 0.2f, LayerMask.GetMask("platform"));
 
-
-            if (rayHit.collider == null)
-            {
-                nextMove = nextMove * (-1);
-                CancelInvoke();
-                Invoke("Think", thinkTime);
+                if (rayHit.collider == null)
+                {
+                    if (platHit.collider == null)
+                    {
+                        nextMove = nextMove * (-1);
+                        CancelInvoke();
+                        Invoke("Think", thinkTime);
+                    }
+                    
+                }
             }
         }
     }
@@ -141,16 +216,25 @@ public class EnemyControl : MonoBehaviour
 
     public void OnDamaged()
     {
-        // 투명하게 변함
-        spriteRenderer.color = new Color(1, 1, 1, 0.4f);
-        //방향 바꿔주기
-        spriteRenderer.flipY = true;
-        //콜라이더 비활성화
-        circleCollider.enabled = false;
-        //die effect jump
-        rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
-        
-        //dead존에 부딪히면 삭제 하는 식 만들기
+        hp -= 1;
+        Invoke("BeingRed", 0.1f);
+        anim.SetBool("isDead", true);
+        gameObject.layer = 14;
+        if (hp <= 0)
+        {
+            Die();
+        }
+        else
+        {
+            Invoke("BeOriginalLayer", 0.2f); //0.5초간 무적
+        }
+        //0.1초간 빨간색으로 바뀌기
+    }
+    
+
+    private void Pause()  //공중으로 날다가 정지
+    {
+        rigid.velocity = Vector2.zero;
     }
 
     void DeActive()
@@ -160,18 +244,28 @@ public class EnemyControl : MonoBehaviour
 
     public void BeingInhaled()
     {
-        anim.SetBool("isBeingInhaled", true);
-        destination = kirby.transform.position; //목표 지점
-        Vector3 speed =  new Vector3(0, 0, 0); 
-        transform.position = Vector3.SmoothDamp(transform.position, destination, ref speed, 0.1f); //목표지점까지 이동
-        gameObject.layer = 10; //이동하는 동안 레이어 다른 곳으로 처리 -> 충돌 무시를 위해 
-        rigid.gravityScale = 0; //이동하는 동안은 무중력
-        circleCollider.isTrigger = true;
-        if (gameObject.transform.position.x <= destination.x + 0.09f && gameObject.transform.position.x >= destination.x - 0.09f) //먹혔으면
+        isAttack = false;
+        if (isInhaled)
         {
-            gameObject.SetActive(false);
-            kirby.anim.SetBool("isInhale", true);
+            if (type != 10)
+            {
+                gameObject.transform.Find("Weapon").gameObject.SetActive(false);
+                anim.SetBool("isBeingInhaled", true);
+                circleCollider.isTrigger = true;
+                rigid.gravityScale = 0; //이동하는 동안은 무중력
+            }
+            destination = kirby.transform.position; //목표 지점
+            Vector3 speed = new Vector3(0, 0, 0);
+            transform.position = Vector3.SmoothDamp(transform.position, destination, ref speed, 0.1f); //목표지점까지 이동
+            gameObject.layer = 10; //이동하는 동안 레이어 다른 곳으로 처리 -> 충돌 무시를 위해 
+            if (gameObject.transform.position.x <= destination.x + 0.09f && gameObject.transform.position.x >= destination.x - 0.09f) //먹혔으면
+            {
+                gameObject.SetActive(false);
+                kirby.anim.SetBool("isInhale", true);
+                kirby.anim.SetBool("isStartInhale", false);
+            }
         }
+        
     }
 
 
@@ -199,22 +293,34 @@ public class EnemyControl : MonoBehaviour
         anim.SetBool("isAttack", true);
     }
 
+    
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Weapon"))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Weapon") && gameObject.layer == LayerMask.NameToLayer("Enemy") && type != 10)
         {
-            Die();
+            int dirc = transform.position.x - collision.transform.position.x > 0 ? 1 : -1;
+            rigid.AddForce(new Vector2(dirc, 1) * 0.5f, ForceMode2D.Impulse);
+            OnDamaged();
+        }
+        else if (collision.gameObject.layer == LayerMask.NameToLayer("Weapon") && type == 10)
+        {
+            Destroy(gameObject);
         }
     }
 
-    void Die()
+    void Die() //체력 닳기로 바꾸기
     {
         anim.SetBool("isDead", true);
+        gameObject.layer = 14; //Enemy Damaged로 바꿈
+        rigid.gravityScale = 0;
+        spriteRenderer.color = new Color(1, 1, 1, 0.5f);
+        Invoke("Pause", 0.2f);
+        Invoke("DeActive", 1f);
     }
 
     IEnumerator CheckAnimationState()
     {
-        while (true) //변신중이면 
+        while (true) //공격중이면
         {
             if (anim.GetCurrentAnimatorStateInfo(0).IsTag("Attack"))
             {
@@ -227,5 +333,19 @@ public class EnemyControl : MonoBehaviour
             yield return null;
         }
 
+    }
+
+    void BeingRed()
+    {
+        spriteRenderer.color = Color.red;
+        Invoke("BeingOriginal", 0.1f);
+    }
+    void BeingOriginal()
+    {
+        spriteRenderer.color = new Color(1, 1, 1, 1);
+    }
+    void BeOriginalLayer()
+    {
+        gameObject.layer = 7;
     }
 }

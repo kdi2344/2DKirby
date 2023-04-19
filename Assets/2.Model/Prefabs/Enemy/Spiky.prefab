@@ -158,8 +158,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edd9e4787c5c78045b6f9822913e0df2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 1
   change: 2
+  stage: 1
+  type: 1
+  onGround: 1
   speed: 0
+  nextMove: 0
   anim: {fileID: 0}
   thinkTime: 3
   size: {x: 0.5, y: 0.5}

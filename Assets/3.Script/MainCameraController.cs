@@ -4,8 +4,8 @@ public class MainCameraController : MonoBehaviour
 {
     [SerializeField] Transform player;
     [SerializeField] float smoothing = 0.2f;
-    [SerializeField] Vector2 minCameraBoundary;
-    [SerializeField] Vector2 maxCameraBoundary;
+    public Vector2 minCameraBoundary;
+    public Vector2 maxCameraBoundary;
 
     private void FixedUpdate()
     {

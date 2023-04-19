@@ -1,11 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-<<<<<<< HEAD
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-=======
->>>>>>> parent of b47d110b (ë§ˆë¦¬ì˜¤ì¶”ê°€)
 
 public class KirbyControl : MonoBehaviour
 {
@@ -20,13 +17,17 @@ public class KirbyControl : MonoBehaviour
     private bool isDest = false;
     private bool isDie = false;
 
+    public GameObject Platform;
+
+    public KirbySound sound; //È¿°úÀ½ ´ã´ç °¡Á®¿À±â
+
+    public GameObject[] enemies; //ÇØ´ç ½ºÅ×ÀÌÁö Àûµé¸¸ Å°°Ô
+
     private bool isStar = false;
     private bool noFound = false;
 
-    public int change = 0;
-    [SerializeField] private int willChange = 0;
+    public int change;
 
-<<<<<<< HEAD
     public GameObject AbilitySpace;
     public GameObject Icon;
     public GameObject Number;
@@ -38,8 +39,6 @@ public class KirbyControl : MonoBehaviour
 
     [SerializeField] private GameObject cutWeapon; //cutter ¹«±â ÇÁ¸®ÆÕ
     
-=======
->>>>>>> parent of b47d110b (ë§ˆë¦¬ì˜¤ì¶”ê°€)
     [SerializeField] private float maxSpeed = 1.5f;
     [SerializeField] private float jumpmaxSpeed = 3f;
     [SerializeField] private float kirbySpeed = 2f;
@@ -47,7 +46,7 @@ public class KirbyControl : MonoBehaviour
     [SerializeField] private float jumpPower;
     [SerializeField] private float flyPower;
     private Rigidbody2D rigid;
-    public SpriteRenderer spriteRenderer;
+    public SpriteRenderer spriteRenderer; //´Ù¸¥ ½ºÅ©¸³Æ®¿¡¼­ ÂüÁ¶ÇØ¾ßµÊ
     public Animator anim;
 
     private bool isFly = false;
@@ -65,6 +64,8 @@ public class KirbyControl : MonoBehaviour
     private bool swallow = false; 
     public GameObject weaponPos; //¹«±â collider ¹æÇâ ¹Ù²Ù±âÀ§ÇØ¼­ ¾¸
 
+    [SerializeField] private GameObject fireWeapons; //¸¶¸®¿À ºÒ
+    [SerializeField] private GameObject splitStars; //º° ¹ñ±â
     [SerializeField] private GameObject inhaleParticlePrefabs; //ÈíÀÔ È¿°ú
     [SerializeField] private GameObject copyParticles; //º¯½Å È¿°ú
     [SerializeField] private GameObject splitParticles; //¹ñ´Â È¿°ú
@@ -80,8 +81,8 @@ public class KirbyControl : MonoBehaviour
 
     private float copyTimer;
     private float timer;
+    private float cutterTimer;
     private int waitingTime;
-<<<<<<< HEAD
     private float damageTimer;
     [SerializeField] private GameObject square;
 
@@ -91,13 +92,7 @@ public class KirbyControl : MonoBehaviour
         AbilitySpace = GameObject.FindGameObjectWithTag("EditorOnly");
         Icon = GameObject.FindGameObjectWithTag("Finish");
         Number = GameObject.FindGameObjectWithTag("Respawn");
-
         enemies = GameObject.FindGameObjectsWithTag("Enemy");
-=======
-
-    private void Awake()
-    {
->>>>>>> parent of b47d110b (ë§ˆë¦¬ì˜¤ì¶”ê°€)
         TryGetComponent(out rigid);
         rigid.freezeRotation = true;
         TryGetComponent(out spriteRenderer);
@@ -105,8 +100,9 @@ public class KirbyControl : MonoBehaviour
         anim = GetComponent<Animator>();
         GameObject.FindGameObjectWithTag("Enemy").TryGetComponent(out enemy);
         timer = 0.0f;
+        damageTimer = 3.0f;
+        cutterTimer = 3.0f;
         waitingTime = 3;
-<<<<<<< HEAD
         copyTimer = 0f;
         for (int i = 0; i < enemies.Length; i++)
         {
@@ -122,13 +118,10 @@ public class KirbyControl : MonoBehaviour
         change = GameManager._instance.getCurrentCopy();
         activeUI();
         square.SetActive(false);
-=======
->>>>>>> parent of b47d110b (ë§ˆë¦¬ì˜¤ì¶”ê°€)
 
     }
     private void Update()
     {
-<<<<<<< HEAD
         if (Time.timeScale == 0 && change != 0)
         {
             copyTimer += Time.unscaledDeltaTime;
@@ -180,79 +173,120 @@ public class KirbyControl : MonoBehaviour
         }
         weaponPos.transform.localScale = animPosition;
         GameManager._instance.check(change);
-=======
->>>>>>> parent of b47d110b (ë§ˆë¦¬ì˜¤ì¶”ê°€)
         timer += Time.deltaTime;
+        cutterTimer += Time.deltaTime;
+        damageTimer += Time.deltaTime;
         anim.SetInteger("change", change); //Å×½ºÆ®¸¦ À§ÇÑ Áï°¢ÀûÀÎ º¯½Å
+        activeUI();
         StartCoroutine("CheckAnimationState");
-        if (change != 0) //´É·Â ÀÖ´Â »óÅÂ
+        if (rigid.velocity.y > 0)
         {
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                //´É·Â ¹þ´Â ¾Ö´Ï¸ÞÀÌ¼Ç + º° ¹ß»ç
-                Instantiate(offParticles, gameObject.transform.position, Quaternion.identity);
-                GameObject.FindWithTag("off").GetComponent<animScript>().playAnim("off");
-                GameObject.FindWithTag("off").GetComponent<animScript>().waitAndDelete();
-                anim.SetInteger("change", change);
-                Instantiate(stars, gameObject.transform.position, Quaternion.identity);
-            }
-
+            Platform.GetComponent<platform>().IgnoreLayerTrue();
+        }
+        else
+        {
+            Platform.GetComponent<platform>().IgnoreLayerFalse();
+        }
+        if (change != 0 && !isCoping && Input.GetKeyDown(KeyCode.R)) //´É·Â ÀÖ´Â »óÅÂ && º¯½ÅÁßÀÌ ¾Æ´Ô && RÅ°¸¦ ´©¸§
+        {
+            //´É·Â ¹þ´Â ¾Ö´Ï¸ÞÀÌ¼Ç + º° ¹ß»ç
+            sound.playSound("Off");
+            Instantiate(offParticles, gameObject.transform.position, Quaternion.identity);
+            GameObject.FindWithTag("off").GetComponent<animScript>().playAnim("off");
+            GameObject.FindWithTag("off").GetComponent<animScript>().waitAndDelete();
+            anim.SetInteger("change", change);
+            activeUI();
+            Instantiate(stars, gameObject.transform.position, Quaternion.identity);
         }
         isRunning = Input.GetButton("Run"); //shift°¡ ´­¸®¸é ´Þ¸®±â
 
         if (isRunning && !onGround) isRunning = false; //shift ´­·¶Áö¸¸ onground°¡ ¾Æ´Ï¸é ¾È´Þ¸²
-        
-        if (change == 0 && Input.GetKey(KeyCode.Q) && !isCoping && !anim.GetBool("isJumping")) // change°¡ 0ÀÎ »óÅÂ¿¡¼­ Q´©¸£¸é ÈíÀÔ ½ÃÀÛ , º¯½ÅÁßÀÌ ¾Æ´Ï¶ó¸é
+
+        if (change == 0 && Input.GetKeyDown(KeyCode.Q) && !isCoping && !anim.GetBool("isJumping") && !anim.GetBool("isInhale") && !anim.GetBool("isRunning"))
         {
+            sound.playSound("Inhale"); //ÈíÀÔ È¿°úÀ½ ½ÃÀÛ
             MyCollisions();
             anim.SetBool("isSplit", false);
             anim.SetBool("isSwallow", false);
             anim.SetBool("isStartInhale", true);
             if (EnemyAround && swallow)
             {
+                Debug.Log(target.name);
+                if (GameObject.Find(target.name).GetComponent<EnemyControl>().type != 10)
+                {
+                    GameObject.Find(target.name).GetComponent<EnemyControl>().anim.SetBool("isBeingInhaled", true);
+                }
                 GameObject.Find(target.name).GetComponent<EnemyControl>().isInhaled = true; // ÈíÀÔ
+                GameObject.Find(target.name).GetComponent<EnemyControl>().BeingInhaled();
                 willChange = GameObject.Find(target.name).GetComponent<EnemyControl>().change;
                 canInhaleSomething = true;
-                //enemy.isInhaled = true;
             }
         }
-
-        if (change == 0 && Input.GetKeyUp(KeyCode.Q) && !isCoping && !anim.GetBool("isJumping")) // change°¡ 0ÀÎ »óÅÂ·Î Q¿¡¼­ ¼ÕÀ» ¶¼¸é ÈíÀÔ ±×¸¸
+        if (change == 0 && Input.GetKeyUp(KeyCode.Q) && !isCoping && !anim.GetBool("isJumping") && !anim.GetBool("isInhale") && !anim.GetBool("isRunning")) // change°¡ 0ÀÎ »óÅÂ·Î Q¿¡¼­ ¼ÕÀ» ¶¼¸é ÈíÀÔ ±×¸¸
         {
+            anim.SetBool("isStartInhale", false);
+            sound.stopSound(); //ÈíÀÔ È¿°úÀ½ ±×¸¸
             //if (EnemyAround) enemy.isInhaled = false;
             if (isStar) GameObject.FindWithTag("star").GetComponent<bouncStar>().isInhaled = false;
-<<<<<<< HEAD
 
             if (anim.GetBool("isInhale") == false && !anim.GetBool("isStartInhale") && canInhaleSomething && target != null)
-=======
-            
-            if (anim.GetBool("isInhale") == false && anim.GetBool("isStartInhale") && canInhaleSomething)
->>>>>>> parent of b47d110b (ë§ˆë¦¬ì˜¤ì¶”ê°€)
             {
                 GameObject.Find(target.name).GetComponent<EnemyControl>().isInhaled = false;
+                GameObject.Find(target.name).GetComponent<EnemyControl>().anim.SetBool("isBeingInhaled", false);
             }
             canInhaleSomething = false;
-            anim.SetBool("isStartInhale", false);
             Instantiate(inhaleParticlePrefabs, gameObject.transform.position, Quaternion.identity);
             GameObject.FindWithTag("Particle").GetComponent<animScript>().playAnim("inhaleSomething");
             GameObject.FindWithTag("Particle").GetComponent<animScript>().waitAndDelete();
         }
+        else if (change == 0 && Input.GetKeyUp(KeyCode.Q) && !isCoping && !anim.GetBool("isJumping") && anim.GetBool("isInhale"))
+            {
+                anim.SetBool("isStartInhale", false);
+            }
 
         if (change == 1 && Input.GetKeyDown(KeyCode.Q)) // ´É·ÂÀÌ °ø°Ý ÇÑ¹ø ¹ßµ¿½Ã ½Ã°£ÀÌ °É¸®´Â ´É·ÂÀ¸·Î Q¸¦ ´©¸£¸é °ø°Ý
         {
+            sound.playSound("Beam");
             anim.SetBool("isAttack", true);
         }
         else if (change == 2 && Input.GetKey(KeyCode.Q)) // ´É·ÂÀÌ ²Ú ´©¸£¸é °è¼Ó Áö¼ÓµÇ´Â °ø°Ý
         {
             anim.SetBool("isAttack", true);
         }
-        else
+        else if (change == 3 && Input.GetKeyDown(KeyCode.Q)) // ´É·ÂÀÌ Ä¿ÅÍ¶ó¸é instantiate·Î ¹«±â »ý¼º 
+        { 
+            if (timer > waitingTime * 0.5f)
+            {
+                Instantiate(cutWeapon, transform.position, Quaternion.identity);
+                timer = 0.0f;
+                anim.SetBool("isAttack", true);
+            }
+        }
+        else if (change == 3 && Input.GetKey(KeyCode.Q))
+        {
+            if (timer > waitingTime * 0.5f)
+            {
+                anim.SetBool("isAttack", true);
+            }
+        }
+        else if (change == 4 && Input.GetKeyDown(KeyCode.Q))
+        {
+            if (timer > waitingTime * 0.2f) 
+            {
+                Instantiate(fireWeapons, transform.position + new Vector3(0, 0.1f, 0), Quaternion.identity);
+                timer = 0f;
+                anim.SetBool("isAttack", true);
+            }
+            
+        }
+        else 
         {
             anim.SetBool("isAttack", false);
         }
 
-        if (!isCoping && !isAttack && Input.GetButtonDown("Jump") && !anim.GetBool("isStartInhale")) //º¯½ÅÁßÀÌ ¾Æ´Ï°í, ÈíÀÔÁßµµ ¾Æ´Ñµ¥ Á¡ÇÁÅ°¸¦ ´©¸£¸é ½ÇÇà
+        if (!isCoping && !isAttack && Input.GetButtonDown("Jump") && !anim.GetBool("isStartInhale") && !anim.GetCurrentAnimatorStateInfo(0).IsTag("split")) //º¯½ÅÁßÀÌ ¾Æ´Ï°í, ÈíÀÔÁßµµ ¾Æ´Ñµ¥ Á¡ÇÁÅ°¸¦ ´©¸£¸é ½ÇÇà
         {
+            sound.playSound("Jump");    
             anim.SetBool("onGround", false);
             if (!anim.GetBool("isJumping")) //Á¡ÇÁÅ° ´©¸£°í, isJumpingÀÌ false¸é ½ÇÇà -> ÀÌÁß Á¡ÇÁ ¸·±â
             { 
@@ -281,30 +315,30 @@ public class KirbyControl : MonoBehaviour
 
         if (anim.GetBool("isInhale") && Input.GetKeyDown(KeyCode.W)) //ÀÔ¿¡ ÀÖ´ÂÁß¿¡ W·Î ¹ñ´Â´Ù¸é
         {
+            GameObject newObject = Instantiate(splitStars, gameObject.transform.position, Quaternion.identity);
+            newObject.transform.localScale = animPosition;
             anim.SetBool("isSplit", true);
             anim.SetBool("isInhale", false);
             anim.SetBool("isStartInhale", false);
         }
 
-        if (anim.GetBool("isInhale") && (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))) //ÀÔ¿¡ ÀÖ´Â Áß¿¡ ¾Æ·¡Å° ´©¸£¸é »ïÅ´
+        if (!anim.GetBool("isJumping") && anim.GetBool("isInhale") && (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S))) //¶Ù´ÂÁßÀÌ ¾Æ´Ï°í ÀÔ¿¡ ÀÖ´Â Áß¿¡ ¾Æ·¡Å° ´©¸£¸é »ïÅ´
         {
             anim.SetBool("isSwallow", true);
             anim.SetBool("isInhale", false);
             anim.SetBool("isStartInhale", false);
             if (willChange != 0) //¹«´É·Â ÀûÀÌ ¾Æ´ÑÀÌ»ó º¯½Å
             {
-<<<<<<< HEAD
                 Debug.Log("º¯½Å");
                 square.SetActive(true);
                 Time.timeScale = 0; //º¯½ÅÇÏ´Â µ¿¾È ÀÏ½ÃÁ¤Áö
                 sound.playSound("Copy");
-=======
->>>>>>> parent of b47d110b (ë§ˆë¦¬ì˜¤ì¶”ê°€)
                 Instantiate(copyParticles, gameObject.transform.position, Quaternion.identity);
                 GameObject.FindWithTag("copy").GetComponent<animScript>().playAnim("copy");
                 GameObject.FindWithTag("copy").GetComponent<animScript>().waitAndDelete();
                 change = willChange;
                 anim.SetInteger("change", willChange);
+                activeUI();
                 Invoke("white1", 1f);
                 willChange = 0;
             }
@@ -339,6 +373,7 @@ public class KirbyControl : MonoBehaviour
         if(Input.GetKey(KeyCode.DownArrow) && !anim.GetBool("isWalking") && !anim.GetBool("isJumping") && !anim.GetBool("isRunning")) //¾Æ¹«°Íµµ ¾ÈÇÏ´Â »óÅÂ¿¡¼­ ¾Æ·¡Å° -> ¿õÅ©¸®±â
         {
             anim.SetBool("isDown", true);
+            Platform.GetComponent<platform>().startCo();
         }
         else
         {
@@ -407,11 +442,13 @@ public class KirbyControl : MonoBehaviour
                 // ½ÃÀÛ,¹æÇâ »ö±ò
 
                 RaycastHit2D rayHit = Physics2D.Raycast(rigid.position, Vector3.down, 1, LayerMask.GetMask("ground"));
+                RaycastHit2D platHit = Physics2D.Raycast(rigid.position, Vector3.down, 1, LayerMask.GetMask("platform"));
+                RaycastHit2D enemHit = Physics2D.Raycast(rigid.position, Vector3.down, 0.1f, LayerMask.GetMask("Enemy"));
 
                 //½ÃÀÛ,¹æÇâ,ºö ±æÀÌ,·¹ÀÌ¾î
                 //raycasthit ·¹ÀÌ¾î¿¡ ÇØ´çÇÏ´Â ¾Ö¸¸ ±¸º°ÇÏ°Ú´Ù´Â°Å
                 //ºö¿¡ ¸Â¾Ò´ÂÁö 
-                if (rayHit.collider != null && rayHit.distance < 0.2f)
+                if ((rayHit.collider != null && rayHit.distance < 0.2f) || (platHit.collider != null && platHit.distance < 0.2f) || (enemHit.collider != null))
                 {
                     onGround = true;
                     anim.SetBool("isJumping", false);
@@ -431,13 +468,16 @@ public class KirbyControl : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             // °ø°Ý --> ³«ÇÏ ÁßÀÌ¸é¼­ ÇÃ·¹ÀÌ¾îÀÇ À§Ä¡°¡ enemyÀÇ À§Ä¡º¸´Ù ³ôÀ» ¶§ 
-            if (rigid.velocity.y < 0 && transform.position.y > collision.transform.position.y)
+            if (rigid.velocity.y < 0 && transform.position.y > collision.transform.position.y && change == 4) //¸¶¸®¿À»óÅÂÀÌ¸é À§¿¡¼­ ¹â´Â°Ô °¡´É
             {
                 OnAttack(collision.transform);
             }
             else //µ¥¹ÌÁöÀÔÀ½
             {
-                OnDamaged(collision.transform.position);//Ãæµ¹ÇßÀ»¶§ xÃà,yÃà ³Ñ±è
+                if (damageTimer > 3.0f)
+                {
+                    OnDamaged(collision.transform.position);//Ãæµ¹ÇßÀ»¶§ xÃà,yÃà ³Ñ±è
+                }
             }
         }
     }
@@ -451,10 +491,21 @@ public class KirbyControl : MonoBehaviour
     }
 
     //¹«Àû½Ã°£
-    void OnDamaged(Vector2 targetPos)
+    void OnDamaged(Vector2 targetPos) //´ÙÄ§
     {
-        if (timer > waitingTime)
-        {
+        damageTimer = 0f;
+            //´É·Â ¹þ´Â ¾Ö´Ï¸ÞÀÌ¼Ç + º° ¹ß»ç
+            if (change != 0)
+            {
+                Instantiate(offParticles, gameObject.transform.position, Quaternion.identity);
+                GameObject.FindWithTag("off").GetComponent<animScript>().playAnim("off");
+                GameObject.FindWithTag("off").GetComponent<animScript>().waitAndDelete();
+                change = 0;
+                Instantiate(stars, gameObject.transform.position, Quaternion.identity);
+            }
+            anim.SetInteger("change", change);
+            activeUI();
+
             GameManager._instance.Damaged();
             anim.SetTrigger("doDamaged");
             int dirc = transform.position.x - targetPos.x > 0 ? 1 : -1;
@@ -464,7 +515,6 @@ public class KirbyControl : MonoBehaviour
             Invoke("OffDamaged", NoDamageTime);
             Invoke("white1", 0.1f);
             timer = 0;
-        }
     }
 
     void MyCollisions() //Àû ÈíÀÔ
@@ -499,6 +549,7 @@ public class KirbyControl : MonoBehaviour
                     }
                 }
             }
+            Debug.Log("°¡±î¿î Àû : " + near_enemy);
             EnemyAround = true;
             target = near_enemy;
             swallow = true;
@@ -529,8 +580,35 @@ public class KirbyControl : MonoBehaviour
             anim.SetTrigger("doDamaged");
             OnDamaged(collision.transform.position);
         }
+        if (collision.gameObject.name == "Water")
+        {
+            anim.SetBool("inWater", true);
+            rigid.gravityScale = 0.5f;
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.name == "Water")
+        {
+            anim.SetBool("inWater", false);
+            rigid.gravityScale = 1;
+        }
     }
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("door"))
+        {
+            if (Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                collision.GetComponent<makeWarp>().doWarp();
+            }
+        }
+        if (collision.gameObject.CompareTag("clearDoor") && Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            collision.GetComponent<stageClear>().clear();
+        }
+    }
 
     IEnumerator CheckAnimationState()
     {
@@ -557,7 +635,6 @@ public class KirbyControl : MonoBehaviour
         
     }
 
-<<<<<<< HEAD
     private void activeUI()
     {
         for (int i =0; i < abilityIcon.Length; i++)
@@ -599,8 +676,6 @@ public class KirbyControl : MonoBehaviour
         Destroy(gameObject);
     }
 
-=======
->>>>>>> parent of b47d110b (ë§ˆë¦¬ì˜¤ì¶”ê°€)
     #region
     void OffDamaged()
     {

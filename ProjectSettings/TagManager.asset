@@ -10,6 +10,7 @@ TagManager:
   - SplitEffect
   - off
   - star
+  - clearDoor
   layers:
   - Default
   - TransparentFX
@@ -25,14 +26,14 @@ TagManager:
   - Weapon
   - MonsterWeapon
   - Star
-  - 
-  - 
-  - 
+  - EnemyDamaged
+  - platform
+  - door
   - Layout
+  - block
   - 
   - 
-  - 
-  - 
+  - item
   - 
   - 
   - 
