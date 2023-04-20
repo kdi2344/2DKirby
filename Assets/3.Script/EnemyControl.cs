@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemyControl : MonoBehaviour
 {
     [SerializeField] int hp = 1; //기본 몬스터는 피가 1, 아니면 고치기
-
+    private int currentHp;
 
     //능력따라 change 숫자 바꾸기
     public int change = 1;
@@ -39,6 +39,7 @@ public class EnemyControl : MonoBehaviour
 
     void Awake()
     {
+        currentHp = hp;
         rigid = GetComponent<Rigidbody2D>();
         TryGetComponent(out anim);
         TryGetComponent(out spriteRenderer);
@@ -216,11 +217,11 @@ public class EnemyControl : MonoBehaviour
 
     public void OnDamaged()
     {
-        hp -= 1;
+        currentHp -= 1;
         Invoke("BeingRed", 0.1f);
         anim.SetBool("isDead", true);
         gameObject.layer = 14;
-        if (hp <= 0)
+        if (currentHp <= 0)
         {
             Die();
         }
@@ -298,6 +299,8 @@ public class EnemyControl : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Weapon") && gameObject.layer == LayerMask.NameToLayer("Enemy") && type != 10)
         {
+            Debug.Log("플레이어의 공격 받음");
+            circleCollider.isTrigger = true;
             int dirc = transform.position.x - collision.transform.position.x > 0 ? 1 : -1;
             rigid.AddForce(new Vector2(dirc, 1) * 0.5f, ForceMode2D.Impulse);
             OnDamaged();
@@ -316,6 +319,15 @@ public class EnemyControl : MonoBehaviour
         spriteRenderer.color = new Color(1, 1, 1, 0.5f);
         Invoke("Pause", 0.2f);
         Invoke("DeActive", 1f);
+    }
+
+    public void Respawn()
+    {
+        //anim.SetBool("isDead", false);
+        gameObject.layer = 7;
+        //rigid.gravityScale = 1;
+        //spriteRenderer.color = new Color(1, 1, 1, 1);
+        currentHp = hp;
     }
 
     IEnumerator CheckAnimationState()

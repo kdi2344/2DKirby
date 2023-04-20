@@ -27,6 +27,7 @@ public class makeWarp : MonoBehaviour
         {
             if (enemies[i].GetComponent<EnemyControl>().stage == stage) //해당 스테이지의 적들만 키기
             {
+                enemies[i].GetComponent<EnemyControl>().Respawn();
                 enemies[i].SetActive(true);
             }
             else { enemies[i].SetActive(false);  }

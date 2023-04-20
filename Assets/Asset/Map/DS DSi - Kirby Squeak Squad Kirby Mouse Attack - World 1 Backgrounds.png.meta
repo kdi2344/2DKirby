@@ -134,7 +134,7 @@ TextureImporter:
         width: 512
         height: 192
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -142,6 +142,27 @@ TextureImporter:
       bones: []
       spriteID: dcbab57282bf4da41af84a104ad2f1f9
       internalID: 112123736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DS DSi - Kirby Squeak Squad Kirby Mouse Attack - World 1 Backgrounds_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 257
+        width: 512
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d02a1b5bf86e29846a999afd5af96fdb
+      internalID: 1290181005
       vertices: []
       indices: 
       edges: []
@@ -158,6 +179,7 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - World 1 Backgrounds_1: 112123736
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - World 1 Backgrounds_2: 1290181005
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - World 1 Backgrounds_0: 682854331
   spritePackingTag: 
   pSDRemoveMatte: 0

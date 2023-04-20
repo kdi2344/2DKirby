@@ -12,6 +12,7 @@ public class KirbyControl : MonoBehaviour
     //GameObject.FindWithTag("Particle").GetComponent<animScript>().playAnim("트리거이름");
     //GameObject.FindWithTag("Particle").GetComponent<animScript>().waitAndDelete();
     //[SerializeField] GameObject square;
+    private float carSpeed = 1.1f;
 
     private Vector3 destination;
     private bool isDest = false;
@@ -31,8 +32,8 @@ public class KirbyControl : MonoBehaviour
     public GameObject AbilitySpace;
     public GameObject Icon;
     public GameObject Number;
-    private string[] ability = { "Normal", "Beam", "Spark", "Cutter", "Mario" };
-    private string[] abilityIcon = { "Normal", "IconBeam", "IconSpark", "IconCutter", "IconMario" };
+    private string[] ability = { "Normal", "Beam", "Spark", "Cutter", "Mario", "Car" };
+    private string[] abilityIcon = { "Normal", "IconBeam", "IconSpark", "IconCutter", "IconMario", "IconCar" };
     private string[] lifeNumberFirst = { "first0", "first1" };
     private string[] lifeNumberLast = { "last0", "last1", "last2", "last3", "last4", "last5", "last6", "last7", "last8", "last9" };
     private int willChange = 0;
@@ -179,6 +180,14 @@ public class KirbyControl : MonoBehaviour
         anim.SetInteger("change", change); //테스트를 위한 즉각적인 변신
         activeUI();
         StartCoroutine("CheckAnimationState");
+        if (change == 5) //자동차로 변신한다면 걷는 + 달리는 속도 더 빠르게
+        {
+            carSpeed = 1.5f;
+        }
+        else
+        {
+            carSpeed = 1f;
+        }
         if (rigid.velocity.y > 0)
         {
             Platform.GetComponent<platform>().IgnoreLayerTrue();
@@ -284,7 +293,7 @@ public class KirbyControl : MonoBehaviour
             anim.SetBool("isAttack", false);
         }
 
-        if (!isCoping && !isAttack && Input.GetButtonDown("Jump") && !anim.GetBool("isStartInhale") && !anim.GetCurrentAnimatorStateInfo(0).IsTag("split")) //변신중이 아니고, 흡입중도 아닌데 점프키를 누르면 실행
+        if (!isCoping && !isAttack && Input.GetButtonDown("Jump") && !anim.GetBool("isStartInhale") && !anim.GetCurrentAnimatorStateInfo(0).IsTag("split") && (change != 5)) //변신중이 아니고, 흡입중도 아닌데 점프키를 누르면 실행 + 자동차면 점프 불가
         {
             sound.playSound("Jump");    
             anim.SetBool("onGround", false);
@@ -381,7 +390,7 @@ public class KirbyControl : MonoBehaviour
         }
 
         //애니메이션
-        if (Mathf.Abs(rigid.velocity.x) < 0.3)
+        if (Mathf.Abs(rigid.velocity.x) < 0.1)
         {
             //횡 이동 단위 값이 0 (즉 멈춘거)
             anim.SetBool("isWalking", false);
@@ -397,18 +406,18 @@ public class KirbyControl : MonoBehaviour
         if (!anim.GetBool("isStartInhale") && !isCoping && !isAttack) //빨아들이는 중, 변신중에는 걸을 수 없음
         {
             float h = Input.GetAxisRaw("Horizontal");
-            if (isRunning && anim.GetBool("isWalking") && !anim.GetBool("isJumping") && !anim.GetBool("isFlying"))
+            if (isRunning && anim.GetBool("isWalking") && !anim.GetBool("isJumping") && !anim.GetBool("isFlying") )
             {
-                rigid.AddForce(Vector2.right * h * runSpeed, ForceMode2D.Impulse);
+                rigid.AddForce(Vector2.right * h * runSpeed * carSpeed, ForceMode2D.Impulse);
                 anim.SetBool("isRunning", true);
                 //최대 속도이면
                 if (rigid.velocity.x > runSpeed)
                 {
-                    rigid.velocity = new Vector2(runSpeed, rigid.velocity.y);
+                    rigid.velocity = new Vector2(runSpeed * carSpeed, rigid.velocity.y);
                 }
                 else if (rigid.velocity.x < runSpeed * (-1))
                 {
-                    rigid.velocity = new Vector2(runSpeed * (-1), rigid.velocity.y);
+                    rigid.velocity = new Vector2(runSpeed * (-1) * carSpeed, rigid.velocity.y);
                 }
             }
             else
@@ -476,6 +485,7 @@ public class KirbyControl : MonoBehaviour
             {
                 if (damageTimer > 3.0f)
                 {
+                    Debug.Log("내가 부딪힘");
                     OnDamaged(collision.transform.position);//충돌했을때 x축,y축 넘김
                 }
             }
