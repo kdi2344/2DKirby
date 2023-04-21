@@ -29,6 +29,7 @@ public class makeWarp : MonoBehaviour
             {
                 enemies[i].GetComponent<EnemyControl>().Respawn();
                 enemies[i].SetActive(true);
+                Debug.Log(enemies[i].name + "RespawnµÊ");
             }
             else { enemies[i].SetActive(false);  }
         }

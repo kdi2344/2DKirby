@@ -34,6 +34,13 @@ public class bouncStar : MonoBehaviour
             rb.AddForce(dir * speed * 10f);
             Invoke("remove", 5f);
         }
+        else if (type == 2)
+        {
+            coll.isTrigger = true;
+            kirby = GameObject.Find("Kirby");
+            change = 0;
+            Invoke("remove", 3f);
+        }
     }
 
     private void Update()
@@ -70,6 +77,22 @@ public class bouncStar : MonoBehaviour
         else if(type == 1)
         {
             coll.isTrigger = true;
+        }
+        else if (type == 2)
+        {
+            //coll.isTrigger = true;
+            if (isInhaled)
+            {
+                destination = kirby.transform.position; //목표 지점
+                Vector3 inhaleSpeed = new Vector3(0, 0, 0);
+                transform.position = Vector3.SmoothDamp(transform.position, destination, ref inhaleSpeed, 0.05f); //목표지점까지 이동
+                gameObject.layer = 10; //이동하는 동안 레이어 다른 곳으로 처리 -> 충돌 무시를 위해 
+                if (gameObject.transform.position.x <= destination.x + 0.04f && gameObject.transform.position.x >= destination.x - 0.04f) //먹혔으면
+                {
+                    gameObject.SetActive(false);
+                    kirby.GetComponent<KirbyControl>().anim.SetBool("isInhale", true);
+                }
+            }
         }
         
     }

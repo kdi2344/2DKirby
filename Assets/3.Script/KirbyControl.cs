@@ -12,6 +12,7 @@ public class KirbyControl : MonoBehaviour
     //GameObject.FindWithTag("Particle").GetComponent<animScript>().playAnim("트리거이름");
     //GameObject.FindWithTag("Particle").GetComponent<animScript>().waitAndDelete();
     //[SerializeField] GameObject square;
+    private CircleCollider2D collider;
     private float carSpeed = 1.1f;
 
     private Vector3 destination;
@@ -56,7 +57,7 @@ public class KirbyControl : MonoBehaviour
     [SerializeField] private Vector2 size;
     [SerializeField] private LayerMask whatIsLayer; //layer에 있는애랑 부딪힌지 확인ㄴ용
     [SerializeField] private LayerMask layerStar; //별 먹는지 확인용
-    private Vector3 InhaleRange = new Vector3(0.5f, 0, 0); //흡입 범위 지정
+    private Vector3 InhaleRange = new Vector3(0.3f, 0, 0); //흡입 범위 지정
 
     public bool EnemyAround = false;
     public bool canInhaleSomething = false;
@@ -89,6 +90,7 @@ public class KirbyControl : MonoBehaviour
 
     private void Awake()
     {
+        TryGetComponent(out collider);
         sound = GetComponent<KirbySound>();
         AbilitySpace = GameObject.FindGameObjectWithTag("EditorOnly");
         Icon = GameObject.FindGameObjectWithTag("Finish");
@@ -408,6 +410,11 @@ public class KirbyControl : MonoBehaviour
             float h = Input.GetAxisRaw("Horizontal");
             if (isRunning && anim.GetBool("isWalking") && !anim.GetBool("isJumping") && !anim.GetBool("isFlying") )
             {
+                if (change == 5)
+                {
+                    collider.isTrigger = true;
+                    gameObject.layer = 19; //무적 레이어로 바꿈
+                }
                 rigid.AddForce(Vector2.right * h * runSpeed * carSpeed, ForceMode2D.Impulse);
                 anim.SetBool("isRunning", true);
                 //최대 속도이면
@@ -422,6 +429,11 @@ public class KirbyControl : MonoBehaviour
             }
             else
             {
+                if (change == 5)
+                {
+                    collider.isTrigger = false;
+                    gameObject.layer = 8;
+                }
                 rigid.AddForce(Vector2.right * h * kirbySpeed, ForceMode2D.Impulse);
                 anim.SetBool("isRunning", false);
                 //최대 속도이면
@@ -483,7 +495,7 @@ public class KirbyControl : MonoBehaviour
             }
             else //데미지입음
             {
-                if (damageTimer > 3.0f)
+                if (damageTimer > 3.0f && gameObject.layer != 19)
                 {
                     Debug.Log("내가 부딪힘");
                     OnDamaged(collision.transform.position);//충돌했을때 x축,y축 넘김
@@ -494,17 +506,18 @@ public class KirbyControl : MonoBehaviour
     void OnAttack(Transform enemy)
     {
         //reaction force
-        rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
+        //rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
         // enemy die
         EnemyControl enemyMove = enemy.GetComponent<EnemyControl>();
         enemyMove.OnDamaged(); //enemy입장에서 데미지 입은거
     }
 
     //무적시간
-    void OnDamaged(Vector2 targetPos) //다침
+    public void OnDamaged(Vector2 targetPos) //다침
     {
-        damageTimer = 0f;
-            //능력 벗는 애니메이션 + 별 발사
+        if (damageTimer > 3.0f && gameObject.layer != 19)
+        {
+            //능력 벗는 애니메이션 + 별 발사a
             if (change != 0)
             {
                 Instantiate(offParticles, gameObject.transform.position, Quaternion.identity);
@@ -525,6 +538,8 @@ public class KirbyControl : MonoBehaviour
             Invoke("OffDamaged", NoDamageTime);
             Invoke("white1", 0.1f);
             timer = 0;
+            damageTimer = 0f;
+        }
     }
 
     void MyCollisions() //적 흡입
@@ -584,11 +599,20 @@ public class KirbyControl : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Enemy") && gameObject.layer == LayerMask.NameToLayer("Strong"))
+        {
+            OnAttack(collision.transform);
+        }
         if (collision.gameObject.layer == LayerMask.NameToLayer("MonsterWeapon"))
         {
-            //데미지 입음
-            anim.SetTrigger("doDamaged");
-            OnDamaged(collision.transform.position);
+            if (damageTimer > 1.0f)
+            {
+                //데미지 입음
+                anim.SetTrigger("doDamaged");
+                OnDamaged(collision.transform.position);
+                damageTimer = 0;
+            }
+            
         }
         if (collision.gameObject.name == "Water")
         {
@@ -654,6 +678,7 @@ public class KirbyControl : MonoBehaviour
         }
         AbilitySpace.transform.Find(ability[change]).gameObject.SetActive(true);
         Icon.transform.Find(abilityIcon[change]).gameObject.SetActive(true);
+
         int life = GameManager._instance.getCurrentLife();
         for (int i = 0; i < lifeNumberLast.Length; i++)
         {

@@ -5,11 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class KirbyStage : MonoBehaviour
 {
+    public GameObject Loading;
     public GameObject AbilitySpace;
     public GameObject Icon;
     public GameObject Number;
-    private string[] ability = { "Normal", "Beam", "Spark", "Cutter", "Mario" };
-    private string[] abilityIcon = { "Normal", "IconBeam", "IconSpark", "IconCutter", "IconMario" };
+    private string[] ability = { "Normal", "Beam", "Spark", "Cutter", "Mario", "Car" };
+    private string[] abilityIcon = { "Normal", "IconBeam", "IconSpark", "IconCutter", "IconMario", "IconCar" };
     private string[] lifeNumberFirst = { "first0", "first1" };
     private string[] lifeNumberLast = { "last0", "last1", "last2", "last3", "last4", "last5", "last6", "last7", "last8", "last9" };
     private int change = 0;
@@ -37,8 +38,13 @@ public class KirbyStage : MonoBehaviour
             if (nowStage < 0) nowStage = 0;
         }
         setKirbyPosition();
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && Loading.GetComponent<SpriteRenderer>().color == new Color(0, 0, 0, 0))
         {
+            StartCoroutine("FadeinCoroutine");
+        }
+        if (Loading.GetComponent<SpriteRenderer>().color == new Color(0, 0, 0, 1))
+        {
+            StopCoroutine("FadeinCoroutine");
             startScene();
         }
     }
@@ -108,6 +114,17 @@ public class KirbyStage : MonoBehaviour
         else if (nowStage == 2)
         {
             SceneManager.LoadScene("World1-3");
+        }
+    }
+
+    IEnumerator FadeinCoroutine()
+    {
+        float fadeCount = 0;
+        while (fadeCount <= 1)
+        {
+            fadeCount += 0.01f;
+            yield return new WaitForSeconds(0.01f);
+            Loading.GetComponent<SpriteRenderer>().color = new Color(0, 0, 0, fadeCount);
         }
     }
 }

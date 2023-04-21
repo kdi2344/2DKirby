@@ -4,20 +4,22 @@ using UnityEngine;
 
 public class dedede : MonoBehaviour
 {
-    //[SerializeField] int hp = 20;
-    //private int change = 7; //7 -> hammar
-    //private bool onGround = true;
-    //private Rigidbody2D rigid;
-    //[SerializeField] float speed = 1f;
-    [SerializeField] private int nextMove = 0; //행동 패턴
-    [SerializeField] private Vector3 AttackRange;
-    [SerializeField] private Vector2 size;
-    [SerializeField] private LayerMask whatIsLayer;
-    private float time = 0;
+    private Vector3 spawnPoint;
+    [SerializeField] private GameObject treasure;
+    private GameObject Weapon;
+    [SerializeField] private GameObject leftStar;
+    [SerializeField] private GameObject rightStar;
+
+    private float time = 0; //대기 시간 세기
     [SerializeField] private GameObject kirby;
-    private Vector3 targetPosition;
-    private Animator anim;
-    private float AttackRangeX;
+    private Vector3 targetPosition; //커비의 위치
+    private Animator anim; 
+    private Rigidbody2D rigid;
+    [SerializeField] private bool onGround = false;
+    private float distance = 0.3f; //땅과의 거리 onground 판단용
+    private int maxHP = 2;
+    [SerializeField] private int currentHP;
+    private bool coll = false;
 
     public enum State
     {
@@ -25,15 +27,21 @@ public class dedede : MonoBehaviour
         FLY,
         DIE,
         IDLE,
-        ATTACK
+        ATTACK,
+        WAIT,
+        DAMAGE,
+        INHALE
     }
 
     public State state;
 
     private void Start()
     {
-        AttackRangeX = AttackRange.x;
-        state = State.IDLE;
+        spawnPoint = new Vector3(-5.9f, -1.24f, 0);
+        currentHP = maxHP;
+        Weapon = gameObject.transform.Find("Weapon").gameObject;
+        TryGetComponent(out rigid);
+        state = State.WAIT;
         TryGetComponent(out anim);
         targetPosition = kirby.transform.position;
         ChangeState(state);
@@ -41,6 +49,16 @@ public class dedede : MonoBehaviour
 
     private void Update()
     {
+        Debug.DrawRay(rigid.position, Vector3.down, new Color(0, 1, 0));
+        RaycastHit2D rayHit = Physics2D.Raycast(rigid.position, Vector3.down, 1, LayerMask.GetMask("ground"));
+        if ((rayHit.collider != null && rayHit.distance < distance))
+        {
+            onGround = true;
+        }
+        else
+        {
+            onGround = false;
+        }
         switch (state)
         {
             case State.WALK:
@@ -58,6 +76,15 @@ public class dedede : MonoBehaviour
             case State.ATTACK:
                 Attack();
                 break;
+            case State.WAIT:
+                Wait();
+                break;
+            case State.DAMAGE:
+                Damage();
+                break;
+            case State.INHALE:
+                Inhale();
+                break;
         }
     }
 
@@ -71,6 +98,10 @@ public class dedede : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Weapon"))
+        {
+            ChangeState(State.DAMAGE);
+        }
         switch (state)
         {
             case State.WALK:
@@ -81,7 +112,6 @@ public class dedede : MonoBehaviour
 
     private void ChangeState(State state) //전환하기 전 마지막으로 실행되는 Exit 함수
     {
-        Debug.Log("Change State");
         switch (this.state)
         {
             case State.WALK:
@@ -98,6 +128,15 @@ public class dedede : MonoBehaviour
                 break;
             case State.ATTACK:
                 AttackExit();
+                break;
+            case State.WAIT:
+                WaitExit();
+                break;
+            case State.DAMAGE:
+                DamageExit();
+                break;
+            case State.INHALE:
+                InhaleExit();
                 break;
         }
         this.state = state;
@@ -120,91 +159,100 @@ public class dedede : MonoBehaviour
             case State.ATTACK:
                 AttackEnter();
                 break;
+            case State.WAIT:
+                WaitEnter();
+                break;
+            case State.DAMAGE:
+                DamageEnter();
+                break;
+            case State.INHALE:
+                InhaleEnter();
+                break;
         }
     }
 
     private void WalkEnter()
     {
         anim.SetBool("isWalking", true);
-        Debug.Log("Walk Enter");
     }
     private void Walk()
     {
         if (targetPosition.x < transform.position.x) //커비가 디디디보다 왼쪽이면
         {
             transform.localScale = new Vector3(1, 1, 1); //왼쪽 보면서
-            AttackRange.x = -AttackRangeX;
-            transform.position += new Vector3(-0.5f * Time.deltaTime, 0, 0); //왼쪽으로 가기
+            transform.position += new Vector3(-0.8f * Time.deltaTime, 0, 0); //왼쪽으로 가기
         }
         else //커비가 디디디보다 오른쪽이면
         {
             transform.localScale = new Vector3(-1, 1, 1); //오른쪽 보면서
-            AttackRange.x = AttackRangeX;
-            transform.position += new Vector3(0.5f * Time.deltaTime, 0, 0); //오른쪽으로 가기
+            transform.position += new Vector3(0.8f * Time.deltaTime, 0, 0); //오른쪽으로 가기
         }
 
         if ( transform.position.x > targetPosition.x - 0.2f && transform.position.x < targetPosition.x + 0.2f)
         {
             ChangeState(State.ATTACK);
         }
-        //Debug.Log("Walk");
     }
     private void WalkTrigger(Collider2D other)
     {
-        Debug.Log("Walk Trigger");
     }
     private void WalkTriggerStay(Collider2D other)
     {
-        Debug.Log("Walk Trigger Stay");
     }
     private void WalkExit()
     {
-        Debug.Log("Walk Exit");
         anim.SetBool("isWalking", false);
     }
 
     private void FlyEnter()
     {
-        Debug.Log("Fly Enter");
-        anim.SetBool("isJump", true);
+        if (onGround && !anim.GetBool("isWalking"))
+        {
+            anim.SetBool("isJump", true);
+            rigid.AddForce(Vector2.up * 7f, ForceMode2D.Impulse);
+        }
     }
     private void Fly()
     {
-        time += Time.deltaTime;
-        if (time > 1f)
+        //바닥 확인
+        if (rigid.velocity.y < 0 && onGround)
         {
-            time = 0;
-            ChangeState(State.IDLE);
+            anim.SetBool("onGround", true);
+            ChangeState(State.WAIT);
         }
-        //Debug.Log("Fly");
     }
     private void FlyExit()
     {
-        Debug.Log("Fly Exit");
         anim.SetBool("isJump", false);
     }
 
     private void DieEnter()
     {
-        Debug.Log("Die Enter");
         anim.SetBool("isDead", true);
+        CancelInvoke();
+        gameObject.layer = 14;
+        rigid.velocity = Vector2.zero;
     }
     private void Die()
     {
-        //Debug.Log("Die");
+        time += Time.deltaTime;
+        if (time > 4f)
+        {
+            Destroy(gameObject);
+            ChangeState(State.IDLE);
+        }
     }
     private void DieExit()
     {
-        Debug.Log("Die Exit");
+        Instantiate(treasure, spawnPoint, Quaternion.identity);
     }
 
     private void IdleEnter()
     {
-        Debug.Log("Idle Enter");
     }
     private void Idle()
     {
-        //Debug.Log("Idle");
+        if (anim.GetBool("isDead")) return;
         targetPosition = kirby.transform.position;
         if (targetPosition.y > -0.5f)
         {
@@ -213,12 +261,10 @@ public class dedede : MonoBehaviour
         if (targetPosition.x < transform.position.x) //디디디보다 왼쪽에 있으면 왼쪽을 봄
         {
             transform.localScale = new Vector3(1, 1, 1);
-            AttackRange.x = -AttackRangeX;
         }
         else //디디디보다 오른쪽에 커비가 있으면 오른쪽 보기
         {
             transform.localScale = new Vector3(-1, 1, 1);
-            AttackRange.x = AttackRangeX;
         }
         if (transform.position.x - targetPosition.x > 1.5f || transform.position.x - targetPosition.x < -1.5f) //x 거리가 멀어지면 걸어가서 공격
         {
@@ -228,58 +274,156 @@ public class dedede : MonoBehaviour
         {
             ChangeState(State.FLY);
         }
-        Collider2D hitColliders = Physics2D.OverlapBox(transform.position + AttackRange, size, 0, whatIsLayer);
-        if (hitColliders != null)
-        {
-            Debug.Log("커비 찾음");
-        }
         else
         {
-            
+            anim.SetBool("stopInhale", false);
+            ChangeState(State.INHALE);
         }
     }
     private void IdleExit()
     {
-        Debug.Log("Idle Exit");
     }
 
     private void AttackEnter()
     {
-        Debug.Log("Attack Enter");
         anim.SetTrigger("triggerAttack");
+        anim.SetBool("isAttack", true);
+        rigid.AddForce(Vector2.up * 7f, ForceMode2D.Impulse);
+        distance = 0.5f;
     }
     private void Attack()
     {
+        if (rigid.velocity.y < 0 && onGround)
+        {
+            anim.SetBool("onGround", true);
+            ChangeState(State.WAIT);
+        } //바닥 확인
+    }
+    private void AttackExit()
+    {
+        Instantiate(leftStar, Weapon.transform.position - new Vector3(0.2f, 0, 0), Quaternion.identity);
+        Instantiate(rightStar, Weapon.transform.position + new Vector3(0.2f, 0, 0), Quaternion.identity);
+        distance = 0.3f;
+    }
+
+    private void WaitEnter()
+    {
+        time = 0;
+    }
+    private void Wait()
+    {
         time += Time.deltaTime;
-        if (time > 1.9f)
+        if (time > 1.5f)
         {
             ChangeState(State.IDLE);
         }
     }
-    private void AttackExit()
+    private void WaitExit()
     {
-        Debug.Log("Attack Exit");
+        anim.SetBool("onGround", false);
+        anim.SetBool("isAttack", false);
+        anim.SetBool("stopInhale", false);
+        time = 0;
     }
 
-    private void OnDrawGizmos() //공격 범위 눈으로 보이게
+    private void DamageEnter()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireCube(transform.position + AttackRange, size);
+        gameObject.layer = LayerMask.NameToLayer("EnemyDamaged");
+        //CancelInvoke();
+        Invoke("BeOriginalLayer", 3.5f);
+        anim.SetBool("isWalking", false);
+        anim.SetBool("onGround", false);
+        anim.SetBool("isAttack", false);
+        distance = 0.3f;
+        time = 0;
+        anim.SetTrigger("triggerDamaged");
+        currentHP -= 1;
     }
-    private void think()
+    private void Damage()
     {
-        nextMove = Random.Range(-1, 2); //-1 0 1
-        if (nextMove == -1)
+        if (currentHP <= 0)
         {
-            //왼쪽
+            ChangeState(State.DIE);
         }
-        else if (nextMove == 0)
+        else if (!anim.GetCurrentAnimatorStateInfo(0).IsName("dedede_damaged"))
         {
-            //공격
-        }
-        else if (nextMove == 1)
-        {
-            //뛰어서 공격
+            ChangeState(State.IDLE);
         }
     }
+    private void DamageExit()
+    {
+
+    }
+    
+    private void InhaleEnter()
+    {
+        if (targetPosition.x < transform.position.x) //디디디보다 왼쪽에 있으면 왼쪽을 봄
+        {
+            transform.localScale = new Vector3(1, 1, 1);
+        }
+        else //디디디보다 오른쪽에 커비가 있으면 오른쪽 보기
+        {
+            transform.localScale = new Vector3(-1, 1, 1);
+        }
+        anim.SetTrigger("triggerInhale");
+        //CancelInvoke();
+        Invoke("stopInhale", 2f);
+    }
+    private void Inhale()
+    {
+        if (anim.GetBool("stopInhale")) //시간이 2초가 지나든, 커비를 삼키든 wait으로 바꾸기
+        {
+            ChangeState(State.WAIT);
+        }
+        if (transform.localScale.x == 1 && (kirby.transform.position.x < gameObject.transform.position.x) && (kirby.transform.position.x > gameObject.transform.position.x - 1f))
+        {//디디디가 왼쪽을 보고있으면 커비가 왼쪽에 있는거니깐
+            kirby.GetComponent<Rigidbody2D>().velocity = new Vector2(1, 0);
+            if (coll) //끌려와서 부딪혔으면 끝
+            {
+                CancelInvoke();
+                anim.SetBool("stopInhale", true);
+            }
+        }
+        else if (transform.localScale.x == -1 && (kirby.transform.position.x > gameObject.transform.position.x) && (kirby.transform.position.x < gameObject.transform.position.x + 1f))
+        {//디디디가 오른쪽을 보고있으면 커비가 오른쪽에 있는거니깐
+            kirby.GetComponent<Rigidbody2D>().velocity = new Vector2(-1, 0);
+            if (coll) //끌려와서 부딪혔으면 끝
+            {
+                CancelInvoke();
+                anim.SetBool("stopInhale", true);
+            }
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision!= null && collision.gameObject.layer == LayerMask.NameToLayer("Player"))
+        {
+            coll = true;
+            kirby.GetComponent<KirbyControl>().OnDamaged(gameObject.transform.position);
+        }
+        else
+        {
+            anim.SetBool("stopInhale", false);
+            coll = false;
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        coll = false;
+    }
+    private void InhaleExit()
+    {
+    }
+
+
+    private void BeOriginalLayer()
+    {
+        gameObject.layer = 23; //Boss layer로 돌아가기
+    }
+    private void stopInhale()
+    {
+        anim.SetBool("stopInhale", true);
+    }
+
 }

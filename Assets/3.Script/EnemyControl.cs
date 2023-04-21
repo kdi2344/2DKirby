@@ -297,9 +297,16 @@ public class EnemyControl : MonoBehaviour
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.layer == LayerMask.NameToLayer("Weapon") && gameObject.layer == LayerMask.NameToLayer("Enemy") && type != 10)
+        //Debug.Log("enemycontrol on trigger enter" + collision.name);
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Strong") && type != 10)
         {
-            Debug.Log("플레이어의 공격 받음");
+            int dirc = transform.position.x - collision.transform.position.x > 0 ? 1 : -1;
+            rigid.AddForce(new Vector2(dirc, 1) * 0.5f, ForceMode2D.Impulse);
+            OnDamaged();
+        }
+        else if (collision.gameObject.layer == LayerMask.NameToLayer("Weapon") && gameObject.layer == LayerMask.NameToLayer("Enemy") && type != 10)
+        {
+            //Debug.Log("플레이어의 공격 받음");
             circleCollider.isTrigger = true;
             int dirc = transform.position.x - collision.transform.position.x > 0 ? 1 : -1;
             rigid.AddForce(new Vector2(dirc, 1) * 0.5f, ForceMode2D.Impulse);
