@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -47,6 +48,11 @@ public class GameManager : MonoBehaviour
         if (currentHP > MaxHP)
         {
             currentHP = MaxHP;
+        }
+        if (life < 1)
+        {
+            SceneManager.LoadScene("GameOver");
+            Destroy(gameObject);
         }
     }
     public void check(int num)

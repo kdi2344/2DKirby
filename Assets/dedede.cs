@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class dedede : MonoBehaviour
 {
+    private DDDSound sound;
     private Vector3 spawnPoint;
     [SerializeField] private GameObject treasure;
     private GameObject Weapon;
@@ -37,6 +38,7 @@ public class dedede : MonoBehaviour
 
     private void Start()
     {
+        TryGetComponent(out sound);
         spawnPoint = new Vector3(-5.9f, -1.24f, 0);
         currentHP = maxHP;
         Weapon = gameObject.transform.Find("Weapon").gameObject;
@@ -228,6 +230,7 @@ public class dedede : MonoBehaviour
 
     private void DieEnter()
     {
+        sound.playSound("Kill");
         anim.SetBool("isDead", true);
         CancelInvoke();
         gameObject.layer = 14;
@@ -301,6 +304,7 @@ public class dedede : MonoBehaviour
     }
     private void AttackExit()
     {
+        sound.playSound("Attack");
         Instantiate(leftStar, Weapon.transform.position - new Vector3(0.2f, 0, 0), Quaternion.identity);
         Instantiate(rightStar, Weapon.transform.position + new Vector3(0.2f, 0, 0), Quaternion.identity);
         distance = 0.3f;
@@ -328,6 +332,7 @@ public class dedede : MonoBehaviour
 
     private void DamageEnter()
     {
+        sound.playSound("Damage");
         gameObject.layer = LayerMask.NameToLayer("EnemyDamaged");
         //CancelInvoke();
         Invoke("BeOriginalLayer", 3.5f);
@@ -352,7 +357,6 @@ public class dedede : MonoBehaviour
     }
     private void DamageExit()
     {
-
     }
     
     private void InhaleEnter()
@@ -382,6 +386,7 @@ public class dedede : MonoBehaviour
             {
                 CancelInvoke();
                 anim.SetBool("stopInhale", true);
+                kirby.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             }
         }
         else if (transform.localScale.x == -1 && (kirby.transform.position.x > gameObject.transform.position.x) && (kirby.transform.position.x < gameObject.transform.position.x + 1f))
@@ -391,6 +396,7 @@ public class dedede : MonoBehaviour
             {
                 CancelInvoke();
                 anim.SetBool("stopInhale", true);
+                kirby.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             }
         }
     }
@@ -414,6 +420,7 @@ public class dedede : MonoBehaviour
     }
     private void InhaleExit()
     {
+        kirby.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
     }
 
 

@@ -6,12 +6,6 @@ using UnityEngine.UI;
 
 public class KirbyControl : MonoBehaviour
 {
-    //파티클 생성 방법 - 태그로 Particle 붙이든가 새로 태그 만들기 (이름으로는 하면 안됨) -> 효과에 animScript 추가 , animator parameter에 트리거 추가
-    //[SerializeField] private GameObject splitParticles;  선언후 드래그
-    //Instantiate(splitParticles, gameObject.transform.position, Quaternion.identity);
-    //GameObject.FindWithTag("Particle").GetComponent<animScript>().playAnim("트리거이름");
-    //GameObject.FindWithTag("Particle").GetComponent<animScript>().waitAndDelete();
-    //[SerializeField] GameObject square;
     private CircleCollider2D collider;
     private float carSpeed = 1.1f;
 
@@ -33,14 +27,14 @@ public class KirbyControl : MonoBehaviour
     public GameObject AbilitySpace;
     public GameObject Icon;
     public GameObject Number;
-    private string[] ability = { "Normal", "Beam", "Spark", "Cutter", "Mario", "Car" };
-    private string[] abilityIcon = { "Normal", "IconBeam", "IconSpark", "IconCutter", "IconMario", "IconCar" };
+    private string[] ability = { "Normal", "Beam", "Spark", "Cutter", "Mario", "Car", "Ball" };
+    private string[] abilityIcon = { "Normal", "IconBeam", "IconSpark", "IconCutter", "IconMario", "IconCar", "IconBall" };
     private string[] lifeNumberFirst = { "first0", "first1" };
     private string[] lifeNumberLast = { "last0", "last1", "last2", "last3", "last4", "last5", "last6", "last7", "last8", "last9" };
     private int willChange = 0;
 
     [SerializeField] private GameObject cutWeapon; //cutter 무기 프리팹
-    
+
     [SerializeField] private float maxSpeed = 1.5f;
     [SerializeField] private float jumpmaxSpeed = 3f;
     [SerializeField] private float kirbySpeed = 2f;
@@ -63,9 +57,10 @@ public class KirbyControl : MonoBehaviour
     public bool canInhaleSomething = false;
     private EnemyControl enemy;
     public Transform target; //흡입의 타겟
-    private bool swallow = false; 
+    private bool swallow = false;
     public GameObject weaponPos; //무기 collider 방향 바꾸기위해서 씀
 
+    [SerializeField] private GameObject inhaling; //흡입 바람
     [SerializeField] private GameObject fireWeapons; //마리오 불
     [SerializeField] private GameObject splitStars; //별 뱉기
     [SerializeField] private GameObject inhaleParticlePrefabs; //흡입 효과
@@ -79,7 +74,7 @@ public class KirbyControl : MonoBehaviour
     private bool onGround = true;
     public bool isAttack = false;
 
-    private Vector3 animPosition = new Vector3 (1, 1, 1);
+    private Vector3 animPosition = new Vector3(1, 1, 1);
 
     private float copyTimer;
     private float timer;
@@ -88,10 +83,12 @@ public class KirbyControl : MonoBehaviour
     private float damageTimer;
     [SerializeField] private GameObject square;
 
+    private GameObject inhaleParticle;
+
     private void Awake()
     {
         TryGetComponent(out collider);
-        sound = GetComponent<KirbySound>();
+        TryGetComponent(out sound);
         AbilitySpace = GameObject.FindGameObjectWithTag("EditorOnly");
         Icon = GameObject.FindGameObjectWithTag("Finish");
         Number = GameObject.FindGameObjectWithTag("Respawn");
@@ -121,7 +118,6 @@ public class KirbyControl : MonoBehaviour
         change = GameManager._instance.getCurrentCopy();
         activeUI();
         square.SetActive(false);
-
     }
     private void Update()
     {
@@ -134,44 +130,11 @@ public class KirbyControl : MonoBehaviour
                 offPause();
                 copyTimer = 0f;
             }
-                
+
         }
         if (GameManager._instance.getCurrentHP() <= 0)
         {
-            if (!isDie)
-            {
-                destination = transform.position + new Vector3(0, 1.5f, 0);
-                Debug.Log(destination);
-                Die();
-                isDie = true;
-            }
-            else if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Die"))
-            {
-                if (!isDest)
-                {
-                    if (transform.position.y > destination.y - 0.5f && transform.position.y < destination.y + 0.5f)
-                    {
-                        isDest = true;
-                    }
-                    else
-                    {
-                        transform.position += new Vector3(0, 2 * Time.unscaledDeltaTime, 0);
-                    }
-                }
-                else
-                {
-                    transform.position -= new Vector3(0, 2 * Time.unscaledDeltaTime, 0);
-                }
-            }
-            if (transform.position.y < -5f)
-            {
-                GameManager._instance.die();
-                Scene currentScene =  SceneManager.GetActiveScene();
-                SceneManager.LoadScene(currentScene.name);
-                anim.SetBool("isStart", true);
-                GameManager._instance.Reset();
-                Time.timeScale = 1;
-            }
+            dieAnimation();
             return;
         }
         weaponPos.transform.localScale = animPosition;
@@ -211,10 +174,31 @@ public class KirbyControl : MonoBehaviour
         }
         isRunning = Input.GetButton("Run"); //shift가 눌리면 달리기
 
-        if (isRunning && !onGround) isRunning = false; //shift 눌렀지만 onground가 아니면 안달림
-
+        if (isRunning && (!onGround || anim.GetBool("isInhale"))) isRunning = false; //shift 눌렀지만 onground가 아니면 안달림 or 입에 뭐 있으면
+        if (isRunning && Input.GetButtonDown("Run") && change == 5)
+        {
+            sound.playSound("Wheel");
+        }
+        else if (isRunning && Input.GetButtonDown("Run"))
+        {
+            sound.playSound("Run");
+        }
+        if (change == 0 && Input.GetKey(KeyCode.Q) && anim.GetBool("isInhale")) //흡입중에 입에 뭔가 들어왔다면
+        {
+            Destroy(inhaleParticle); //흡입중인 파티클 없애기
+        }
         if (change == 0 && Input.GetKeyDown(KeyCode.Q) && !isCoping && !anim.GetBool("isJumping") && !anim.GetBool("isInhale") && !anim.GetBool("isRunning"))
         {
+            if(spriteRenderer.flipX) //왼쪽 보고있으면
+            {
+                inhaleParticle = Instantiate(inhaling, gameObject.transform.position + new Vector3(-0.2f, 0, 0), Quaternion.identity);
+                inhaleParticle.transform.localScale = new Vector3(-1, 1, 1);
+            }
+            else //커비가 오른쪽을 보고 있으면
+            {
+                inhaleParticle = Instantiate(inhaling, gameObject.transform.position + new Vector3(0.2f, 0, 0), Quaternion.identity);
+            }
+            
             sound.playSound("Inhale"); //흡입 효과음 시작
             MyCollisions();
             anim.SetBool("isSplit", false);
@@ -222,7 +206,6 @@ public class KirbyControl : MonoBehaviour
             anim.SetBool("isStartInhale", true);
             if (EnemyAround && swallow)
             {
-                Debug.Log(target.name);
                 if (GameObject.Find(target.name).GetComponent<EnemyControl>().type != 10)
                 {
                     GameObject.Find(target.name).GetComponent<EnemyControl>().anim.SetBool("isBeingInhaled", true);
@@ -235,6 +218,7 @@ public class KirbyControl : MonoBehaviour
         }
         if (change == 0 && Input.GetKeyUp(KeyCode.Q) && !isCoping && !anim.GetBool("isJumping") && !anim.GetBool("isInhale") && !anim.GetBool("isRunning")) // change가 0인 상태로 Q에서 손을 떼면 흡입 그만
         {
+            Destroy(inhaleParticle);
             anim.SetBool("isStartInhale", false);
             sound.stopSound(); //흡입 효과음 그만
             //if (EnemyAround) enemy.isInhaled = false;
@@ -260,6 +244,10 @@ public class KirbyControl : MonoBehaviour
             sound.playSound("Beam");
             anim.SetBool("isAttack", true);
         }
+        else if (change == 2 && Input.GetKeyDown(KeyCode.Q))
+        {
+            sound.playSound("Plazma");
+        }
         else if (change == 2 && Input.GetKey(KeyCode.Q)) // 능력이 꾹 누르면 계속 지속되는 공격
         {
             anim.SetBool("isAttack", true);
@@ -268,6 +256,7 @@ public class KirbyControl : MonoBehaviour
         { 
             if (timer > waitingTime * 0.5f)
             {
+                sound.playSound("Cut");
                 Instantiate(cutWeapon, transform.position, Quaternion.identity);
                 timer = 0.0f;
                 anim.SetBool("isAttack", true);
@@ -277,6 +266,7 @@ public class KirbyControl : MonoBehaviour
         {
             if (timer > waitingTime * 0.5f)
             {
+                sound.playSound("Cut");
                 anim.SetBool("isAttack", true);
             }
         }
@@ -284,6 +274,7 @@ public class KirbyControl : MonoBehaviour
         {
             if (timer > waitingTime * 0.2f) 
             {
+                sound.playSound("Mario");
                 Instantiate(fireWeapons, transform.position + new Vector3(0, 0.1f, 0), Quaternion.identity);
                 timer = 0f;
                 anim.SetBool("isAttack", true);
@@ -296,17 +287,18 @@ public class KirbyControl : MonoBehaviour
         }
 
         if (!isCoping && !isAttack && Input.GetButtonDown("Jump") && !anim.GetBool("isStartInhale") && !anim.GetCurrentAnimatorStateInfo(0).IsTag("split") && (change != 5)) //변신중이 아니고, 흡입중도 아닌데 점프키를 누르면 실행 + 자동차면 점프 불가
-        {
-            sound.playSound("Jump");    
+        {  
             anim.SetBool("onGround", false);
             if (!anim.GetBool("isJumping")) //점프키 누르고, isJumping이 false면 실행 -> 이중 점프 막기
-            { 
+            {
+                sound.playSound("Jump");
                 rigid.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
                 anim.SetBool("isJumping", true);
                 isFly = true;
             }
             else if (isFly && !anim.GetBool("isInhale")) //점프 이미 하고있고 (땅에 안닿았고), isFlying이 아닌데 점프키 한번 더 눌렀으면, 뭐삼키는중이 아니면 날기가능
             {
+                sound.playSound("Fly");
                 rigid.AddForce(Vector2.up * flyPower, ForceMode2D.Impulse);
                 anim.SetBool("isFlying", true);
                 rigid.gravityScale = 0.2f;
@@ -315,6 +307,7 @@ public class KirbyControl : MonoBehaviour
 
         if (anim.GetBool("isFlying") && Input.GetKeyDown(KeyCode.W)) //나는 도중에 W로 공기를 뱉는다면
         {
+            sound.playSound("FlySplit");
             GameObject newObject = Instantiate(splitParticles, gameObject.transform.position, Quaternion.identity);
             newObject.transform.localScale = animPosition; //방향 맞춰주기
             GameObject.FindWithTag("SplitEffect").GetComponent<animScript>().playAnim("splitAir"); //공기 뱉는 이펙트
@@ -326,6 +319,7 @@ public class KirbyControl : MonoBehaviour
 
         if (anim.GetBool("isInhale") && Input.GetKeyDown(KeyCode.W)) //입에 있는중에 W로 뱉는다면
         {
+            sound.playSound("Split");
             GameObject newObject = Instantiate(splitStars, gameObject.transform.position, Quaternion.identity);
             newObject.transform.localScale = animPosition;
             anim.SetBool("isSplit", true);
@@ -340,18 +334,12 @@ public class KirbyControl : MonoBehaviour
             anim.SetBool("isStartInhale", false);
             if (willChange != 0) //무능력 적이 아닌이상 변신
             {
-                Debug.Log("변신");
-                square.SetActive(true);
-                Time.timeScale = 0; //변신하는 동안 일시정지
-                sound.playSound("Copy");
-                Instantiate(copyParticles, gameObject.transform.position, Quaternion.identity);
-                GameObject.FindWithTag("copy").GetComponent<animScript>().playAnim("copy");
-                GameObject.FindWithTag("copy").GetComponent<animScript>().waitAndDelete();
                 change = willChange;
-                anim.SetInteger("change", willChange);
-                activeUI();
-                Invoke("white1", 1f);
-                willChange = 0;
+                copyChange();
+            }
+            else
+            {
+                //무능력이면 삼키는 소리
             }
 
         }
@@ -405,7 +393,7 @@ public class KirbyControl : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!anim.GetBool("isStartInhale") && !isCoping && !isAttack) //빨아들이는 중, 변신중에는 걸을 수 없음
+        if (!anim.GetBool("isStartInhale") && !isCoping && !isAttack && !anim.GetCurrentAnimatorStateInfo(0).IsName("Kirby_splitEnemy")) //빨아들이는 중, 변신중, 뱉는중에는 걸을 수 없음
         {
             float h = Input.GetAxisRaw("Horizontal");
             if (isRunning && anim.GetBool("isWalking") && !anim.GetBool("isJumping") && !anim.GetBool("isFlying") )
@@ -497,7 +485,6 @@ public class KirbyControl : MonoBehaviour
             {
                 if (damageTimer > 3.0f && gameObject.layer != 19)
                 {
-                    Debug.Log("내가 부딪힘");
                     OnDamaged(collision.transform.position);//충돌했을때 x축,y축 넘김
                 }
             }
@@ -505,6 +492,7 @@ public class KirbyControl : MonoBehaviour
     }
     void OnAttack(Transform enemy)
     {
+        sound.playSound("Kill");
         //reaction force
         //rigid.AddForce(Vector2.up * 5, ForceMode2D.Impulse);
         // enemy die
@@ -517,6 +505,7 @@ public class KirbyControl : MonoBehaviour
     {
         if (damageTimer > 3.0f && gameObject.layer != 19)
         {
+            sound.playSound("Damage");
             //능력 벗는 애니메이션 + 별 발사a
             if (change != 0)
             {
@@ -574,7 +563,6 @@ public class KirbyControl : MonoBehaviour
                     }
                 }
             }
-            Debug.Log("가까운 적 : " + near_enemy);
             EnemyAround = true;
             target = near_enemy;
             swallow = true;
@@ -582,6 +570,7 @@ public class KirbyControl : MonoBehaviour
         }
         else
         {
+            target = null;
             isStar = false;
             EnemyAround = false;
             //target = null;
@@ -633,7 +622,7 @@ public class KirbyControl : MonoBehaviour
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("door"))
         {
-            if (Input.GetKeyDown(KeyCode.UpArrow))
+            if (Input.GetKeyDown(KeyCode.UpArrow) && !collision.GetComponent<makeWarp>().waiting)
             {
                 collision.GetComponent<makeWarp>().doWarp();
             }
@@ -706,11 +695,29 @@ public class KirbyControl : MonoBehaviour
         anim.SetTrigger("Die");
     }
 
+    public void SoundPlay(string name)
+    {
+        sound.playSound(name);
+    }
+
     private void remove()
     {
         Destroy(gameObject);
     }
 
+    public void copyChange() //변신하는동안 실행
+    {
+        square.SetActive(true);
+        Time.timeScale = 0; //변신하는 동안 일시정지
+        sound.playSound("Copy");
+        Instantiate(copyParticles, gameObject.transform.position, Quaternion.identity);
+        GameObject.FindWithTag("copy").GetComponent<animScript>().playAnim("copy");
+        GameObject.FindWithTag("copy").GetComponent<animScript>().waitAndDelete();
+        anim.SetInteger("change", change);
+        activeUI();
+        Invoke("white1", 1f);
+        willChange = 0;
+    }
     #region
     void OffDamaged()
     {
@@ -848,4 +855,43 @@ public class KirbyControl : MonoBehaviour
         //Invoke("yellow12", 0.1f);
     }
     #endregion
+
+    public void dieAnimation()
+    {
+        if (!isDie)
+        {
+            Camera.main.GetComponent<AudioSource>().Stop();
+            sound.playSound("Die");
+            destination = transform.position + new Vector3(0, 1.5f, 0);
+            Die();
+            isDie = true;
+        }
+        else if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Die"))
+        {
+            if (!isDest)
+            {
+                if (transform.position.y > destination.y - 0.5f && transform.position.y < destination.y + 0.5f)
+                {
+                    isDest = true;
+                }
+                else
+                {
+                    transform.position += new Vector3(0, 2 * Time.unscaledDeltaTime, 0);
+                }
+            }
+            else
+            {
+                transform.position -= new Vector3(0, 2 * Time.unscaledDeltaTime, 0);
+            }
+        }
+        if (transform.position.y < -5f)
+        {
+            GameManager._instance.die();
+            Scene currentScene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(currentScene.name);
+            anim.SetBool("isStart", true);
+            GameManager._instance.Reset();
+            Time.timeScale = 1;
+        }
+    }
 }

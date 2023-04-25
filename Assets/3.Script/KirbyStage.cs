@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class KirbyStage : MonoBehaviour
 {
+    public KirbySound sound;
+
     public GameObject Loading;
     public GameObject AbilitySpace;
     public GameObject Icon;
@@ -14,36 +16,61 @@ public class KirbyStage : MonoBehaviour
     private string[] lifeNumberFirst = { "first0", "first1" };
     private string[] lifeNumberLast = { "last0", "last1", "last2", "last3", "last4", "last5", "last6", "last7", "last8", "last9" };
     private int change = 0;
-    private Vector3[] positions = { new Vector3(-1.17f, -0.484f, 0), new Vector3(0.058f, -0.696f, 0), new Vector3(1.197f, -0.215f, 0) };
+    private Vector3[] positions = { new Vector3(-1.17f, -0.484f, 0), new Vector3(0.058f, -0.696f, 0), new Vector3(1.197f, -0.215f, 0), new Vector3(-0.205f, 0.298f, 0)};
     public int nowStage = 0;
     public int life;
+    private Animator anim;
+    private bool alreadyStart = false;
 
     private void Start()
     {
+        TryGetComponent(out sound);
+        TryGetComponent(out anim);
         change = GameManager._instance.getCurrentCopy();
         activeUI();
         transform.position = positions[nowStage];
         life = GameManager._instance.getCurrentLife();
+        anim.SetInteger("change", change);
     }
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        
+        if (!alreadyStart && Input.GetKeyDown(KeyCode.RightArrow))
         {
+            sound.playSound("Jump");
+            anim.SetTrigger("fall");
             nowStage += 1;
             if (nowStage > 2) nowStage = 2;
         }
-        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        else if (!alreadyStart && Input.GetKeyDown(KeyCode.LeftArrow))
         {
+            sound.playSound("Jump");
+            anim.SetTrigger("fall");
             nowStage -= 1;
             if (nowStage < 0) nowStage = 0;
         }
-        setKirbyPosition();
-        if (Input.GetKeyDown(KeyCode.Space) && Loading.GetComponent<SpriteRenderer>().color == new Color(0, 0, 0, 0))
+        if (!alreadyStart && GameManager._instance.stage3Clear && Input.GetKeyDown(KeyCode.UpArrow))
         {
+            sound.playSound("Jump");
+            anim.SetTrigger("fall");
+            nowStage = 4;
+        }
+        if (!alreadyStart && nowStage == 4 && Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            sound.playSound("Jump");
+            anim.SetTrigger("fall");
+            nowStage = 1;
+        }
+        setKirbyPosition();
+        if (!alreadyStart && Input.GetKeyDown(KeyCode.Space) && Loading.GetComponent<SpriteRenderer>().color == new Color(0, 0, 0, 0))
+        {
+            sound.playSound("Copy");
+            alreadyStart = true;
             StartCoroutine("FadeinCoroutine");
         }
         if (Loading.GetComponent<SpriteRenderer>().color == new Color(0, 0, 0, 1))
         {
+            alreadyStart = true;
             StopCoroutine("FadeinCoroutine");
             startScene();
         }
@@ -78,6 +105,11 @@ public class KirbyStage : MonoBehaviour
 
     private void setKirbyPosition()
     {
+        if (nowStage == 4 && GameManager._instance.stage3Clear)
+        {
+            transform.position = positions[3];
+            return;
+        }
         if (!GameManager._instance.stage1Clear) //아무 스테이지 안깸
         {
             nowStage = 0;
@@ -114,6 +146,10 @@ public class KirbyStage : MonoBehaviour
         else if (nowStage == 2)
         {
             SceneManager.LoadScene("World1-3");
+        }
+        else if (nowStage == 4)
+        {
+            SceneManager.LoadScene("Hidden");
         }
     }
 

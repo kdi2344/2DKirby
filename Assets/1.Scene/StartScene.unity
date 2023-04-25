@@ -159,7 +159,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 1, g: 1, b: 1, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -217,6 +217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 658131224}
   - component: {fileID: 658131223}
+  - component: {fileID: 658131225}
   m_Layer: 0
   m_Name: Video Player
   m_TagString: Untagged
@@ -232,7 +233,7 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 658131222}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: 4ab43a02d9c3ce043a25cf43b5947e20, type: 3}
+  m_VideoClip: {fileID: 32900000, guid: c2231403008ba9c4e84cbd5475a79b2f, type: 3}
   m_TargetCameraAlpha: 1
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 0}
@@ -274,6 +275,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &658131225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 658131222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5deaeec9691174ab968c54efdc46e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vid: {fileID: 658131223}
 --- !u!1 &844972370
 GameObject:
   m_ObjectHideFlags: 0

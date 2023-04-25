@@ -300,6 +300,7 @@ public class EnemyControl : MonoBehaviour
         //Debug.Log("enemycontrol on trigger enter" + collision.name);
         if (collision.gameObject.layer == LayerMask.NameToLayer("Strong") && type != 10)
         {
+            anim.SetBool("isAttack", false);
             int dirc = transform.position.x - collision.transform.position.x > 0 ? 1 : -1;
             rigid.AddForce(new Vector2(dirc, 1) * 0.5f, ForceMode2D.Impulse);
             OnDamaged();

@@ -12,8 +12,20 @@ public class KirbySound : MonoBehaviour
     public AudioClip audioBeam;
     public AudioClip audioCopyOff;
     public AudioClip audioDoor;
-    public AudioClip audioHurt;
-    public AudioClip audio;
+    public AudioClip audioHub;
+    public AudioClip audioSplitStar;
+    public AudioClip audioLifeup;
+    public AudioClip audioDamage;
+    public AudioClip audioHeal;
+    public AudioClip audioFly;
+    public AudioClip audioFlySplit;
+    public AudioClip audioKill;
+    public AudioClip audioCut;
+    public AudioClip audioDie;
+    public AudioClip audioRun;
+    public AudioClip audioPlazma;
+    public AudioClip audioMario;
+    public AudioClip audioWheel;
 
     private void Awake()
     {
@@ -51,8 +63,60 @@ public class KirbySound : MonoBehaviour
                 audioSource.clip = audioDoor;
                 audioSource.loop = false;
                 break;
-            case "Hurt":
-                audioSource.clip = audioHurt;
+            case "Hub":
+                audioSource.clip = audioHub;
+                audioSource.loop = false;
+                break;
+            case "Split":
+                audioSource.clip = audioSplitStar;
+                audioSource.loop = false;
+                break;
+            case "Lifeup":
+                audioSource.clip = audioLifeup;
+                audioSource.loop = false;
+                break;
+            case "Damage":
+                audioSource.clip = audioDamage;
+                audioSource.loop = false;
+                break;
+            case "Heal":
+                audioSource.clip = audioHeal;
+                audioSource.loop = false;
+                break;
+            case "Fly":
+                audioSource.clip = audioFly;
+                audioSource.loop = false;
+                break;
+            case "FlySplit":
+                audioSource.clip = audioFlySplit;
+                audioSource.loop = false;
+                break;
+            case "Kill":
+                audioSource.clip = audioKill;
+                audioSource.loop = false;
+                break;
+            case "Cut":
+                audioSource.clip = audioCut;
+                audioSource.loop = false;
+                break;
+            case "Die":
+                audioSource.clip = audioDie;
+                audioSource.loop = false;
+                break;
+            case "Run":
+                audioSource.clip = audioRun;
+                audioSource.loop = false;
+                break;
+            case "Plazma":
+                audioSource.clip = audioPlazma;
+                audioSource.loop = false;
+                break;
+            case "Mario":
+                audioSource.clip = audioMario;
+                audioSource.loop = false;
+                break;
+            case "Wheel":
+                audioSource.clip = audioWheel;
                 audioSource.loop = false;
                 break;
         }

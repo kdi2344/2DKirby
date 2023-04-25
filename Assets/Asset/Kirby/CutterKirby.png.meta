@@ -928,11 +928,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 72
-        y: 569
+        y: 565
         width: 21
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 27
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -973,8 +973,8 @@ TextureImporter:
         y: 569
         width: 22
         height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -994,8 +994,8 @@ TextureImporter:
         y: 569
         width: 22
         height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1015,8 +1015,8 @@ TextureImporter:
         y: 568
         width: 22
         height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1036,8 +1036,8 @@ TextureImporter:
         y: 568
         width: 21
         height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1057,8 +1057,8 @@ TextureImporter:
         y: 570
         width: 24
         height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4030,10 +4030,10 @@ TextureImporter:
       CutterKirby_30: 307722919
       CutterKirby_139: -1795588075
       CutterKirby_104: 1002439926
-      CutterKirby_157: 1028684229
       CutterKirby_4: 648798559
-      CutterKirby_105: -1144093142
       CutterKirby_106: 1146381992
+      CutterKirby_105: -1144093142
+      CutterKirby_157: 1028684229
       CutterKirby_102: 207865780
       CutterKirby_55: 1931918412
       CutterKirby_24: 1201450250

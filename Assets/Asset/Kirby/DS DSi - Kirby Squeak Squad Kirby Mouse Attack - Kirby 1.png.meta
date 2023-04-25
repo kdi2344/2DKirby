@@ -1012,11 +1012,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 8
-        y: 453
+        y: 446
         width: 20
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 28
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1033,11 +1033,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 31
-        y: 454
+        y: 450
         width: 22
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.2613996}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1054,11 +1054,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 55
-        y: 453
+        y: 450
         width: 22
-        height: 21
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 24
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1075,11 +1075,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 79
-        y: 452
+        y: 451
         width: 22
-        height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1099,8 +1099,8 @@ TextureImporter:
         y: 451
         width: 22
         height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1117,11 +1117,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 128
-        y: 450
+        y: 451
         width: 22
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1141,8 +1141,8 @@ TextureImporter:
         y: 451
         width: 22
         height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1162,8 +1162,8 @@ TextureImporter:
         y: 452
         width: 22
         height: 22
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1183,7 +1183,7 @@ TextureImporter:
         y: 453
         width: 22
         height: 21
-      alignment: 0
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -9017,7 +9017,7 @@ TextureImporter:
         width: 20
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -9038,7 +9038,7 @@ TextureImporter:
         width: 23
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -9059,7 +9059,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -9080,7 +9080,7 @@ TextureImporter:
         width: 21
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -9101,7 +9101,7 @@ TextureImporter:
         width: 19
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -9122,7 +9122,7 @@ TextureImporter:
         width: 21
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -9143,7 +9143,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -9164,7 +9164,7 @@ TextureImporter:
         width: 23
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -9185,7 +9185,7 @@ TextureImporter:
         width: 20
         height: 19
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -9206,7 +9206,7 @@ TextureImporter:
         width: 23
         height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -9227,7 +9227,7 @@ TextureImporter:
         width: 22
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -9248,7 +9248,7 @@ TextureImporter:
         width: 21
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -9271,11 +9271,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_23: 24785409
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_423: -1094187014
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_147: 502481134
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_25: 1231788560
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_407: -1660537771
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_169: 499485513
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_5: -950285174
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_34: -851702802
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_475: 1619857238
@@ -9337,12 +9337,12 @@ TextureImporter:
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_46: 178603026
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_394: -1098920493
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_330: -2128618291
-      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_348: -1257114114
-      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_130: 1797594676
-      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_95: 1918657948
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_166: -249826876
-      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_318: -500810268
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_280: 455892623
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_95: 1918657948
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_348: -1257114114
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_318: -500810268
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_130: 1797594676
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_28: -1920168533
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_225: 501248237
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_250: 2104852031
@@ -9761,10 +9761,10 @@ TextureImporter:
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_72: -1663799005
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_462: -732179681
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_82: -980635950
-      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_359: -1852765382
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_229: 550355179
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_359: -1852765382
       DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_42: -1072203419
-      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_169: 499485513
+      DS DSi - Kirby Squeak Squad Kirby Mouse Attack - Kirby 1_23: 24785409
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
